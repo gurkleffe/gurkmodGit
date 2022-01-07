@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "gurkmod:blocks/potart",
+    "particle": "gurkmod:blocks/quartzgrass_top"
+  }
+}

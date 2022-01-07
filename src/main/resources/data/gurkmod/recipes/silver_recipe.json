@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:silver_nugget"
+    },
+    "1": {
+      "item": "gurkmod:silver_nugget"
+    },
+    "2": {
+      "item": "gurkmod:silver_nugget"
+    },
+    "3": {
+      "item": "gurkmod:silver_nugget"
+    },
+    "4": {
+      "item": "gurkmod:silver_nugget"
+    },
+    "5": {
+      "item": "gurkmod:silver_nugget"
+    },
+    "6": {
+      "item": "gurkmod:silver_nugget"
+    },
+    "7": {
+      "item": "gurkmod:silver_nugget"
+    },
+    "8": {
+      "item": "gurkmod:silver_nugget"
+    }
+  },
+  "result": {
+    "item": "gurkmod:silveringot",
+    "count": 1
+  }
+}

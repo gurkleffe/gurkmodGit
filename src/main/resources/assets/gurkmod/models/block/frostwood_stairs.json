@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "gurkmod:blocks/frostwood_planks_not_broken",
+    "top": "gurkmod:blocks/frostwood_planks_not_broken",
+    "side": "gurkmod:blocks/frostwood_planks_not_broken"
+  }
+}

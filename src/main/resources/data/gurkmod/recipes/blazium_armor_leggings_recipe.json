@@ -1,0 +1,36 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:blazium"
+    },
+    "1": {
+      "item": "gurkmod:blazium"
+    },
+    "2": {
+      "item": "gurkmod:blazium"
+    },
+    "3": {
+      "item": "gurkmod:blazium"
+    },
+    "5": {
+      "item": "gurkmod:blazium"
+    },
+    "6": {
+      "item": "gurkmod:blazium"
+    },
+    "8": {
+      "item": "gurkmod:blazium"
+    }
+  },
+  "result": {
+    "item": "gurkmod:blazium_armor_leggings",
+    "count": 1
+  }
+}

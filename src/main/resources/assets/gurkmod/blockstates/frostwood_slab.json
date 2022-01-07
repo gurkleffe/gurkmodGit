@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gurkmod:block/frostwood_slab"
+    },
+    "type=top": {
+      "model": "gurkmod:block/frostwood_slab_top"
+    },
+    "type=double": {
+      "model": "gurkmod:block/frostwood_slab_full"
+    }
+  }
+}

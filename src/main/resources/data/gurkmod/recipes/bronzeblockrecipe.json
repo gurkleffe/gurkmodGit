@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "1": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "2": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "3": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "4": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "5": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "6": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "7": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "8": {
+      "item": "gurkmod:bronzeingot"
+    }
+  },
+  "result": {
+    "item": "gurkmod:bronze_block",
+    "count": 1
+  }
+}

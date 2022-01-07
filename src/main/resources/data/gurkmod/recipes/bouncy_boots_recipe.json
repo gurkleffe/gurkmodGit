@@ -1,0 +1,32 @@
+{
+  "group": "armor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:frozen_slime"
+    },
+    "1": {
+      "item": "gurkmod:obsidian_shard"
+    },
+    "2": {
+      "item": "gurkmod:frozen_slime"
+    },
+    "3": {
+      "item": "gurkmod:frozen_slime"
+    },
+    "4": {
+      "item": "minecraft:leather_boots"
+    },
+    "5": {
+      "item": "gurkmod:frozen_slime"
+    }
+  },
+  "result": {
+    "item": "gurkmod:bouncy_boots_boots",
+    "count": 1
+  }
+}

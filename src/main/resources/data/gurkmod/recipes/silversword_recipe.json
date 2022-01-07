@@ -1,0 +1,24 @@
+{
+  "group": "weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:silveringot"
+    },
+    "1": {
+      "item": "gurkmod:silveringot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gurkmod:silver_sword",
+    "count": 1
+  }
+}

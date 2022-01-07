@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gurkmod:blocks/frostwood_leaves",
+    "particle": "gurkmod:blocks/frostwood_leaves"
+  }
+}

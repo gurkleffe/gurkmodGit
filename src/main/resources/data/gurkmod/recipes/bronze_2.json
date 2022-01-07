@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "gurkmod:copperingot"
+  },
+  "addition": {
+    "item": "gurkmod:tiningot"
+  },
+  "result": {
+    "item": "gurkmod:bronzeingot"
+  }
+}

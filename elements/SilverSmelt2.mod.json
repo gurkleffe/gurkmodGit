@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 2.0,
+    "cookingTime": 120,
+    "recipeRetstackSize": 1,
+    "group": "blasting",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:Silver"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Silveringot"
+    },
+    "name": "silver_smelt_2",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "2": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "3": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "5": {
+      "item": "gurkmod:potartz_gem"
+    }
+  },
+  "result": {
+    "item": "gurkmod:refined_potartz_armor_boots",
+    "count": 1
+  }
+}

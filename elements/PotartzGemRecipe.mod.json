@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PotartzGemShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PotartzGemShard"
+      },
+      {
+        "value": "CUSTOM:IridiumIngot"
+      },
+      {
+        "value": "CUSTOM:PotartzGemShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PotartzGemShard"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PotartzGem"
+    },
+    "name": "potartz_gem_recipe",
+    "namespace": "mod"
+  }
+}

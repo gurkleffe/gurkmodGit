@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 2.0,
+    "cookingTime": 120,
+    "recipeRetstackSize": 1,
+    "group": "smelting",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:Tin"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Tiningot"
+    },
+    "name": "tiningotsmelt_2",
+    "namespace": "mod"
+  }
+}

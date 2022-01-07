@@ -1,0 +1,26 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:obsidian_shard"
+    },
+    "1": {
+      "item": "gurkmod:obsidian_shard"
+    },
+    "2": {
+      "item": "gurkmod:obsidian_shard"
+    },
+    "3": {
+      "item": "gurkmod:obsidian_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft:obsidian",
+    "count": 1
+  }
+}

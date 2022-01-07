@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "gurkmod:blocks/frostwood_planks_not_broken",
+    "particle": "gurkmod:blocks/frostwood_planks_not_broken"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:silveringot"
+    }
+  },
+  "result": {
+    "item": "gurkmod:silver_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "gurkmod:frostwood_wood",
+    "gurkmod:frostwood_log",
+    "gurkmod:frostwood_leaves"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Blazium"
+      },
+      {
+        "value": "CUSTOM:Blazium"
+      },
+      {
+        "value": "CUSTOM:Blazium"
+      },
+      {
+        "value": "CUSTOM:Blazium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blazium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlaziumArmor.helmet"
+    },
+    "name": "blazium_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

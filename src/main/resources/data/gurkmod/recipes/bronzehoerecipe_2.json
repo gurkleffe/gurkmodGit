@@ -1,0 +1,27 @@
+{
+  "group": "tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "1": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gurkmod:bronzehoe",
+    "count": 1
+  }
+}

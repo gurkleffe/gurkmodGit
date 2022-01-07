@@ -1,0 +1,12 @@
+{
+  "group": "blasting",
+  "type": "minecraft:blasting",
+  "experience": 2,
+  "cookingtime": 120,
+  "ingredient": {
+    "item": "gurkmod:silver"
+  },
+  "result": {
+    "item": "gurkmod:silveringot"
+  }
+}

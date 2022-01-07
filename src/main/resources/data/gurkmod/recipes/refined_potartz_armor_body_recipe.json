@@ -1,0 +1,39 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "2": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "3": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "4": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "5": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "6": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "7": {
+      "item": "gurkmod:potartz_gem"
+    },
+    "8": {
+      "item": "gurkmod:potartz_gem"
+    }
+  },
+  "result": {
+    "item": "gurkmod:refined_potartz_armor_chestplate",
+    "count": 1
+  }
+}

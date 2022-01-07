@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:tiningot"
+    },
+    "1": {
+      "item": "gurkmod:tiningot"
+    },
+    "2": {
+      "item": "gurkmod:tiningot"
+    },
+    "3": {
+      "item": "gurkmod:tiningot"
+    },
+    "4": {
+      "item": "gurkmod:tiningot"
+    },
+    "5": {
+      "item": "gurkmod:tiningot"
+    },
+    "6": {
+      "item": "gurkmod:tiningot"
+    },
+    "7": {
+      "item": "gurkmod:tiningot"
+    },
+    "8": {
+      "item": "gurkmod:tiningot"
+    }
+  },
+  "result": {
+    "item": "gurkmod:tin_block",
+    "count": 1
+  }
+}

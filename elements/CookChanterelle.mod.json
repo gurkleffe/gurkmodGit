@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 1.0,
+    "cookingTime": 15,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:Chanterelle"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:DriedChanterelle"
+    },
+    "name": "dried_chanterelle",
+    "namespace": "mod"
+  }
+}

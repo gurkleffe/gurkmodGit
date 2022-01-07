@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FrostwoodLog"
+      },
+      {
+        "value": "CUSTOM:FrostwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FrostwoodLog"
+      },
+      {
+        "value": "CUSTOM:FrostwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FrostwoodWood"
+    },
+    "name": "frostwood_wood_recipe",
+    "namespace": "mod"
+  }
+}

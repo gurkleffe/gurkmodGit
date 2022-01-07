@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "gurkmod:blocks/morelmushroom_plant",
+    "particle": "gurkmod:blocks/morelmushroom_plant"
+  }
+}

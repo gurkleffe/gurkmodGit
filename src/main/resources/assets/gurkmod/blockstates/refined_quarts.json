@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gurkmod:block/refined_quarts"
+    },
+    "facing=east": {
+      "model": "gurkmod:block/refined_quarts",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gurkmod:block/refined_quarts",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gurkmod:block/refined_quarts",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "gurkmod:block/refined_quarts",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "gurkmod:block/refined_quarts",
+      "x": 90
+    }
+  }
+}

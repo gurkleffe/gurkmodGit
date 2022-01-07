@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gurkmod:blocks/frostwood_planks_not_broken",
+    "particle": "gurkmod:blocks/frostwood_planks_not_broken"
+  }
+}

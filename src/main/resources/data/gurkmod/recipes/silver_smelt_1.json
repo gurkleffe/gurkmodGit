@@ -1,0 +1,12 @@
+{
+  "group": "smelting",
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 160,
+  "ingredient": {
+    "item": "gurkmod:silver"
+  },
+  "result": {
+    "item": "gurkmod:silveringot"
+  }
+}

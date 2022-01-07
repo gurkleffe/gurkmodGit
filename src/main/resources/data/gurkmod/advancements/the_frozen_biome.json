@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "advancements.the_frozen_biome.title"
+    },
+    "description": {
+      "translate": "advancements.the_frozen_biome.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_frozen_biome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "gurkmod:frostwood_forest"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minecraft:adventure/sleep_in_bed"
+}

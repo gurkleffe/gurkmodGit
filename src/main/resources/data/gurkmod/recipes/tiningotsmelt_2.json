@@ -1,0 +1,12 @@
+{
+  "group": "smelting",
+  "type": "minecraft:blasting",
+  "experience": 2,
+  "cookingtime": 120,
+  "ingredient": {
+    "item": "gurkmod:tin"
+  },
+  "result": {
+    "item": "gurkmod:tiningot"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 3.0,
+    "cookingTime": 1200,
+    "recipeRetstackSize": 1,
+    "group": "smelting",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:IridiumOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:IridiumIngot"
+    },
+    "name": "iridium_smelt",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "title": {
+      "translate": "advancements.time_to_bronze.title"
+    },
+    "description": {
+      "translate": "advancements.time_to_bronze.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "time_to_bronze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gurkmod:copperingot",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "gurkmod:bronze_1",
+      "gurkmod:bronze_2"
+    ]
+  },
+  "parent": "minecraft:story/iron_tools"
+}

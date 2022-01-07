@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "weapons",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "CUSTOM:DarkVexWings"
+      },
+      {
+        "value": "CUSTOM:VexHeart"
+      },
+      {
+        "value": "CUSTOM:DarkVexWings"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkVexBlade"
+    },
+    "name": "dark_vex_blade",
+    "namespace": "mod"
+  }
+}

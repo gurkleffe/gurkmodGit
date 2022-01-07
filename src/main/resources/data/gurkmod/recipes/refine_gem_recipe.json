@@ -1,0 +1,30 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ores/quartz"
+    },
+    "3": {
+      "tag": "forge:ores/quartz"
+    },
+    "4": {
+      "item": "gurkmod:powerless_refine_gem"
+    },
+    "5": {
+      "tag": "forge:ores/quartz"
+    },
+    "7": {
+      "tag": "forge:ores/quartz"
+    }
+  },
+  "result": {
+    "item": "gurkmod:refine_gem",
+    "count": 1
+  }
+}

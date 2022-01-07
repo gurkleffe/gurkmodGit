@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gurkmod:blocks/blazium_ore_block",
+    "particle": "gurkmod:blocks/blazium_ore_block"
+  }
+}

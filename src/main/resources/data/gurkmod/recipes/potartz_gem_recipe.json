@@ -1,0 +1,30 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "gurkmod:potartz_gem_shard"
+    },
+    "3": {
+      "item": "gurkmod:potartz_gem_shard"
+    },
+    "4": {
+      "item": "gurkmod:iridium_ingot"
+    },
+    "5": {
+      "item": "gurkmod:potartz_gem_shard"
+    },
+    "7": {
+      "item": "gurkmod:potartz_gem_shard"
+    }
+  },
+  "result": {
+    "item": "gurkmod:potartz_gem",
+    "count": 1
+  }
+}

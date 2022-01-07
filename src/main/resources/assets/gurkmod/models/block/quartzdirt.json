@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gurkmod:blocks/quartzdirt",
+    "particle": "gurkmod:blocks/quartzdirt"
+  }
+}

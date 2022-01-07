@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "piano_run_disc",
+    "name": "Apple Workbench - Music Disc",
+    "description": "Apple Workbench",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:apple_workbench"
+    },
+    "specialInfo": [
+      "it's some music"
+    ],
+    "hasGlow": true
+  }
+}

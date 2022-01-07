@@ -1,0 +1,36 @@
+{
+  "group": "weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "3": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "4": {
+      "item": "minecraft:netherite_sword"
+    },
+    "5": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "6": {
+      "item": "gurkmod:dark_vex_wings"
+    },
+    "7": {
+      "item": "gurkmod:vex_heart"
+    },
+    "8": {
+      "item": "gurkmod:dark_vex_wings"
+    }
+  },
+  "result": {
+    "item": "gurkmod:dark_vex_blade",
+    "count": 1
+  }
+}

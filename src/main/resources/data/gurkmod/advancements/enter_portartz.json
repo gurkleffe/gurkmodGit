@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "gurkmod:refined_quarts"
+    },
+    "title": {
+      "translate": "advancements.enter_portartz.title"
+    },
+    "description": {
+      "translate": "advancements.enter_portartz.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_portartz": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "gurkmod:potartz_biome"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "gurkmod:the_frozen_biome"
+}

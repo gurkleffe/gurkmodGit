@@ -1,0 +1,30 @@
+{
+  "group": "tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "1": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "2": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gurkmod:bronzepickaxe",
+    "count": 1
+  }
+}

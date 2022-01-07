@@ -1,0 +1,49 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:PotartzBiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.QUARTZ_BLOCK#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.BUBBLE_COLUMN"
+    },
+    "airColor": {
+      "value": -15400939,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "PotartzPlayerEntersDimension2"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:FrostwoodPlanks"
+    },
+    "portalParticles": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "portalLuminance": 1,
+    "portalSound": {
+      "value": "entity.endermen.teleport"
+    },
+    "igniterName": "Potartz Opener",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "portatz_opener",
+    "portalTexture": "portatz_portal",
+    "enablePortal": true
+  }
+}

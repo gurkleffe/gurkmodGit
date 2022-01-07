@@ -1,0 +1,12 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:smelting",
+  "experience": 0.84,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "gurkmod:blazium_ore"
+  },
+  "result": {
+    "item": "gurkmod:blazium"
+  }
+}

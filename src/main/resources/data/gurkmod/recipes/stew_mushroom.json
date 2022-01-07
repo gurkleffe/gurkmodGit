@@ -1,0 +1,19 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gurkmod:morel_mushroom"
+    },
+    {
+      "item": "gurkmod:chanterelle"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mushroom_stew",
+    "count": 1
+  }
+}

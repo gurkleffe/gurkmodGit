@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:tiningot"
+    },
+    "1": {
+      "item": "gurkmod:diamond_necklace_chestplate"
+    },
+    "2": {
+      "item": "gurkmod:tiningot"
+    },
+    "3": {
+      "item": "gurkmod:vex_wings"
+    },
+    "4": {
+      "item": "gurkmod:dark_vex_wings"
+    },
+    "5": {
+      "item": "gurkmod:vex_wings"
+    },
+    "6": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra",
+    "count": 1
+  }
+}

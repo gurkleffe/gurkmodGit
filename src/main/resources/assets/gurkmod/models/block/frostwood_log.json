@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gurkmod:blocks/frostwood_log_top",
+    "up": "gurkmod:blocks/frostwood_log_top",
+    "north": "gurkmod:blocks/frostwood_log_side",
+    "east": "gurkmod:blocks/frostwood_log_side",
+    "south": "gurkmod:blocks/frostwood_log_side",
+    "west": "gurkmod:blocks/frostwood_log_side",
+    "particle": "gurkmod:blocks/frostwood_log_top"
+  }
+}

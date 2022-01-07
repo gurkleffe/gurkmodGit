@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gurkmod:blocks/iridium_ore",
+    "particle": "gurkmod:blocks/iridium_ore"
+  }
+}

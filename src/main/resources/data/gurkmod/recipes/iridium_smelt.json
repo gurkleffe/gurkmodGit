@@ -1,0 +1,12 @@
+{
+  "group": "smelting",
+  "type": "minecraft:blasting",
+  "experience": 3,
+  "cookingtime": 1200,
+  "ingredient": {
+    "item": "gurkmod:iridium_ore"
+  },
+  "result": {
+    "item": "gurkmod:iridium_ingot"
+  }
+}

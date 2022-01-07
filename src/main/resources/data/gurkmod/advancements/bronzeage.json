@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "gurkmod:bronzepickaxe"
+    },
+    "title": {
+      "translate": "advancements.bronzeage.title"
+    },
+    "description": {
+      "translate": "advancements.bronzeage.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bronzeage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gurkmod:bronzeingot",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "gurkmod:bronzeblockrecipe"
+    ]
+  },
+  "parent": "gurkmod:time_to_bronze"
+}

@@ -1,0 +1,41 @@
+{
+  "apple_workbench": {
+    "category": "music",
+    "subtitle": "subtitles.apple_workbench",
+    "sounds": [
+      {
+        "name": "gurkmod:piano_run",
+        "stream": true
+      }
+    ]
+  },
+  "frozen_forest": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "gurkmod:frozen_forest",
+        "stream": false
+      }
+    ]
+  },
+  "crab_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.crab_hurt",
+    "sounds": [
+      {
+        "name": "gurkmod:crab_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "crab_living": {
+    "category": "master",
+    "subtitle": "subtitles.crab_living",
+    "sounds": [
+      {
+        "name": "gurkmod:crab_living",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:blazium"
+    },
+    "1": {
+      "item": "gurkmod:blazium"
+    },
+    "2": {
+      "item": "gurkmod:blazium"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gurkmod:blazium_axe",
+    "count": 1
+  }
+}

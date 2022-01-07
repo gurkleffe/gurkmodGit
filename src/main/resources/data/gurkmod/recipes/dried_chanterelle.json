@@ -1,0 +1,12 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 15,
+  "ingredient": {
+    "item": "gurkmod:chanterelle"
+  },
+  "result": {
+    "item": "gurkmod:dried_chanterelle"
+  }
+}

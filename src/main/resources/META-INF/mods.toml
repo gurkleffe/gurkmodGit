@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="gurkmod"
+version="1.1 Potartz update"
+displayName="gurkmod"
+credits="Created using MCreator - https://mcreator.net/about"
+displayURL="https://planetminecraft.com"
+logoFile="logo.png"
+authors="gurkleffe, using MCreator"
+description='''
+Expanding survival Minecraft with stuff I want to be in Minecraft.
+'''
+
+[[dependencies.gurkmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

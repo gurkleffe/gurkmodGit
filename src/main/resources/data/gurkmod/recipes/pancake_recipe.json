@@ -1,0 +1,29 @@
+{
+  "group": "food",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:egg"
+    },
+    "2": {
+      "item": "minecraft:egg"
+    },
+    "3": {
+      "item": "minecraft:milk_bucket"
+    },
+    "4": {
+      "item": "minecraft:wheat"
+    },
+    "5": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "gurkmod:pancake",
+    "count": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gurkmod:blocks/copper_ore",
+    "particle": "gurkmod:blocks/copper_ore"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "gurkmod:blocks/quartzdirt",
+    "top": "gurkmod:blocks/quartzgrass_top",
+    "side": "gurkmod:blocks/quartzgrass_side",
+    "overlay": "gurkmod:blocks/quartzgrass_side",
+    "particle": "gurkmod:blocks/quartzdirt"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:vex_heart"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_dye",
+    "count": 64
+  }
+}

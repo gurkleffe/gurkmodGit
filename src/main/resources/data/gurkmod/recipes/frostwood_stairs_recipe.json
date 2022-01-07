@@ -1,0 +1,33 @@
+{
+  "group": "gurkmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:frostwood_planks"
+    },
+    "3": {
+      "item": "gurkmod:frostwood_planks"
+    },
+    "4": {
+      "item": "gurkmod:frostwood_planks"
+    },
+    "6": {
+      "item": "gurkmod:frostwood_planks"
+    },
+    "7": {
+      "item": "gurkmod:frostwood_planks"
+    },
+    "8": {
+      "item": "gurkmod:frostwood_planks"
+    }
+  },
+  "result": {
+    "item": "gurkmod:frostwood_stairs",
+    "count": 4
+  }
+}
