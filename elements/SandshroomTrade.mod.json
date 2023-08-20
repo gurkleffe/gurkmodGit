@@ -10,20 +10,20 @@
         "entries": [
           {
             "price1": {
+              "value": "CUSTOM:Sandshroom"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": "CUSTOM:MorelMushroom"
+            },
+            "countPrice2": 2,
+            "offer": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 2,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "CUSTOM:Pancake"
-            },
-            "countOffer": 4,
+            "countOffer": 1,
             "level": 2,
-            "maxTrades": 20,
-            "xp": 5,
+            "maxTrades": 10,
+            "xp": 4,
             "priceMultiplier": 0.04
           }
         ]

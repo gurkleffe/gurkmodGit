@@ -19,6 +19,7 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
@@ -37,6 +38,7 @@ import net.minecraft.entity.CreatureAttribute;
 
 import net.mcreator.gurkmod.procedures.MagmaperPlayerCollidesWithThisEntityProcedure;
 import net.mcreator.gurkmod.procedures.MagmaperOnEntityTickUpdateProcedure;
+import net.mcreator.gurkmod.item.MagmaGeodeItem;
 import net.mcreator.gurkmod.entity.renderer.MagmaperRenderer;
 import net.mcreator.gurkmod.GurkmodModElements;
 
@@ -81,7 +83,7 @@ public class MagmaperEntity extends GurkmodModElements.ModElement {
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 5, 2, 4));
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 1, 1, 1));
 	}
 
 	@Override
@@ -130,6 +132,11 @@ public class MagmaperEntity extends GurkmodModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
+		}
+
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(MagmaGeodeItem.block));
 		}
 
 		@Override

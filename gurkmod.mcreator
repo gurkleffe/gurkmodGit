@@ -2419,6 +2419,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "SandshroomTrade",
+      "type": "villagertrade",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandshroom_trade"
     }
   ],
   "variable_elements": [],
