@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -12,6 +12,8 @@
     "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
+    "suspiciousStewEffect": "SATURATION",
+    "suspiciousStewDuration": 0,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
@@ -37,6 +39,8 @@
     "resistance": 0.0,
     "luminance": 0,
     "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "BAMBOO_SAPLING"
     },
@@ -81,6 +85,8 @@
       {
         "value": "forest"
       }
-    ]
+    ],
+    "patchSize": 64,
+    "generateAtAnyHeight": false
   }
 }

@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class BlaziumHoeItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:blazium_hoe")
 	public static final Item block = null;
+
 	public BlaziumHoeItem(GurkmodModElements instance) {
-		super(instance, 156);
+		super(instance, 60);
 	}
 
 	@Override
@@ -44,7 +45,7 @@ public class BlaziumHoeItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(BlaziumItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(BlaziumItem.block));
 			}
 		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("blazium_hoe"));

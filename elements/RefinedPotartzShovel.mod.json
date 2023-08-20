@@ -1,11 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "refinedpotartz_shovel",
     "customModelName": "Normal",
-    "name": "RefinedPotartz Shovel",
+    "name": "Refined Potartz Shovel",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"

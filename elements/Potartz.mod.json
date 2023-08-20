@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -26,10 +26,10 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "onPlayerEntersDimension": {
-      "name": "PotartzPlayerEntersDimension2"
+      "name": "PotartzPlayerEntersDimension"
     },
     "portalFrame": {
-      "value": "CUSTOM:FrostwoodPlanks"
+      "value": "Blocks.QUARTZ_BLOCK#0"
     },
     "portalParticles": {
       "value": "ENCHANTMENT_TABLE"
@@ -44,6 +44,6 @@
     },
     "texture": "portatz_opener",
     "portalTexture": "portatz_portal",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

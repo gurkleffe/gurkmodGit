@@ -1,11 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "refinedpotartz_hoe",
     "customModelName": "Normal",
-    "name": "RefinedPotartz Hoe",
+    "name": "Refined Potartz Hoe",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"

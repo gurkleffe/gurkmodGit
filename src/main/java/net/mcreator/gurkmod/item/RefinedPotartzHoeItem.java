@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class RefinedPotartzHoeItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:refined_potartz_hoe")
 	public static final Item block = null;
+
 	public RefinedPotartzHoeItem(GurkmodModElements instance) {
-		super(instance, 121);
+		super(instance, 56);
 	}
 
 	@Override
@@ -44,7 +45,7 @@ public class RefinedPotartzHoeItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block));
 			}
 		}, 0, 0.5f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
 		}.setRegistryName("refined_potartz_hoe"));

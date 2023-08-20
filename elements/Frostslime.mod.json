@@ -1,6 +1,6 @@
 {
-  "_fv": 18,
-  "_type": "mob",
+  "_fv": 33,
+  "_type": "livingentity",
   "definition": {
     "mobName": "Blue Slime",
     "mobLabel": "",
@@ -52,6 +52,7 @@
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 48,
+    "followRange": 16,
     "health": 25,
     "xpAmount": 0,
     "waterMob": false,

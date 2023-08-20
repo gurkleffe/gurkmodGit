@@ -46,6 +46,7 @@ public class GurkmodMod {
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("gurkmod", "gurkmod"),
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	public GurkmodModElements elements;
+
 	public GurkmodMod() {
 		elements = new GurkmodModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -86,8 +87,10 @@ public class GurkmodMod {
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
 		elements.registerSounds(event);
 	}
+
 	private static class GurkmodModFMLBusEvents {
 		private final GurkmodMod parent;
+
 		GurkmodModFMLBusEvents(GurkmodMod parent) {
 			this.parent = parent;
 		}

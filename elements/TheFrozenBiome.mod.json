@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "achievement",
   "definition": {
     "achievementName": "What a cool biome!",
@@ -13,7 +13,9 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "PotartzOpenerRecipe"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 10,
     "achievementType": "task",

@@ -28,8 +28,9 @@ public class SilverNecklaceItem extends GurkmodModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("gurkmod:silver_necklace_boots")
 	public static final Item boots = null;
+
 	public SilverNecklaceItem(GurkmodModElements instance) {
-		super(instance, 27);
+		super(instance, 40);
 	}
 
 	@Override
@@ -57,7 +58,7 @@ public class SilverNecklaceItem extends GurkmodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(SilveringotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(SilveringotItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -83,4 +84,5 @@ public class SilverNecklaceItem extends GurkmodModElements.ModElement {
 			}
 		}.setRegistryName("silver_necklace_chestplate"));
 	}
+
 }

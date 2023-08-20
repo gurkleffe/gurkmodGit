@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "gurkmod:block/fixed_potartz_portal_ew"
+    },
+    "axis=x": {
+      "model": "gurkmod:block/fixed_potartz_portal_ns"
+    }
+  }
+}

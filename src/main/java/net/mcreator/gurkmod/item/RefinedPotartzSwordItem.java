@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class RefinedPotartzSwordItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:refined_potartz_sword")
 	public static final Item block = null;
+
 	public RefinedPotartzSwordItem(GurkmodModElements instance) {
-		super(instance, 119);
+		super(instance, 37);
 	}
 
 	@Override
@@ -28,7 +29,7 @@ public class RefinedPotartzSwordItem extends GurkmodModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 12f;
+				return 14f;
 			}
 
 			public float getAttackDamage() {
@@ -44,9 +45,9 @@ public class RefinedPotartzSwordItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block));
 			}
-		}, 3, -2.3f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+		}, 3, -2.2999999999999998f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
 		}.setRegistryName("refined_potartz_sword"));
 	}
 }

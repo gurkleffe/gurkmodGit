@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Ytterbited",
+    "icon": "levitate_pixelart.png",
+    "color": {
+      "value": -2385254,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "YtterbitedOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "YtterbitedEffectExpires"
+    }
+  }
+}

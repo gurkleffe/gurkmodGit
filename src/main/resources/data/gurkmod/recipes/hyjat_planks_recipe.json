@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:hyjat_log"
+    }
+  ],
+  "result": {
+    "item": "gurkmod:hyjat_planks",
+    "count": 4
+  }
+}

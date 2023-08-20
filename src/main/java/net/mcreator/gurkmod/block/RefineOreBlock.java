@@ -19,6 +19,7 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
 import net.minecraft.world.ISeedReader;
+import net.minecraft.world.IBlockReader;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
@@ -46,8 +47,9 @@ import java.util.Collections;
 public class RefineOreBlock extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:refine_ore")
 	public static final Block block = null;
+
 	public RefineOreBlock(GurkmodModElements instance) {
-		super(instance, 110);
+		super(instance, 17);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -58,6 +60,7 @@ public class RefineOreBlock extends GurkmodModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 10f).setLightLevel(s -> 1).harvestLevel(1)
@@ -66,32 +69,40 @@ public class RefineOreBlock extends GurkmodModElements.ModElement {
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
+		}
+
+		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(RefineGemItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(RefineGemItem.block));
 		}
 	}
+
 	private static Feature<OreFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	private static IRuleTestType<CustomRuleTest> CUSTOM_MATCH = null;
+
 	private static class CustomRuleTest extends RuleTest {
 		static final CustomRuleTest INSTANCE = new CustomRuleTest();
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.CHISELED_QUARTZ_BLOCK.getDefaultState().getBlock())
+			if (blockAt.getBlock() == Blocks.CHISELED_QUARTZ_BLOCK)
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.SMOOTH_QUARTZ.getDefaultState().getBlock())
+			if (blockAt.getBlock() == Blocks.SMOOTH_QUARTZ)
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.QUARTZ_BRICKS.getDefaultState().getBlock())
+			if (blockAt.getBlock() == Blocks.QUARTZ_BRICKS)
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.CHISELED_QUARTZ_BLOCK.getDefaultState().getBlock())
+			if (blockAt.getBlock() == Blocks.CHISELED_QUARTZ_BLOCK)
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.QUARTZ_BLOCK.getDefaultState().getBlock())
+			if (blockAt.getBlock() == Blocks.QUARTZ_BLOCK)
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.NETHER_QUARTZ_ORE.getDefaultState().getBlock())
+			if (blockAt.getBlock() == Blocks.NETHER_QUARTZ_ORE)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -110,7 +121,7 @@ public class RefineOreBlock extends GurkmodModElements.ModElement {
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("gurkmod:potartz")))
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("gurkmod:fixed_potartz")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
@@ -123,6 +134,7 @@ public class RefineOreBlock extends GurkmodModElements.ModElement {
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("gurkmod:refine_ore"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);

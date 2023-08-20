@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:hyjat_log"
+    },
+    "1": {
+      "item": "gurkmod:hyjat_log"
+    },
+    "2": {
+      "item": "gurkmod:hyjat_log"
+    },
+    "3": {
+      "item": "gurkmod:hyjat_log"
+    }
+  },
+  "result": {
+    "item": "gurkmod:hyjat_wood",
+    "count": 3
+  }
+}

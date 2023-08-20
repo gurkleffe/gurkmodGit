@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "biome",
   "definition": {
     "name": "Frostwood Forest",
@@ -44,19 +44,18 @@
     },
     "particlesProbability": 0.5,
     "biomeCategory": "ICY",
-    "parent": {
-      "value": "No parent"
-    },
     "rainingPossibility": 0.1,
     "temperature": 0.0,
     "baseHeight": 0.4,
     "heightVariation": 0.2,
-    "biomeType": "ICY",
     "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
     "biomeWeight": 7,
     "biomeDictionaryTypes": [
       "COLD",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
@@ -71,7 +70,6 @@
     "vanillaTreeType": "Birch trees",
     "treeType": 1,
     "minHeight": 7,
-    "maxWaterDepth": 0,
     "treeStem": {
       "value": "CUSTOM:FrostwoodLog"
     },
@@ -86,15 +84,24 @@
     },
     "spawnStronghold": true,
     "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": true,
     "villageType": "snowy",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
     "spawnIgloo": true,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
       "Caves",
       "Ores",

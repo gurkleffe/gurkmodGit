@@ -1,0 +1,33 @@
+{
+  "group": "hydraka_necklace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "gurkmod:silver_nugget"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "minecraft:leather"
+    },
+    "5": {
+      "item": "minecraft:leather"
+    },
+    "7": {
+      "item": "gurkmod:hydraka_orb"
+    }
+  },
+  "result": {
+    "item": "gurkmod:hydraka_armor_chestplate",
+    "count": 1
+  }
+}

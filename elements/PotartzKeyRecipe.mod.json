@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Potart"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tiningot"
+      },
+      {
+        "value": "CUSTOM:HydrakaOrb"
+      },
+      {
+        "value": "CUSTOM:VexWings"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blazium"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FixedPotartz"
+    },
+    "name": "key_to_potartz",
+    "namespace": "mod"
+  }
+}

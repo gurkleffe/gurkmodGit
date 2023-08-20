@@ -51,8 +51,9 @@ import java.util.Random;
 public class GlowplantBlock extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:glowplant")
 	public static final Block block = null;
+
 	public GlowplantBlock(GurkmodModElements instance) {
-		super(instance, 138);
+		super(instance, 78);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -68,8 +69,10 @@ public class GlowplantBlock extends GurkmodModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	private static Feature<BlockClusterFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
+
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
@@ -83,7 +86,7 @@ public class GlowplantBlock extends GurkmodModElements.ModElement {
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("gurkmod:potartz")))
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("gurkmod:fixed_potartz")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
@@ -99,6 +102,7 @@ public class GlowplantBlock extends GurkmodModElements.ModElement {
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("gurkmod:glowplant"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
@@ -108,6 +112,7 @@ public class GlowplantBlock extends GurkmodModElements.ModElement {
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION).add(() -> configuredFeature);
 	}
+
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0,
@@ -128,15 +133,20 @@ public class GlowplantBlock extends GurkmodModElements.ModElement {
 
 		@Override
 		public boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			Block block = state.getBlock();
-			return (block == QuartzgrassBlock.block.getDefaultState().getBlock() || block == QuartzdirtBlock.block.getDefaultState().getBlock());
+			Block ground = state.getBlock();
+			return (ground == QuartzgrassBlock.block || ground == QuartzdirtBlock.block
+
+			)
+
+			;
 		}
 
 		@Override
-		public boolean isValidPosition(BlockState state, IWorldReader worldIn, BlockPos pos) {
+		public boolean isValidPosition(BlockState blockstate, IWorldReader worldIn, BlockPos pos) {
 			BlockPos blockpos = pos.down();
-			BlockState blockstate = worldIn.getBlockState(blockpos);
-			return this.isValidGround(blockstate, worldIn, blockpos);
+			BlockState groundState = worldIn.getBlockState(blockpos);
+			Block ground = groundState.getBlock();
+			return this.isValidGround(groundState, worldIn, blockpos);
 		}
 
 		@Override

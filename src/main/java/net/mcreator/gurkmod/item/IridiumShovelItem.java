@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class IridiumShovelItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:iridium_shovel")
 	public static final Item block = null;
+
 	public IridiumShovelItem(GurkmodModElements instance) {
-		super(instance, 35);
+		super(instance, 51);
 	}
 
 	@Override
@@ -44,7 +45,7 @@ public class IridiumShovelItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("iridium_shovel"));

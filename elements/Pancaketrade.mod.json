@@ -1,0 +1,33 @@
+{
+  "_fv": 33,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "FARMER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Pancake"
+            },
+            "countOffer": 3,
+            "level": 2,
+            "maxTrades": 20,
+            "xp": 5,
+            "priceMultiplier": 0.04
+          }
+        ]
+      }
+    ]
+  }
+}

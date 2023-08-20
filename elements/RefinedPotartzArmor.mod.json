@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -38,13 +38,17 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
     "maxDamage": 45,
     "damageValueHelmet": 5,
     "damageValueBody": 10,
     "damageValueLeggings": 8,
     "damageValueBoots": 5,
     "enchantability": 36,
-    "toughness": 2.0,
+    "toughness": 3.5,
     "knockbackResistance": 0.2,
     "equipSound": {
       "value": "item.armor.equip_netherite"

@@ -1,3 +1,4 @@
+
 package net.mcreator.gurkmod.entity.renderer;
 
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -21,9 +22,10 @@ public class FrostslimeRenderer {
 		public void registerModels(ModelRegistryEvent event) {
 			RenderingRegistry.registerEntityRenderingHandler(FrostslimeEntity.entity,
 					renderManager -> new MobRenderer(renderManager, new SlimeModel(0), 1f) {
+
 						@Override
 						public ResourceLocation getEntityTexture(Entity entity) {
-							return new ResourceLocation("gurkmod:textures/blue_slime.png");
+							return new ResourceLocation("gurkmod:textures/entities/blue_slime.png");
 						}
 					});
 		}

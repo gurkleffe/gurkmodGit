@@ -7,19 +7,19 @@
   ],
   "key": {
     "0": {
-      "item": "gurkmod:frozen_slime"
+      "item": "minecraft:slime_ball"
     },
     "1": {
       "item": "gurkmod:obsidian_shard"
     },
     "2": {
-      "item": "gurkmod:frozen_slime"
+      "item": "minecraft:slime_ball"
     },
     "3": {
       "item": "gurkmod:frozen_slime"
     },
     "4": {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:iron_boots"
     },
     "5": {
       "item": "gurkmod:frozen_slime"

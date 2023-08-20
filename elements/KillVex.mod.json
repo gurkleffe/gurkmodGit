@@ -1,9 +1,9 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Vex Slayer",
-    "achievementDescription": "Kill a vex and collect it's loot",
+    "achievementName": "Vex: Dead",
+    "achievementDescription": "Kill a vex and collect it's wings! They are used in the Potartz Keys...",
     "achievementIcon": {
       "value": "CUSTOM:VexFace"
     },
@@ -11,11 +11,12 @@
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": true,
+    "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [
       "DarkVexBladeRecipe",
-      "ElytraRecipe"
+      "ElytraRecipe",
+      "PotartzKeyRecipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 0,

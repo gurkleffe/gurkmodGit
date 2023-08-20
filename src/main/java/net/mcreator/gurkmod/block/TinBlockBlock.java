@@ -4,6 +4,8 @@ package net.mcreator.gurkmod.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -23,6 +25,7 @@ import java.util.Collections;
 public class TinBlockBlock extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:tin_block")
 	public static final Block block = null;
+
 	public TinBlockBlock(GurkmodModElements instance) {
 		super(instance, 4);
 	}
@@ -33,11 +36,17 @@ public class TinBlockBlock extends GurkmodModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 6f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("tin_block");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

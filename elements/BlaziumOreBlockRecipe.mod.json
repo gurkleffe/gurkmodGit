@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -13,7 +13,7 @@
         "value": "CUSTOM:Blazium"
       },
       {
-        "value": "CUSTOM:Blazium"
+        "value": "Blocks.NETHERITE_BLOCK"
       },
       {
         "value": "CUSTOM:Blazium"
@@ -22,7 +22,7 @@
         "value": "CUSTOM:Blazium"
       },
       {
-        "value": "CUSTOM:Blazium"
+        "value": "CUSTOM:RefinedQuarts"
       },
       {
         "value": "CUSTOM:Blazium"

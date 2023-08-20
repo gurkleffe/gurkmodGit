@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:LONG_SLOW_FALLING"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:YtterbiumIngot"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:LongYtterbi"
+    },
+    "name": "long_ytterbi_potion",
+    "namespace": "mod"
+  }
+}

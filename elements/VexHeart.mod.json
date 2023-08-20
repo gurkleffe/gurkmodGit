@@ -1,12 +1,12 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "vex_heart",
     "customModelName": "Normal",
     "name": "Vex Heart",
-    "rarity": "UNCOMMON",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "MISC"
     },
@@ -24,10 +24,21 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInfo": [
+      "You can almost feel its power flowing through your hands. Use it to craft a Dark Vexblade."
+    ],
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 16
+    "inventoryStackSize": 16,
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
   }
 }

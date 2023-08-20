@@ -5,16 +5,11 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.gurkmod.GurkmodModElements;
 import net.mcreator.gurkmod.GurkmodMod;
 
 import java.util.Map;
 
-@GurkmodModElements.ModElement.Tag
-public class BlaziumBlockEntityWalksOnTheBlockProcedure extends GurkmodModElements.ModElement {
-	public BlaziumBlockEntityWalksOnTheBlockProcedure(GurkmodModElements instance) {
-		super(instance, 167);
-	}
+public class BlaziumBlockEntityWalksOnTheBlockProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
@@ -24,6 +19,7 @@ public class BlaziumBlockEntityWalksOnTheBlockProcedure extends GurkmodModElemen
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INSTANT_DAMAGE, (int) 20, (int) 1, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 200, (int) 0, (false), (false)));
+		entity.setFire((int) 15);
 	}
 }

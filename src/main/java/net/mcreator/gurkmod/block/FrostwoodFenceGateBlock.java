@@ -26,6 +26,7 @@ import java.util.Collections;
 public class FrostwoodFenceGateBlock extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:frostwood_fence_gate")
 	public static final Block block = null;
+
 	public FrostwoodFenceGateBlock(GurkmodModElements instance) {
 		super(instance, 15);
 	}
@@ -36,6 +37,7 @@ public class FrostwoodFenceGateBlock extends GurkmodModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends FenceGateBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).setLightLevel(s -> 0));

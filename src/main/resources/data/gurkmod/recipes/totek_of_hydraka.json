@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:crab_claw"
+    },
+    "2": {
+      "item": "gurkmod:crab_claw"
+    },
+    "3": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "4": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "5": {
+      "item": "gurkmod:bronzeingot"
+    },
+    "7": {
+      "item": "minecraft:nautilus_shell"
+    }
+  },
+  "result": {
+    "item": "gurkmod:totem_of_hydraka",
+    "count": 1
+  }
+}

@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class RefinedPotartzShovelItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:refined_potartz_shovel")
 	public static final Item block = null;
+
 	public RefinedPotartzShovelItem(GurkmodModElements instance) {
-		super(instance, 120);
+		super(instance, 55);
 	}
 
 	@Override
@@ -44,7 +45,7 @@ public class RefinedPotartzShovelItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
 		}.setRegistryName("refined_potartz_shovel"));

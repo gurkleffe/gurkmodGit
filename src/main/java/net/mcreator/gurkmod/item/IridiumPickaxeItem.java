@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class IridiumPickaxeItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:iridium_pickaxe")
 	public static final Item block = null;
+
 	public IridiumPickaxeItem(GurkmodModElements instance) {
-		super(instance, 33);
+		super(instance, 49);
 	}
 
 	@Override
@@ -44,7 +45,7 @@ public class IridiumPickaxeItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("iridium_pickaxe"));

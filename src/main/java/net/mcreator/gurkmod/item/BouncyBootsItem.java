@@ -17,12 +17,15 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.gurkmod.procedures.BouncyBootsBootsTickEventProcedure;
 import net.mcreator.gurkmod.GurkmodModElements;
 
+import java.util.stream.Stream;
 import java.util.Map;
 import java.util.HashMap;
+import java.util.AbstractMap;
 
 @GurkmodModElements.ModElement.Tag
 public class BouncyBootsItem extends GurkmodModElements.ModElement {
@@ -34,8 +37,9 @@ public class BouncyBootsItem extends GurkmodModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("gurkmod:bouncy_boots_boots")
 	public static final Item boots = null;
+
 	public BouncyBootsItem(GurkmodModElements instance) {
-		super(instance, 105);
+		super(instance, 42);
 	}
 
 	@Override
@@ -43,12 +47,12 @@ public class BouncyBootsItem extends GurkmodModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 28;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{1, 0, 0, 0}[slot.getIndex()];
+				return new int[]{2, 0, 0, 0}[slot.getIndex()];
 			}
 
 			@Override
@@ -63,7 +67,7 @@ public class BouncyBootsItem extends GurkmodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(FrozenSlimeItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(FrozenSlimeItem.block), new ItemStack(Blocks.SLIME_BLOCK));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -93,13 +97,12 @@ public class BouncyBootsItem extends GurkmodModElements.ModElement {
 				double x = entity.getPosX();
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					$_dependencies.put("world", world);
-					BouncyBootsBootsTickEventProcedure.executeProcedure($_dependencies);
-				}
+
+				BouncyBootsBootsTickEventProcedure
+						.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+								.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			}
 		}.setRegistryName("bouncy_boots_boots"));
 	}
+
 }

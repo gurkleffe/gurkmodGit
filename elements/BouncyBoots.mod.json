@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "armor",
   "definition": {
     "enableHelmet": false,
@@ -41,11 +41,15 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 25,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 28,
     "damageValueHelmet": 0,
     "damageValueBody": 0,
     "damageValueLeggings": 0,
-    "damageValueBoots": 1,
+    "damageValueBoots": 2,
     "enchantability": 9,
     "toughness": 1.0,
     "knockbackResistance": 0.4,
@@ -55,6 +59,9 @@
     "repairItems": [
       {
         "value": "CUSTOM:FrozenSlime"
+      },
+      {
+        "value": "Blocks.SLIME_BLOCK"
       }
     ]
   }

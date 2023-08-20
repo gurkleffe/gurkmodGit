@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -13,7 +13,7 @@
     "toolType": "Sword",
     "harvestLevel": 4,
     "efficiency": 14.0,
-    "attackSpeed": 1.9,
+    "attackSpeed": 1.7,
     "enchantability": 14,
     "damageVsEntity": 8.5,
     "usageCount": 2400,

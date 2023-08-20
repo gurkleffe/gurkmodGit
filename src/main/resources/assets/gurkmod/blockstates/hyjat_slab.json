@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gurkmod:block/hyjat_slab"
+    },
+    "type=top": {
+      "model": "gurkmod:block/hyjat_slab_top"
+    },
+    "type=double": {
+      "model": "gurkmod:block/hyjat_slab_full"
+    }
+  }
+}

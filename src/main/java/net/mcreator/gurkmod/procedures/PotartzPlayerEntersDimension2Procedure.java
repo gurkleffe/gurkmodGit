@@ -6,16 +6,11 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.gurkmod.GurkmodModElements;
 import net.mcreator.gurkmod.GurkmodMod;
 
 import java.util.Map;
 
-@GurkmodModElements.ModElement.Tag
-public class PotartzPlayerEntersDimension2Procedure extends GurkmodModElements.ModElement {
-	public PotartzPlayerEntersDimension2Procedure(GurkmodModElements instance) {
-		super(instance, 134);
-	}
+public class PotartzPlayerEntersDimension2Procedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {

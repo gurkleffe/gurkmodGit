@@ -1,26 +1,38 @@
 {
-  "_fv": 18,
-  "_type": "food",
+  "_fv": 33,
+  "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "pancakes",
     "customModelName": "Normal",
     "name": "Pancake",
     "rarity": "COMMON",
-    "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
     "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 25,
+    "toolType": 0.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "isFood": true,
     "nutritionalValue": 10,
     "saturation": 0.3,
-    "eatingSpeed": 25,
-    "resultItem": {
+    "eatResultItem": {
       "value": ""
     },
-    "forDogs": false,
+    "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat",
-    "hasGlow": false
+    "animation": "eat"
   }
 }

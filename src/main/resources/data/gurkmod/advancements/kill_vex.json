@@ -13,7 +13,7 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
     "kill_vex": {
@@ -35,7 +35,8 @@
     "experience": 0,
     "recipes": [
       "gurkmod:dark_vex_blade",
-      "gurkmod:elytra"
+      "gurkmod:elytra",
+      "gurkmod:key_to_potartz"
     ]
   }
 }

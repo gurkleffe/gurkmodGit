@@ -6,6 +6,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.BiomeDictionary;
 
 import net.minecraft.world.gen.trunkplacer.GiantTrunkPlacer;
 import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
@@ -18,7 +19,6 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.NoiseDependant;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
 import net.minecraft.world.gen.foliageplacer.MegaPineFoliagePlacer;
-import net.minecraft.world.gen.feature.structure.StructureFeatures;
 import net.minecraft.world.gen.feature.TwoLayerFeature;
 import net.minecraft.world.gen.feature.Features;
 import net.minecraft.world.gen.feature.FeatureSpread;
@@ -38,9 +38,12 @@ import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorldWriter;
 import net.minecraft.world.ISeedReader;
+import net.minecraft.util.registry.WorldGenRegistries;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.MutableBoundingBox;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.entity.EntityType;
@@ -64,10 +67,12 @@ import com.google.common.collect.ImmutableList;
 @GurkmodModElements.ModElement.Tag
 public class PotartzBiomeBiome extends GurkmodModElements.ModElement {
 	public static Biome biome;
+
 	public PotartzBiomeBiome(GurkmodModElements instance) {
-		super(instance, 114);
+		super(instance, 145);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
+
 	private static class BiomeRegisterHandler {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
@@ -88,16 +93,15 @@ public class PotartzBiomeBiome extends GurkmodModElements.ModElement {
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(QuartzgrassBlock.block.getDefaultState(),
 								QuartzdirtBlock.block.getDefaultState(), QuartzdirtBlock.block.getDefaultState())));
-				biomeGenerationSettings.withStructure(StructureFeatures.OCEAN_RUIN_COLD);
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
 						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(FrostwoodLogBlock.block.getDefaultState()),
-								new SimpleBlockStateProvider(Blocks.BLACK_STAINED_GLASS.getDefaultState()),
+								new SimpleBlockStateProvider(Blocks.AIR.getDefaultState()),
 								new MegaPineFoliagePlacer(FeatureSpread.func_242252_a(0), FeatureSpread.func_242252_a(0),
 										FeatureSpread.func_242253_a(13, 4)),
 								new GiantTrunkPlacer(1, 2, 14), new TwoLayerFeature(1, 1, 2)))
-										.setDecorators(ImmutableList.of(CustomLeaveVineTreeDecorator.instance, CustomTrunkVineTreeDecorator.instance,
-												new CustomCocoaTreeDecorator()))
-										.setMaxWaterDepth(10).build())
+								.setDecorators(ImmutableList.of(CustomLeaveVineTreeDecorator.instance, CustomTrunkVineTreeDecorator.instance,
+										new CustomCocoaTreeDecorator()))
+								.build())
 						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
 						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
@@ -131,21 +135,22 @@ public class PotartzBiomeBiome extends GurkmodModElements.ModElement {
 				DefaultBiomeFeatures.withLavaAndWaterLakes(biomeGenerationSettings);
 				DefaultBiomeFeatures.withSwampVegetation(biomeGenerationSettings);
 				DefaultBiomeFeatures.withInfestedStone(biomeGenerationSettings);
-				DefaultBiomeFeatures.withEmeraldOre(biomeGenerationSettings);
-				DefaultBiomeFeatures.withClayDisks(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.SILVERFISH, 20, 1, 6));
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.SHULKER, 6, 1, 2));
-				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.1f).scale(0.2f).temperature(0.5f)
-						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.PLAINS).depth(0.1f).scale(0.2f)
+						.temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("gurkmod:potartz_biome"));
 			}
 		}
 	}
+
 	@Override
 	public void init(FMLCommonSetupEvent event) {
+		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.SPOOKY);
 	}
+
 	private static class CustomLeaveVineTreeDecorator extends LeaveVineTreeDecorator {
 		public static final CustomLeaveVineTreeDecorator instance = new CustomLeaveVineTreeDecorator();
 		public static com.mojang.serialization.Codec<LeaveVineTreeDecorator> codec;
@@ -156,6 +161,7 @@ public class PotartzBiomeBiome extends GurkmodModElements.ModElement {
 			tdt.setRegistryName("potartz_biome_lvtd");
 			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
 		}
+
 		@Override
 		protected TreeDecoratorType<?> func_230380_a_() {
 			return tdt;
@@ -177,6 +183,7 @@ public class PotartzBiomeBiome extends GurkmodModElements.ModElement {
 			tdt.setRegistryName("potartz_biome_tvtd");
 			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
 		}
+
 		@Override
 		protected TreeDecoratorType<?> func_230380_a_() {
 			return tdt;
@@ -198,6 +205,7 @@ public class PotartzBiomeBiome extends GurkmodModElements.ModElement {
 			tdt.setRegistryName("potartz_biome_ctd");
 			ForgeRegistries.TREE_DECORATOR_TYPES.register(tdt);
 		}
+
 		public CustomCocoaTreeDecorator() {
 			super(0.2f);
 		}

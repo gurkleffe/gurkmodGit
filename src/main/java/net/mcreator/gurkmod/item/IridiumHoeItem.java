@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class IridiumHoeItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:iridium_hoe")
 	public static final Item block = null;
+
 	public IridiumHoeItem(GurkmodModElements instance) {
-		super(instance, 36);
+		super(instance, 52);
 	}
 
 	@Override
@@ -44,7 +45,7 @@ public class IridiumHoeItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block));
 			}
 		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("iridium_hoe"));

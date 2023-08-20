@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "painting",
+  "definition": {
+    "texture": "beaver.png",
+    "width": 32,
+    "height": 32
+  }
+}

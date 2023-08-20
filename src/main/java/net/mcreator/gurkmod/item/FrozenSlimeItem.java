@@ -3,6 +3,7 @@ package net.mcreator.gurkmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -15,14 +16,16 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class FrozenSlimeItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:frozen_slime")
 	public static final Item block = null;
+
 	public FrozenSlimeItem(GurkmodModElements instance) {
-		super(instance, 104);
+		super(instance, 29);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).isImmuneToFire().rarity(Rarity.COMMON));
@@ -30,12 +33,12 @@ public class FrozenSlimeItem extends GurkmodModElements.ModElement {
 		}
 
 		@Override
-		public int getItemEnchantability() {
-			return 0;
+		public UseAction getUseAction(ItemStack itemstack) {
+			return UseAction.EAT;
 		}
 
 		@Override
-		public int getUseDuration(ItemStack itemstack) {
+		public int getItemEnchantability() {
 			return 0;
 		}
 

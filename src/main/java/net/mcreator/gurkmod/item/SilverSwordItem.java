@@ -18,16 +18,19 @@ import net.minecraft.client.util.ITooltipFlag;
 import net.mcreator.gurkmod.procedures.SilverSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.gurkmod.GurkmodModElements;
 
+import java.util.stream.Stream;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
+import java.util.AbstractMap;
 
 @GurkmodModElements.ModElement.Tag
 public class SilverSwordItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:silver_sword")
 	public static final Item block = null;
+
 	public SilverSwordItem(GurkmodModElements instance) {
-		super(instance, 23);
+		super(instance, 34);
 	}
 
 	@Override
@@ -54,7 +57,7 @@ public class SilverSwordItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(SilveringotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(SilveringotItem.block));
 			}
 		}, 3, -2.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
@@ -70,15 +73,12 @@ public class SilverSwordItem extends GurkmodModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				World world = entity.world;
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
-					SilverSwordLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
-				}
+
+				SilverSwordLivingEntityIsHitWithToolProcedure.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z),
+								new AbstractMap.SimpleEntry<>("entity", entity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				return retval;
 			}
 		}.setRegistryName("silver_sword"));

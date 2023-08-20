@@ -29,8 +29,9 @@ public class DiamondNecklaceItem extends GurkmodModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("gurkmod:diamond_necklace_boots")
 	public static final Item boots = null;
+
 	public DiamondNecklaceItem(GurkmodModElements instance) {
-		super(instance, 28);
+		super(instance, 41);
 	}
 
 	@Override
@@ -58,7 +59,7 @@ public class DiamondNecklaceItem extends GurkmodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(Items.DIAMOND, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(Items.DIAMOND));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -84,4 +85,5 @@ public class DiamondNecklaceItem extends GurkmodModElements.ModElement {
 			}
 		}.setRegistryName("diamond_necklace_chestplate"));
 	}
+
 }

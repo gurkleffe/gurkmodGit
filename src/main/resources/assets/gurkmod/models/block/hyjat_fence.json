@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "gurkmod:blocks/hyjat_planks",
+    "particle": "gurkmod:blocks/hyjat_planks"
+  }
+}

@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class BronzeswordItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:bronzesword")
 	public static final Item block = null;
+
 	public BronzeswordItem(GurkmodModElements instance) {
-		super(instance, 22);
+		super(instance, 33);
 	}
 
 	@Override
@@ -44,8 +45,8 @@ public class BronzeswordItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(BronzeingotItem.block, (int) (1)), new ItemStack(CopperingotItem.block, (int) (1)),
-						new ItemStack(TiningotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(BronzeingotItem.block), new ItemStack(CopperingotItem.block),
+						new ItemStack(TiningotItem.block));
 			}
 		}, 3, -2.2999999999999998f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("bronzesword"));

@@ -56,8 +56,9 @@ import java.util.Collections;
 public class ChanterelleBlock extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:chanterelle")
 	public static final Block block = null;
+
 	public ChanterelleBlock(GurkmodModElements instance) {
-		super(instance, 140);
+		super(instance, 31);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -73,8 +74,10 @@ public class ChanterelleBlock extends GurkmodModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	private static Feature<BlockClusterFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
+
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
@@ -104,6 +107,7 @@ public class ChanterelleBlock extends GurkmodModElements.ModElement {
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("gurkmod:chanterelle"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
@@ -117,6 +121,7 @@ public class ChanterelleBlock extends GurkmodModElements.ModElement {
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION).add(() -> configuredFeature);
 	}
+
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.BAMBOO_SAPLING)
@@ -144,15 +149,20 @@ public class ChanterelleBlock extends GurkmodModElements.ModElement {
 
 		@Override
 		public boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			Block block = state.getBlock();
-			return (block == Blocks.MYCELIUM.getDefaultState().getBlock() || block == Blocks.GRASS_BLOCK.getDefaultState().getBlock());
+			Block ground = state.getBlock();
+			return (ground == Blocks.MYCELIUM || ground == Blocks.GRASS_BLOCK
+
+			)
+
+			;
 		}
 
 		@Override
-		public boolean isValidPosition(BlockState state, IWorldReader worldIn, BlockPos pos) {
+		public boolean isValidPosition(BlockState blockstate, IWorldReader worldIn, BlockPos pos) {
 			BlockPos blockpos = pos.down();
-			BlockState blockstate = worldIn.getBlockState(blockpos);
-			return this.isValidGround(blockstate, worldIn, blockpos);
+			BlockState groundState = worldIn.getBlockState(blockpos);
+			Block ground = groundState.getBlock();
+			return this.isValidGround(groundState, worldIn, blockpos);
 		}
 
 		@Override

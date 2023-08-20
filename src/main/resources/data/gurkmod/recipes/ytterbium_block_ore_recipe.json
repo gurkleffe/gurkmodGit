@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gurkmod:ytterbium_block"
+    }
+  ],
+  "result": {
+    "item": "gurkmod:ytterbium_ingot",
+    "count": 9
+  }
+}

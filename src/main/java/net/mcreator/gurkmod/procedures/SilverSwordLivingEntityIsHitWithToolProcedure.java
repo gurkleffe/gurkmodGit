@@ -9,21 +9,16 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 
-import net.mcreator.gurkmod.GurkmodModElements;
 import net.mcreator.gurkmod.GurkmodMod;
 
 import java.util.Map;
 
-@GurkmodModElements.ModElement.Tag
-public class SilverSwordLivingEntityIsHitWithToolProcedure extends GurkmodModElements.ModElement {
-	public SilverSwordLivingEntityIsHitWithToolProcedure(GurkmodModElements instance) {
-		super(instance, 77);
-	}
+public class SilverSwordLivingEntityIsHitWithToolProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				GurkmodMod.LOGGER.warn("Failed to load dependency entity for procedure SilverSwordLivingEntityIsHitWithTool!");
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				GurkmodMod.LOGGER.warn("Failed to load dependency world for procedure SilverSwordLivingEntityIsHitWithTool!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
@@ -41,17 +36,17 @@ public class SilverSwordLivingEntityIsHitWithToolProcedure extends GurkmodModEle
 				GurkmodMod.LOGGER.warn("Failed to load dependency z for procedure SilverSwordLivingEntityIsHitWithTool!");
 			return;
 		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				GurkmodMod.LOGGER.warn("Failed to load dependency world for procedure SilverSwordLivingEntityIsHitWithTool!");
+		if (dependencies.get("entity") == null) {
+			if (!dependencies.containsKey("entity"))
+				GurkmodMod.LOGGER.warn("Failed to load dependency entity for procedure SilverSwordLivingEntityIsHitWithTool!");
 			return;
 		}
-		Entity entity = (Entity) dependencies.get("entity");
+		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
-		if ((entity instanceof LivingEntity ? (((LivingEntity) entity).getCreatureAttribute() == CreatureAttribute.UNDEAD) : false)) {
+		Entity entity = (Entity) dependencies.get("entity");
+		if (entity instanceof LivingEntity ? (((LivingEntity) entity).getCreatureAttribute() == CreatureAttribute.UNDEAD) : false) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WITHER, (int) 999, (int) 3, (true), (true)));
 			entity.setFire((int) 15);

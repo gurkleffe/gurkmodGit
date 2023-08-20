@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HyjatLog"
+      },
+      {
+        "value": "CUSTOM:HyjatLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HyjatLog"
+      },
+      {
+        "value": "CUSTOM:HyjatLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HyjatWood"
+    },
+    "name": "hyjat_wood_recipe",
+    "namespace": "mod"
+  }
+}

@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class BronzeshovelItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:bronzeshovel")
 	public static final Item block = null;
+
 	public BronzeshovelItem(GurkmodModElements instance) {
-		super(instance, 31);
+		super(instance, 47);
 	}
 
 	@Override
@@ -44,8 +45,8 @@ public class BronzeshovelItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(BronzeingotItem.block, (int) (1)), new ItemStack(CopperingotItem.block, (int) (1)),
-						new ItemStack(TiningotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(BronzeingotItem.block), new ItemStack(CopperingotItem.block),
+						new ItemStack(TiningotItem.block));
 			}
 		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("bronzeshovel"));

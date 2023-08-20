@@ -2,8 +2,6 @@
 package net.mcreator.gurkmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
@@ -19,15 +17,16 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class DarkVexBladeItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:dark_vex_blade")
 	public static final Item block = null;
+
 	public DarkVexBladeItem(GurkmodModElements instance) {
-		super(instance, 25);
+		super(instance, 38);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 3031;
+				return 3852;
 			}
 
 			public float getEfficiency() {
@@ -35,7 +34,7 @@ public class DarkVexBladeItem extends GurkmodModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,14 +46,9 @@ public class DarkVexBladeItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(DarkVexWingsItem.block, (int) (1)), new ItemStack(Blocks.NETHERITE_BLOCK, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(DarkVexWingsItem.block), new ItemStack(Blocks.NETHERITE_BLOCK));
 			}
-		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasEffect(ItemStack itemstack) {
-				return true;
-			}
+		}, 3, -1.9f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
 		}.setRegistryName("dark_vex_blade"));
 	}
 }

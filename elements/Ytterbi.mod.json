@@ -1,0 +1,21 @@
+{
+  "_fv": 33,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Ytterbi Potion",
+    "splashName": "Throwable Potion of Ytterbi",
+    "lingeringName": "Lingering Potion of Ytterbi",
+    "arrowName": "Arrow of Ytterbi",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Ytterbited"
+        },
+        "duration": 3062,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

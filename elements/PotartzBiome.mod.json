@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "biome",
   "definition": {
     "name": "Potartz Surface",
@@ -47,18 +47,18 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "NONE",
-    "parent": {
-      "value": "No parent"
-    },
+    "biomeCategory": "PLAINS",
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
-    "biomeType": "WARM",
     "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
     "biomeWeight": 10,
-    "biomeDictionaryTypes": [],
+    "biomeDictionaryTypes": [
+      "SPOOKY"
+    ],
     "grassPerChunk": 4,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 4,
@@ -72,12 +72,11 @@
     "vanillaTreeType": "Mega spruce trees",
     "treeType": 1,
     "minHeight": 1,
-    "maxWaterDepth": 10,
     "treeStem": {
       "value": "CUSTOM:FrostwoodLog"
     },
     "treeBranch": {
-      "value": "Blocks.STAINED_GLASS#15"
+      "value": "Blocks.AIR"
     },
     "treeVines": {
       "value": "Blocks.VINE"
@@ -87,15 +86,24 @@
     },
     "spawnStronghold": false,
     "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
-    "oceanRuinType": "COLD",
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
       "Caves",
       "Ores",
@@ -104,7 +112,6 @@
       "Lakes",
       "SwampVegetation",
       "InfestedStone",
-      "ExtraEmeraldOre",
       "SwampClayDisks"
     ],
     "spawnEntries": [

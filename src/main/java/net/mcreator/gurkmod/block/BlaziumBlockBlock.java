@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.World;
+import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -20,17 +21,20 @@ import net.minecraft.block.Block;
 import net.mcreator.gurkmod.procedures.BlaziumBlockEntityWalksOnTheBlockProcedure;
 import net.mcreator.gurkmod.GurkmodModElements;
 
+import java.util.stream.Stream;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @GurkmodModElements.ModElement.Tag
 public class BlaziumBlockBlock extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:blazium_block")
 	public static final Block block = null;
+
 	public BlaziumBlockBlock(GurkmodModElements instance) {
-		super(instance, 148);
+		super(instance, 21);
 	}
 
 	@Override
@@ -39,12 +43,18 @@ public class BlaziumBlockBlock extends GurkmodModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.BASALT).hardnessAndResistance(10f, 2000f).setLightLevel(s -> 9)
 					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true));
 			setRegistryName("blazium_block");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override
@@ -61,11 +71,10 @@ public class BlaziumBlockBlock extends GurkmodModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				BlaziumBlockEntityWalksOnTheBlockProcedure.executeProcedure($_dependencies);
-			}
+			BlockState blockstate = world.getBlockState(pos);
+
+			BlaziumBlockEntityWalksOnTheBlockProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

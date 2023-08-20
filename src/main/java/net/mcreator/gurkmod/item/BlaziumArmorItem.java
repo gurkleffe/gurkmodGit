@@ -28,8 +28,9 @@ public class BlaziumArmorItem extends GurkmodModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("gurkmod:blazium_armor_boots")
 	public static final Item boots = null;
+
 	public BlaziumArmorItem(GurkmodModElements instance) {
-		super(instance, 162);
+		super(instance, 43);
 	}
 
 	@Override
@@ -57,7 +58,7 @@ public class BlaziumArmorItem extends GurkmodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(BlaziumItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(BlaziumItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -101,4 +102,5 @@ public class BlaziumArmorItem extends GurkmodModElements.ModElement {
 			}
 		}.setRegistryName("blazium_armor_boots"));
 	}
+
 }

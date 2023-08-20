@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gurkmod:potart"
+    },
+    {
+      "item": "gurkmod:tiningot"
+    },
+    {
+      "item": "gurkmod:hydraka_orb"
+    },
+    {
+      "item": "gurkmod:vex_wings"
+    },
+    {
+      "item": "gurkmod:blazium"
+    }
+  ],
+  "result": {
+    "item": "gurkmod:fixed_potartz",
+    "count": 1
+  }
+}

@@ -37,5 +37,34 @@
         "stream": false
       }
     ]
+  },
+  "hyjat_ambient": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "gurkmod:hyjatadventure",
+        "stream": false
+      }
+    ]
+  },
+  "magmaper_living_1": {
+    "category": "hostile",
+    "subtitle": "subtitles.magmaper_living_1",
+    "sounds": [
+      {
+        "name": "gurkmod:magmaper_living_1",
+        "stream": false
+      }
+    ]
+  },
+  "magmaper_living_2": {
+    "category": "hostile",
+    "subtitle": "subtitles.magmaper_living_2",
+    "sounds": [
+      {
+        "name": "gurkmod:magmaper_living_2",
+        "stream": false
+      }
+    ]
   }
 }

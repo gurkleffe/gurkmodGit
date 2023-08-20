@@ -1,8 +1,7 @@
 {
-  "_fv": 18,
-  "_type": "potion",
+  "_fv": 33,
+  "_type": "potioneffect",
   "definition": {
-    "name": "Super Haste",
     "effectName": "Super Haste",
     "icon": "haste_potion.png",
     "color": {
@@ -12,7 +11,6 @@
     "isInstant": false,
     "isBad": false,
     "isBenefitical": true,
-    "registerPotionType": true,
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "onActiveTick": {

@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,19 +10,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:FrozenSlime"
+        "value": "Items.SLIME_BALL"
       },
       {
         "value": "CUSTOM:ObsidianShard"
       },
       {
-        "value": "CUSTOM:FrozenSlime"
+        "value": "Items.SLIME_BALL"
       },
       {
         "value": "CUSTOM:FrozenSlime"
       },
       {
-        "value": "Items.LEATHER_BOOTS"
+        "value": "Items.IRON_BOOTS"
       },
       {
         "value": "CUSTOM:FrozenSlime"

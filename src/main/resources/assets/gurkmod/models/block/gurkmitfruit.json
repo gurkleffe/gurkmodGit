@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "gurkmod:blocks/gurkplant_fruit",
+    "particle": "gurkmod:blocks/gurkplant_fruit"
+  }
+}

@@ -52,8 +52,9 @@ import java.util.Collections;
 public class QuartzgrassBlock extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:quartzgrass")
 	public static final Block block = null;
+
 	public QuartzgrassBlock(GurkmodModElements instance) {
-		super(instance, 135);
+		super(instance, 19);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -70,11 +71,17 @@ public class QuartzgrassBlock extends GurkmodModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 15f).setLightLevel(s -> 0)
 					.harvestLevel(1).harvestTool(ToolType.SHOVEL).setRequiresTool().slipperiness(0.5f).notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("quartzgrass");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override
@@ -87,15 +94,18 @@ public class QuartzgrassBlock extends GurkmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(QuartzdirtBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(QuartzdirtBlock.block));
 		}
 	}
+
 	private static Feature<OreFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	private static IRuleTestType<CustomRuleTest> CUSTOM_MATCH = null;
+
 	private static class CustomRuleTest extends RuleTest {
 		static final CustomRuleTest INSTANCE = new CustomRuleTest();
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
 			return blockCriteria;
@@ -128,6 +138,7 @@ public class QuartzgrassBlock extends GurkmodModElements.ModElement {
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("gurkmod:quartzgrass"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);

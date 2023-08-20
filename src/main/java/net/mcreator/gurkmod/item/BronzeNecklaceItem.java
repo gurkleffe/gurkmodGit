@@ -34,8 +34,9 @@ public class BronzeNecklaceItem extends GurkmodModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("gurkmod:bronze_necklace_boots")
 	public static final Item boots = null;
+
 	public BronzeNecklaceItem(GurkmodModElements instance) {
-		super(instance, 26);
+		super(instance, 39);
 	}
 
 	@Override
@@ -63,7 +64,7 @@ public class BronzeNecklaceItem extends GurkmodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(BronzeingotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(BronzeingotItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -95,4 +96,5 @@ public class BronzeNecklaceItem extends GurkmodModElements.ModElement {
 			}
 		}.setRegistryName("bronze_necklace_chestplate"));
 	}
+
 }

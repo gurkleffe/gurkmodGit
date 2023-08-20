@@ -28,8 +28,9 @@ public class RefinedPotartzArmorItem extends GurkmodModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("gurkmod:refined_potartz_armor_boots")
 	public static final Item boots = null;
+
 	public RefinedPotartzArmorItem(GurkmodModElements instance) {
-		super(instance, 127);
+		super(instance, 44);
 	}
 
 	@Override
@@ -57,7 +58,7 @@ public class RefinedPotartzArmorItem extends GurkmodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -68,7 +69,7 @@ public class RefinedPotartzArmorItem extends GurkmodModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 2f;
+				return 3.5f;
 			}
 
 			@Override
@@ -101,4 +102,5 @@ public class RefinedPotartzArmorItem extends GurkmodModElements.ModElement {
 			}
 		}.setRegistryName("refined_potartz_armor_boots"));
 	}
+
 }

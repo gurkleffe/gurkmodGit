@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 2.8,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "gurkmod:ytterbium_ore"
+  },
+  "result": {
+    "item": "gurkmod:ytterbium_ingot"
+  }
+}

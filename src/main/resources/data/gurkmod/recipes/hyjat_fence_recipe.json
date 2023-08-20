@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:hyjat_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "gurkmod:hyjat_planks"
+    },
+    "3": {
+      "item": "gurkmod:hyjat_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "gurkmod:hyjat_planks"
+    }
+  },
+  "result": {
+    "item": "gurkmod:hyjat_fence",
+    "count": 3
+  }
+}

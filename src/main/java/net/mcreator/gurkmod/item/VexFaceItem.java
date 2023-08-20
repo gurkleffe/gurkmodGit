@@ -3,6 +3,7 @@ package net.mcreator.gurkmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -14,14 +15,16 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class VexFaceItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:vex_face")
 	public static final Item block = null;
+
 	public VexFaceItem(GurkmodModElements instance) {
-		super(instance, 72);
+		super(instance, 109);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(null).maxStackSize(0).isImmuneToFire().rarity(Rarity.COMMON));
@@ -29,12 +32,12 @@ public class VexFaceItem extends GurkmodModElements.ModElement {
 		}
 
 		@Override
-		public int getItemEnchantability() {
-			return 0;
+		public UseAction getUseAction(ItemStack itemstack) {
+			return UseAction.EAT;
 		}
 
 		@Override
-		public int getUseDuration(ItemStack itemstack) {
+		public int getItemEnchantability() {
 			return 0;
 		}
 

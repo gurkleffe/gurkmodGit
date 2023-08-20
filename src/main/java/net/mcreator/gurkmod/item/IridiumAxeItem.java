@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class IridiumAxeItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:iridium_axe")
 	public static final Item block = null;
+
 	public IridiumAxeItem(GurkmodModElements instance) {
-		super(instance, 34);
+		super(instance, 50);
 	}
 
 	@Override
@@ -44,7 +45,7 @@ public class IridiumAxeItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("iridium_axe"));

@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "gurkmod:block/frostwood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "gurkmod:block/frostwood_wood"
+    },
+    "axis=z": {
+      "model": "gurkmod:block/frostwood_wood",
+      "x": 90
     }
   }
 }

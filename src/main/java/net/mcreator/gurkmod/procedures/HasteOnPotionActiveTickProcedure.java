@@ -5,16 +5,11 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.gurkmod.GurkmodModElements;
 import net.mcreator.gurkmod.GurkmodMod;
 
 import java.util.Map;
 
-@GurkmodModElements.ModElement.Tag
-public class HasteOnPotionActiveTickProcedure extends GurkmodModElements.ModElement {
-	public HasteOnPotionActiveTickProcedure(GurkmodModElements instance) {
-		super(instance, 107);
-	}
+public class HasteOnPotionActiveTickProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {

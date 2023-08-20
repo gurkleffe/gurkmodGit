@@ -26,6 +26,7 @@ import java.util.Collections;
 public class FrostwoodPlanksBlock extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:frostwood_planks")
 	public static final Block block = null;
+
 	public FrostwoodPlanksBlock(GurkmodModElements instance) {
 		super(instance, 10);
 	}
@@ -36,11 +37,17 @@ public class FrostwoodPlanksBlock extends GurkmodModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("frostwood_planks");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

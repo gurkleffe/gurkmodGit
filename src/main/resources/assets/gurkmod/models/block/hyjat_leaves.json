@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gurkmod:blocks/hyjat_leaves",
+    "particle": "gurkmod:blocks/hyjat_leaves"
+  }
+}

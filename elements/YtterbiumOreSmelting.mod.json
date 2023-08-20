@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 2.8,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:YtterbiumOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:YtterbiumIngot"
+    },
+    "name": "ytterbium_ore_smelting",
+    "namespace": "mod"
+  }
+}

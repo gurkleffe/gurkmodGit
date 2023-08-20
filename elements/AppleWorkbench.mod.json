@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "musicdisc",
   "definition": {
     "texture": "piano_run_disc",
@@ -12,8 +12,8 @@
       "value": "CUSTOM:apple_workbench"
     },
     "specialInfo": [
-      "it's some music"
+      "is THIS music???"
     ],
-    "hasGlow": true
+    "hasGlow": false
   }
 }

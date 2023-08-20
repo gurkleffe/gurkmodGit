@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "gurkmod:block/frostwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "gurkmod:block/frostwood_log"
+    },
+    "axis=z": {
+      "model": "gurkmod:block/frostwood_log",
+      "x": 90
     }
   }
 }

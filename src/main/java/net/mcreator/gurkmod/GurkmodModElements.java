@@ -44,6 +44,7 @@ public class GurkmodModElements {
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
+
 	public GurkmodModElements() {
 		sounds.put(new ResourceLocation("gurkmod", "apple_workbench"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "apple_workbench")));
@@ -51,6 +52,12 @@ public class GurkmodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "frozen_forest")));
 		sounds.put(new ResourceLocation("gurkmod", "crab_hurt"), new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "crab_hurt")));
 		sounds.put(new ResourceLocation("gurkmod", "crab_living"), new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "crab_living")));
+		sounds.put(new ResourceLocation("gurkmod", "hyjat_ambient"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "hyjat_ambient")));
+		sounds.put(new ResourceLocation("gurkmod", "magmaper_living_1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "magmaper_living_1")));
+		sounds.put(new ResourceLocation("gurkmod", "magmaper_living_2"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "magmaper_living_2")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("gurkmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
@@ -72,7 +79,9 @@ public class GurkmodModElements {
 		for (Map.Entry<ResourceLocation, net.minecraft.util.SoundEvent> sound : sounds.entrySet())
 			event.getRegistry().register(sound.getValue().setRegistryName(sound.getKey()));
 	}
+
 	private int messageID = 0;
+
 	public <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, PacketBuffer> encoder, Function<PacketBuffer, T> decoder,
 			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
 		GurkmodMod.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
@@ -98,12 +107,15 @@ public class GurkmodModElements {
 	public List<Supplier<Enchantment>> getEnchantments() {
 		return enchantments;
 	}
+
 	public static class ModElement implements Comparable<ModElement> {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
+
 		protected final GurkmodModElements elements;
 		protected final int sortid;
+
 		public ModElement(GurkmodModElements elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;

@@ -1,3 +1,4 @@
+
 package net.mcreator.gurkmod.entity.renderer;
 
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -21,9 +22,10 @@ public class CrabRenderer {
 		public void registerModels(ModelRegistryEvent event) {
 			RenderingRegistry.registerEntityRenderingHandler(CrabEntity.entity,
 					renderManager -> new MobRenderer(renderManager, new SpiderModel(), 0.5f) {
+
 						@Override
 						public ResourceLocation getEntityTexture(Entity entity) {
-							return new ResourceLocation("gurkmod:textures/crabby.png");
+							return new ResourceLocation("gurkmod:textures/entities/hydraka.png");
 						}
 					});
 		}

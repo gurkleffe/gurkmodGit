@@ -60,8 +60,9 @@ import java.util.Collections;
 public class PotartBlock extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:potart")
 	public static final Block block = null;
+
 	public PotartBlock(GurkmodModElements instance) {
-		super(instance, 136);
+		super(instance, 77);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -77,8 +78,10 @@ public class PotartBlock extends GurkmodModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	private static Feature<BlockClusterFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
+
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
@@ -94,7 +97,7 @@ public class PotartBlock extends GurkmodModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("gurkmod:potartz")))
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("gurkmod:fixed_potartz")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
@@ -110,6 +113,7 @@ public class PotartBlock extends GurkmodModElements.ModElement {
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("gurkmod:potart"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
@@ -117,10 +121,13 @@ public class PotartBlock extends GurkmodModElements.ModElement {
 			biomeCriteria = true;
 		if (new ResourceLocation("gurkmod:potartz_biome").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("gurkmod:fixed_potartz_biome").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION).add(() -> configuredFeature);
 	}
+
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0,
@@ -157,15 +164,20 @@ public class PotartBlock extends GurkmodModElements.ModElement {
 
 		@Override
 		public boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			Block block = state.getBlock();
-			return (block == QuartzgrassBlock.block.getDefaultState().getBlock() || block == Blocks.GRASS_BLOCK.getDefaultState().getBlock());
+			Block ground = state.getBlock();
+			return (ground == QuartzgrassBlock.block || ground == Blocks.GRASS_BLOCK
+
+			)
+
+			;
 		}
 
 		@Override
-		public boolean isValidPosition(BlockState state, IWorldReader worldIn, BlockPos pos) {
+		public boolean isValidPosition(BlockState blockstate, IWorldReader worldIn, BlockPos pos) {
 			BlockPos blockpos = pos.down();
-			BlockState blockstate = worldIn.getBlockState(blockpos);
-			return this.isValidGround(blockstate, worldIn, blockpos);
+			BlockState groundState = worldIn.getBlockState(blockpos);
+			Block ground = groundState.getBlock();
+			return this.isValidGround(groundState, worldIn, blockpos);
 		}
 
 		@Override

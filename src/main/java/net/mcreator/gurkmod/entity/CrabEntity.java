@@ -23,7 +23,7 @@ import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.entity.projectile.ArrowEntity;
+import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
@@ -36,12 +36,13 @@ import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.gurkmod.item.HydrakaOrbItem;
 import net.mcreator.gurkmod.entity.renderer.CrabRenderer;
 import net.mcreator.gurkmod.GurkmodModElements;
 
@@ -49,9 +50,10 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class CrabEntity extends GurkmodModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 0.5f))
-					.build("hydraka").setRegistryName("hydraka");
+			.build("hydraka").setRegistryName("hydraka");
+
 	public CrabEntity(GurkmodModElements instance) {
-		super(instance, 169);
+		super(instance, 75);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CrabRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -66,6 +68,7 @@ public class CrabEntity extends GurkmodModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 	}
+
 	private static class EntityAttributesRegisterHandler {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
@@ -74,6 +77,7 @@ public class CrabEntity extends GurkmodModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 120);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 10);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 21);
+			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.1);
 			event.put(entity, ammma.create());
 		}
@@ -101,9 +105,14 @@ public class CrabEntity extends GurkmodModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, true));
+			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, CrabEntity.CustomEntity.class, false, true));
 			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, ServerPlayerEntity.class, false, false));
-			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false));
+			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
+				@Override
+				protected double getAttackReachSqr(LivingEntity entity) {
+					return (double) (4.0 + entity.getWidth() * entity.getWidth());
+				}
+			});
 			this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.8));
 			this.goalSelector.addGoal(6, new LookRandomlyGoal(this));
@@ -118,6 +127,11 @@ public class CrabEntity extends GurkmodModElements.ModElement {
 		@Override
 		public boolean canDespawn(double distanceToClosestPlayer) {
 			return false;
+		}
+
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(HydrakaOrbItem.block));
 		}
 
 		@Override
@@ -142,7 +156,7 @@ public class CrabEntity extends GurkmodModElements.ModElement {
 
 		@Override
 		public boolean attackEntityFrom(DamageSource source, float amount) {
-			if (source.getImmediateSource() instanceof ArrowEntity)
+			if (source.getImmediateSource() instanceof AbstractArrowEntity)
 				return false;
 			if (source == DamageSource.FALL)
 				return false;
@@ -157,10 +171,6 @@ public class CrabEntity extends GurkmodModElements.ModElement {
 			ActionResultType retval = ActionResultType.func_233537_a_(this.world.isRemote());
 			super.func_230254_b_(sourceentity, hand);
 			sourceentity.startRiding(this);
-			double x = this.getPosX();
-			double y = this.getPosY();
-			double z = this.getPosZ();
-			Entity entity = this;
 			return retval;
 		}
 
@@ -168,7 +178,9 @@ public class CrabEntity extends GurkmodModElements.ModElement {
 		public boolean isNonBoss() {
 			return false;
 		}
+
 		private final ServerBossInfo bossInfo = new ServerBossInfo(this.getDisplayName(), BossInfo.Color.RED, BossInfo.Overlay.PROGRESS);
+
 		@Override
 		public void addTrackingPlayer(ServerPlayerEntity player) {
 			super.addTrackingPlayer(player);

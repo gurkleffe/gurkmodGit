@@ -1,5 +1,4 @@
 {
-  "group": "gurkmod",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
@@ -8,6 +7,6 @@
   ],
   "result": {
     "item": "gurkmod:blazium",
-    "count": 9
+    "count": 10
   }
 }

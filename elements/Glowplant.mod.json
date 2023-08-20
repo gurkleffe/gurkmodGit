@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -12,6 +12,8 @@
     "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
+    "suspiciousStewEffect": "SATURATION",
+    "suspiciousStewDuration": 0,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
@@ -37,8 +39,25 @@
     "resistance": 0.0,
     "luminance": 6,
     "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
     },
     "useLootTableForDrops": true,
     "customDrop": {
@@ -69,12 +88,14 @@
     ],
     "frequencyOnChunks": 2,
     "spawnWorldTypes": [
-      "CUSTOM:Potartz"
+      "CUSTOM:FixedPotartz"
     ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:PotartzBiome"
       }
-    ]
+    ],
+    "patchSize": 64,
+    "generateAtAnyHeight": false
   }
 }

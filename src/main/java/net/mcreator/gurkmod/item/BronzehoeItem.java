@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class BronzehoeItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:bronzehoe")
 	public static final Item block = null;
+
 	public BronzehoeItem(GurkmodModElements instance) {
-		super(instance, 32);
+		super(instance, 48);
 	}
 
 	@Override
@@ -44,8 +45,8 @@ public class BronzehoeItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(TiningotItem.block, (int) (1)), new ItemStack(CopperingotItem.block, (int) (1)),
-						new ItemStack(BronzeingotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(TiningotItem.block), new ItemStack(CopperingotItem.block),
+						new ItemStack(BronzeingotItem.block));
 			}
 		}, 0, -1.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("bronzehoe"));

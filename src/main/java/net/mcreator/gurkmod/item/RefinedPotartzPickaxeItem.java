@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class RefinedPotartzPickaxeItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:refined_potartz_pickaxe")
 	public static final Item block = null;
+
 	public RefinedPotartzPickaxeItem(GurkmodModElements instance) {
-		super(instance, 117);
+		super(instance, 53);
 	}
 
 	@Override
@@ -44,7 +45,7 @@ public class RefinedPotartzPickaxeItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(PotartzGemItem.block));
 			}
 		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
 		}.setRegistryName("refined_potartz_pickaxe"));

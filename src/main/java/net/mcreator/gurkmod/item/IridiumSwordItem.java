@@ -16,8 +16,9 @@ import net.mcreator.gurkmod.GurkmodModElements;
 public class IridiumSwordItem extends GurkmodModElements.ModElement {
 	@ObjectHolder("gurkmod:iridium_sword")
 	public static final Item block = null;
+
 	public IridiumSwordItem(GurkmodModElements instance) {
-		super(instance, 24);
+		super(instance, 35);
 	}
 
 	@Override
@@ -44,9 +45,9 @@ public class IridiumSwordItem extends GurkmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(IridiumIngotItem.block));
 			}
-		}, 3, -2.1f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.3f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("iridium_sword"));
 	}
 }

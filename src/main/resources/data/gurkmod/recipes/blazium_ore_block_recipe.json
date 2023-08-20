@@ -1,5 +1,4 @@
 {
-  "group": "gurkmod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
@@ -11,7 +10,7 @@
       "item": "gurkmod:blazium"
     },
     "1": {
-      "item": "gurkmod:blazium"
+      "item": "minecraft:netherite_block"
     },
     "2": {
       "item": "gurkmod:blazium"
@@ -20,7 +19,7 @@
       "item": "gurkmod:blazium"
     },
     "4": {
-      "item": "gurkmod:blazium"
+      "item": "gurkmod:refined_quarts"
     },
     "5": {
       "item": "gurkmod:blazium"
