@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gurkmod:blocks/blueberry_bush"
+  }
+}

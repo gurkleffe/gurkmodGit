@@ -58,6 +58,8 @@ public class GurkmodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "magmaper_living_1")));
 		sounds.put(new ResourceLocation("gurkmod", "magmaper_living_2"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "magmaper_living_2")));
+		sounds.put(new ResourceLocation("gurkmod", "blazzard_living"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("gurkmod", "blazzard_living")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("gurkmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

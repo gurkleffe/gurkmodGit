@@ -11,14 +11,14 @@ import java.util.Map;
 public class CrabbyEntityDiesProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				GurkmodMod.LOGGER.warn("Failed to load dependency entity for procedure CrabbyEntityDies!");
+		if (dependencies.get("sourceentity") == null) {
+			if (!dependencies.containsKey("sourceentity"))
+				GurkmodMod.LOGGER.warn("Failed to load dependency sourceentity for procedure CrabbyEntityDies!");
 			return;
 		}
-		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof ServerPlayerEntity) {
-			((ServerPlayerEntity) entity).unlockRecipes(new ResourceLocation[]{new ResourceLocation("gurkmod:totem_of_hydraka")});
+		Entity sourceentity = (Entity) dependencies.get("sourceentity");
+		if (sourceentity instanceof ServerPlayerEntity) {
+			((ServerPlayerEntity) sourceentity).unlockRecipes(new ResourceLocation[]{new ResourceLocation("gurkmod:totem_of_hydraka")});
 		}
 	}
 }

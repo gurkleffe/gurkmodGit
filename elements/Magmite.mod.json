@@ -119,13 +119,25 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 9,
-    "mobSpawningType": "creature",
+    "spawningProbability": 7,
+    "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 5,
     "restrictionBiomes": [
       {
         "value": "crimson_forest"
+      },
+      {
+        "value": "nether"
+      },
+      {
+        "value": "warped_forest"
+      },
+      {
+        "value": "soul_sand_valley"
+      },
+      {
+        "value": "basalt_deltas"
       }
     ],
     "spawnInDungeons": false

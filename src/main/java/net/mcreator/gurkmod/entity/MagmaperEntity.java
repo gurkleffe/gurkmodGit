@@ -83,7 +83,7 @@ public class MagmaperEntity extends GurkmodModElements.ModElement {
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 1, 1, 1));
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 9, 1, 1));
 	}
 
 	@Override

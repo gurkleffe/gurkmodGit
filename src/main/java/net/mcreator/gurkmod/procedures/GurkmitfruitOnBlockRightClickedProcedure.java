@@ -43,6 +43,7 @@ public class GurkmitfruitOnBlockRightClickedProcedure {
 		if (world instanceof World && !world.isRemote()) {
 			ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(GurkFruitItem.block));
 			entityToSpawn.setPickupDelay((int) 1);
+			entityToSpawn.setNoDespawn();
 			world.addEntity(entityToSpawn);
 		}
 	}

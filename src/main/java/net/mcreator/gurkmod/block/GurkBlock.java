@@ -14,6 +14,7 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
@@ -22,12 +23,9 @@ import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
-import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.NonNullList;
-import net.minecraft.util.Hand;
 import net.minecraft.util.Direction;
-import net.minecraft.util.ActionResultType;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.LockableLootTileEntity;
@@ -44,16 +42,17 @@ import net.minecraft.inventory.container.ChestContainer;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.gurkmod.procedures.GurkNeighbourBlockChangesProcedure;
 import net.mcreator.gurkmod.procedures.GurkBonemealOnBlockRightClickedProcedure;
 import net.mcreator.gurkmod.procedures.GurkBlockAddedProcedure;
 import net.mcreator.gurkmod.GurkmodModElements;
@@ -62,6 +61,7 @@ import javax.annotation.Nullable;
 
 import java.util.stream.Stream;
 import java.util.stream.IntStream;
+import java.util.Random;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
@@ -139,7 +139,7 @@ public class GurkBlock extends GurkmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (0)));
 		}
 
 		@Override
@@ -148,6 +148,7 @@ public class GurkBlock extends GurkmodModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
+			world.getPendingBlockTicks().scheduleTick(pos, this, 1);
 
 			GurkBlockAddedProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
@@ -156,22 +157,33 @@ public class GurkBlock extends GurkmodModElements.ModElement {
 		}
 
 		@Override
-		public ActionResultType onBlockActivated(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity, Hand hand,
-				BlockRayTraceResult hit) {
-			super.onBlockActivated(blockstate, world, pos, entity, hand, hit);
+		public void neighborChanged(BlockState blockstate, World world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+			super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			double hitX = hit.getHitVec().x;
-			double hitY = hit.getHitVec().y;
-			double hitZ = hit.getHitVec().z;
-			Direction direction = hit.getFace();
+			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
+			} else {
+			}
+
+			GurkNeighbourBlockChangesProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+
+		@Override
+		public void tick(BlockState blockstate, ServerWorld world, BlockPos pos, Random random) {
+			super.tick(blockstate, world, pos, random);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
 
 			GurkBonemealOnBlockRightClickedProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			return ActionResultType.SUCCESS;
+			world.getPendingBlockTicks().scheduleTick(pos, this, 1);
 		}
 
 		@Override

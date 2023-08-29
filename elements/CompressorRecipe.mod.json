@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Copperingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TinBlock"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": "CUSTOM:TinBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TinBlock"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BiofuelCompressor"
+    },
+    "name": "gurkpeel_biofuel_compressor",
+    "namespace": "mod"
+  }
+}

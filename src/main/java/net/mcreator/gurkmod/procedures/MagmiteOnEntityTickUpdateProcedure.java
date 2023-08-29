@@ -38,10 +38,12 @@ public class MagmiteOnEntityTickUpdateProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		if (Math.random() == 0) {
-			if (world instanceof World && !world.isRemote()) {
-				ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(MagmaGeodeItem.block));
-				entityToSpawn.setPickupDelay((int) 0);
-				world.addEntity(entityToSpawn);
+			if (Math.random() == 0) {
+				if (world instanceof World && !world.isRemote()) {
+					ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(MagmaGeodeItem.block));
+					entityToSpawn.setPickupDelay((int) 0);
+					world.addEntity(entityToSpawn);
+				}
 			}
 		}
 	}

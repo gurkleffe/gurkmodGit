@@ -66,5 +66,14 @@
         "stream": false
       }
     ]
+  },
+  "blazzard_living": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "gurkmod:blazzard",
+        "stream": false
+      }
+    ]
   }
 }

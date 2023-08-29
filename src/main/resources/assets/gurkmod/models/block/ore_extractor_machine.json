@@ -1,0 +1,10 @@
+{
+  "parent": "gurkmod:custom/oreextractor",
+  "textures": {
+    "all": "gurkmod:blocks/pastamachine_bottom",
+    "particle": "gurkmod:blocks/pastamachine_bottom",
+    "0": "gurkmod:blocks/pastamachine_bottom",
+    "1": "gurkmod:blocks/leg",
+    "2": "gurkmod:blocks/magma"
+  }
+}

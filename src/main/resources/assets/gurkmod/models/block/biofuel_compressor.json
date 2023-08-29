@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gurkmod:blocks/pastamachine_bottom",
+    "up": "gurkmod:blocks/pasta_machine_top",
+    "north": "gurkmod:blocks/pastamachine_front",
+    "east": "gurkmod:blocks/pastamachine_front",
+    "south": "gurkmod:blocks/pastamachine_front",
+    "west": "gurkmod:blocks/pastamachine_front",
+    "particle": "gurkmod:blocks/pastamachine_bottom"
+  }
+}

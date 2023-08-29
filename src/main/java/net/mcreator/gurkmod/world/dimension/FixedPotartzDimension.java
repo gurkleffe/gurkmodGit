@@ -55,7 +55,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
 
-import net.mcreator.gurkmod.procedures.PotartzPlayerEntersDimensionProcedure;
+import net.mcreator.gurkmod.procedures.PotartzPlayerEntersDimension2Procedure;
 import net.mcreator.gurkmod.procedures.FixedPotartzPlayerLeavesDimensionProcedure;
 import net.mcreator.gurkmod.item.FixedPotartzItem;
 import net.mcreator.gurkmod.GurkmodModElements;
@@ -638,7 +638,7 @@ public class FixedPotartzDimension extends GurkmodModElements.ModElement {
 		}
 		if (event.getTo() == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("gurkmod:fixed_potartz"))) {
 
-			PotartzPlayerEntersDimensionProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+			PotartzPlayerEntersDimension2Procedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
 					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}

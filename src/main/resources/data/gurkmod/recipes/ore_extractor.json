@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:tin_block"
+    },
+    "1": {
+      "item": "gurkmod:magma_geode"
+    },
+    "2": {
+      "item": "gurkmod:tin_block"
+    },
+    "3": {
+      "item": "minecraft:obsidian"
+    },
+    "4": {
+      "item": "gurkmod:tin_block"
+    },
+    "5": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "gurkmod:ore_extractor_machine",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pastamachine_bottom",
+        "1": "leg",
+        "2": "magma"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -20,6 +20,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gurkmod:vex_wings",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     },
@@ -42,19 +56,11 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "name": "gurkmod:dark_vex_wings",
-          "weight": 2,
+          "weight": 10,
           "functions": [
             {
               "function": "set_count",

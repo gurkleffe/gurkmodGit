@@ -26,7 +26,7 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "onPlayerEntersDimension": {
-      "name": "PotartzPlayerEntersDimension"
+      "name": "PotartzPlayerEntersDimension2"
     },
     "onPlayerLeavesDimension": {
       "name": "FixedPotartzPlayerLeavesDimension"

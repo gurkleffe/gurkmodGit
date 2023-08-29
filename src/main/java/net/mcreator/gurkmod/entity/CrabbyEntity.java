@@ -46,8 +46,14 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.gurkmod.procedures.CrabbyEntityDiesProcedure;
 import net.mcreator.gurkmod.entity.renderer.CrabbyRenderer;
 import net.mcreator.gurkmod.GurkmodModElements;
+
+import java.util.stream.Stream;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @GurkmodModElements.ModElement.Tag
 public class CrabbyEntity extends GurkmodModElements.ModElement {
@@ -90,9 +96,11 @@ public class CrabbyEntity extends GurkmodModElements.ModElement {
 			biomeCriteria = true;
 		if (new ResourceLocation("warm_ocean").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("desert_lakes").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getSpawns().getSpawner(EntityClassification.CREATURE).add(new MobSpawnInfo.Spawners(entity, 13, 1, 5));
+		event.getSpawns().getSpawner(EntityClassification.CREATURE).add(new MobSpawnInfo.Spawners(entity, 16, 1, 5));
 	}
 
 	@Override
@@ -180,6 +188,19 @@ public class CrabbyEntity extends GurkmodModElements.ModElement {
 			if (source.getDamageType().equals("trident"))
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+
+			CrabbyEntityDiesProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("sourceentity", sourceentity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override

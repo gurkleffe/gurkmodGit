@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "gurkmod:copperingot"
+    },
+    "3": {
+      "item": "gurkmod:tin_block"
+    },
+    "4": {
+      "item": "minecraft:piston"
+    },
+    "5": {
+      "item": "gurkmod:tin_block"
+    },
+    "7": {
+      "item": "gurkmod:tin_block"
+    }
+  },
+  "result": {
+    "item": "gurkmod:biofuel_compressor",
+    "count": 1
+  }
+}

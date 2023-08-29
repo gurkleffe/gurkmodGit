@@ -981,25 +981,6 @@
       "registry_name": "refine_gem_recipe"
     },
     {
-      "name": "PotartzBiome",
-      "type": "biome",
-      "sortid": 145,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potartz_biome"
-    },
-    {
-      "name": "Potartz",
-      "type": "dimension",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potartz",
-      "metadata": {
-        "ep": false
-      }
-    },
-    {
       "name": "EnterPortartz",
       "type": "achievement",
       "sortid": 146,
@@ -1014,22 +995,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_quarts_recipe"
-    },
-    {
-      "name": "PotartzPlayerEntersDimension",
-      "type": "procedure",
-      "sortid": 148,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "potartz_player_enters_dimension",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     },
     {
       "name": "PotartzGemShard",
@@ -1629,7 +1594,7 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -2338,6 +2303,14 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -2427,6 +2400,297 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandshroom_trade"
+    },
+    {
+      "name": "GurkSeedsPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gurk_seeds_player_finishes_using_item",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "GurkNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gurk_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GurkFruitEat",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gurk_fruit_eat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompressorGui",
+      "type": "gui",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressor_gui"
+    },
+    {
+      "name": "ProcessorSlotContentChanges",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processor_slot_content_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BiofuelCompressor",
+      "type": "block",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biofuel_compressor"
+    },
+    {
+      "name": "BabyGurk",
+      "type": "block",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_gurk"
+    },
+    {
+      "name": "BabyGurkGrowEvent",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_gurk_grow_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Biofuel",
+      "type": "item",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biofuel"
+    },
+    {
+      "name": "GurkSeedsTrade",
+      "type": "villagertrade",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gurk_seeds_trade"
+    },
+    {
+      "name": "BiofuelFuel",
+      "type": "itemextension",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biofuel_fuel"
+    },
+    {
+      "name": "ExtractionStarted",
+      "type": "procedure",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extraction_started",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OreExtractor",
+      "type": "gui",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_extractor"
+    },
+    {
+      "name": "OreExtractorMachine",
+      "type": "block",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_extractor_machine"
+    },
+    {
+      "name": "IridiumNugget",
+      "type": "item",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_nugget"
+    },
+    {
+      "name": "IridiumIngotRecip",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iridium_ingot_recip"
+    },
+    {
+      "name": "CompressorRecipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressor_recipe"
+    },
+    {
+      "name": "OreExtractorRecipe",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_extractor_recipe"
+    },
+    {
+      "name": "GurkTemple",
+      "type": "structure",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gurk_temple"
+    },
+    {
+      "name": "RefineNugget",
+      "type": "item",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refine_nugget"
+    },
+    {
+      "name": "QuartsNugget",
+      "type": "item",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarts_nugget"
+    },
+    {
+      "name": "RefinedQuartsCrafting",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_quarts_crafting"
+    },
+    {
+      "name": "RefineGemCrafting",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refine_gem_crafting"
+    },
+    {
+      "name": "Blazzard",
+      "type": "livingentity",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazzard"
+    },
+    {
+      "name": "BlazzardLootTable",
+      "type": "loottable",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazzard_loot_table"
     }
   ],
   "variable_elements": [],
@@ -2486,12 +2750,21 @@
       ],
       "category": "hostile",
       "subtitle": "The second living sound of Magmapers"
+    },
+    {
+      "name": "blazzard_living",
+      "files": [
+        "blazzard"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "sv_se": {
       "item.gurkmod.tiningot": "Tenntacka",
       "entity.gurkmod.kandiz": "Kandiz",
+      "item.gurkmod.biofuel": "Biofuel",
       "item.gurkmod.apple_workbench": "Apple Workbench - Musikskiva",
       "item.minecraft.tipped_arrow.effect.haste": "Pil av superhastighet",
       "item.gurkmod.crabby_spawn_egg": "Crab Spawn Egg",
@@ -2504,8 +2777,10 @@
       "item.gurkmod.potartz_gem_shard": "Potartzsk�rva",
       "block.gurkmod.refine_ore": "F�rfiningsmalm",
       "item.gurkmod.refined_potartz_armor_leggings": "F�rfinade potartzmjukisbyxor",
+      "item.gurkmod.quarts_nugget": "Quarts Nugget",
       "item.gurkmod.bouncy_boots_boots": "Studsst�vlar",
       "block.gurkmod.frostwood_stairs": "Frosttr�dstrappor",
+      "block.gurkmod.baby_gurk": "Gurk Stage 0",
       "entity.gurkmod.hydraka": "Hydraka",
       "subtitles.magmaper_living_2": "The second living sound of Magmapers",
       "subtitles.magmaper_living_1": "Magmaper living sound 1",
@@ -2518,6 +2793,7 @@
       "block.gurkmod.hyjat_fence": "Hyjat Fence",
       "item.gurkmod.powerless_refine_gem": "Urladdad f�rfiningskristall",
       "advancements.enter_portartz.title": "Tr�d in i Potartz",
+      "entity.gurkmod.blazzard": "Blazzard",
       "advancements.time_to_bronze.descr": "Kombinera tenn och koppar p� ett smedjebord f�r att skapa brons!",
       "block.gurkmod.hyjat_planks": "Hyjat Planks",
       "item.gurkmod.diamond_necklace_helmet": "Diamantsmyckeshj�lm",
@@ -2537,6 +2813,7 @@
       "item.gurkmod.gurkpeel": "Gurkpeel",
       "item.minecraft.lingering_potion.effect.long_ytterbi": "Lingering Potion of Ytterbi",
       "item.gurkmod.potartz_gem": "Portartzkristall",
+      "block.gurkmod.ore_extractor_machine": "Ore Extracting Machine",
       "item.gurkmod.bronzesword": "Bronssv�rd",
       "item.gurkmod.diamond_necklace_leggings": "Error",
       "block.gurkmod.iridium_ore": "Iridiummalm",
@@ -2544,6 +2821,7 @@
       "item.gurkmod.blazium": "Blaziumsten",
       "block.gurkmod.gurk": "Gurk Stage 0",
       "item.gurkmod.magmite_spawn_egg": "Magmite Spawn Egg",
+      "subtitles.blazzard_living": "",
       "item.gurkmod.vex_face": "Vex Face",
       "item.gurkmod.bronzeingot": "Bronstacka",
       "block.gurkmod.ytterbium_block": "Block of Ytterbium",
@@ -2564,6 +2842,7 @@
       "item.gurkmod.dark_vex_wings": "Skuggvexvinge",
       "block.gurkmod.blazium_ore": "Blaziummalm",
       "block.gurkmod.hyjat_stairs": "Hyjat Stairs",
+      "item.gurkmod.refine_nugget": "Refine Nugget",
       "block.gurkmod.bronze_block": "Bronsblock",
       "block.gurkmod.blazium_block": "Blaziumstenblock",
       "item.gurkmod.iridium_sword": "Iridiumsv�rd",
@@ -2576,6 +2855,7 @@
       "item.gurkmod.hydraka_spawn_egg": "Skapelse�gg f�r Hydraka",
       "advancements.pancakes.descr": "mmm... pannkakor! Nu vet du receptet.",
       "item.minecraft.splash_potion.effect.long_ytterbi": "Throwable Potion of Ytterbi",
+      "item.gurkmod.blazzard_spawn_egg": "Blazzard Spawn Egg",
       "block.gurkmod.copper": "Kopparmalm",
       "entity.gurkmod.magmaper": "Magmaper",
       "block.gurkmod.quartzdirt": "Kvartsjord",
@@ -2583,7 +2863,6 @@
       "block.gurkmod.potart": "Potart",
       "subtitles.hyjat_ambient": "",
       "block.gurkmod.frostwood_wood": "F�rfrusen stock",
-      "item.gurkmod.potartz": "Potartzportals�ppnare",
       "item.gurkmod.kandiz_spawn_egg": "Kandiz Spawn Egg",
       "advancements.blazium_obtained.descr": "You\u0027ve gatherd your first blazium, an important component in the Potartz Key! Now gather the rest of the components, or get yourself some nice gear!",
       "item.gurkmod.silver_necklace_boots": "error56",
@@ -2629,6 +2908,7 @@
       "item.gurkmod.copperingot": "Koppartacka",
       "item.gurkmod.refined_potartz_armor_chestplate": "F�rfinad portartzbr�stharnesk",
       "item.gurkmod.refined_potartz_armor_boots": "F�rfinade portartzst�vlar",
+      "item.gurkmod.iridium_nugget": "Iridium Nugget",
       "block.gurkmod.frostwood_log": "F�rfrusen stock",
       "item.gurkmod.bouncy_boots_chestplate": "Bouncy Boots Body",
       "item.gurkmod.fixed_potartz": "Key to Potartz",
@@ -2648,6 +2928,7 @@
       "item.gurkmod.gurk_fruit": "Fruit of the Gurk",
       "advancements.craftable_wings.title": "Byggbara vingar?!",
       "advancements.quest_of_hydraka.title": "Quest Of Hydraka",
+      "block.gurkmod.biofuel_compressor": "Biofuel Compressor",
       "item.gurkmod.blazium_armor_leggings": "Blaziumbenskydd",
       "advancements.just_a_normal_flower.descr": "You\u0027re lucky you found this flower! It\u0027s super rare! Now use it to craft a Potartz key!",
       "block.gurkmod.frostwood_fence_gate": "F�rfrusen grind",
@@ -2665,7 +2946,6 @@
       "block.gurkmod.hyjat_leaves": "Hyjat Leaves",
       "block.gurkmod.ytterbium_ore": "Ytterbium Ore",
       "advancements.enter_portartz.descr": "Tr�d in i Portartz",
-      "biome.gurkmod.potartz_biome": "Potartz Surface",
       "subtitles.crab_hurt": "crab.hurt",
       "item.minecraft.potion.effect.haste": "Superhastighet",
       "item.gurkmod.silveringot": "Silvertacka",
@@ -2675,6 +2955,7 @@
     "en_us": {
       "item.gurkmod.tiningot": "Tin Ingot",
       "entity.gurkmod.kandiz": "Kandiz",
+      "item.gurkmod.biofuel": "Biofuel",
       "item.gurkmod.apple_workbench": "Apple Workbench - Music Disc",
       "item.minecraft.tipped_arrow.effect.haste": "Arrow of Super Haste",
       "item.gurkmod.crabby_spawn_egg": "Crab Spawn Egg",
@@ -2687,8 +2968,10 @@
       "item.gurkmod.potartz_gem_shard": "Potartz Gem Shard",
       "item.gurkmod.refined_potartz_armor_leggings": "Refined Potartz Leggings",
       "block.gurkmod.refine_ore": "Refine Ore",
+      "item.gurkmod.quarts_nugget": "Quarts Nugget",
       "item.gurkmod.bouncy_boots_boots": "Bouncy Boots",
       "block.gurkmod.frostwood_stairs": "Frostwood Stairs",
+      "block.gurkmod.baby_gurk": "Actuall Gurk Stage 0",
       "entity.gurkmod.hydraka": "Hydraka",
       "subtitles.magmaper_living_2": "The second living sound of Magmapers",
       "subtitles.magmaper_living_1": "Magmaper living sound 1",
@@ -2701,6 +2984,7 @@
       "block.gurkmod.hyjat_fence": "Hyjat Fence",
       "item.gurkmod.powerless_refine_gem": "Powerless Refine Gem",
       "advancements.enter_portartz.title": "Enter Potartz",
+      "entity.gurkmod.blazzard": "Blazzard",
       "advancements.time_to_bronze.descr": "Use tin and copper in a smithing table to create bronze!",
       "block.gurkmod.hyjat_planks": "Hyjat Planks",
       "item.gurkmod.diamond_necklace_helmet": "Diamond Necklace Helmet",
@@ -2720,6 +3004,7 @@
       "item.gurkmod.gurkpeel": "Gurkpeel",
       "item.minecraft.lingering_potion.effect.long_ytterbi": "Lingering Potion of Ytterbi",
       "item.gurkmod.potartz_gem": "Potartz Gem",
+      "block.gurkmod.ore_extractor_machine": "Ore Extracting Machine",
       "item.gurkmod.bronzesword": "Bronze Sword",
       "item.gurkmod.diamond_necklace_leggings": "Diamond Necklace Leggings",
       "block.gurkmod.iridium_ore": "Iridium Ore",
@@ -2727,6 +3012,7 @@
       "item.gurkmod.blazium": "Blazium",
       "block.gurkmod.gurk": "Gurk Stage 0",
       "item.gurkmod.magmite_spawn_egg": "Magmite Spawn Egg",
+      "subtitles.blazzard_living": "",
       "item.gurkmod.vex_face": "Vex Face",
       "item.gurkmod.bronzeingot": "Bronze Ingot",
       "block.gurkmod.ytterbium_block": "Block of Ytterbium",
@@ -2747,6 +3033,7 @@
       "item.gurkmod.dark_vex_wings": "Dark Vex Wings",
       "block.gurkmod.blazium_ore": "Blazium Ore",
       "block.gurkmod.hyjat_stairs": "Hyjat Stairs",
+      "item.gurkmod.refine_nugget": "Refine Nugget",
       "block.gurkmod.bronze_block": "Bronze Block",
       "block.gurkmod.blazium_block": "Block of Blazium",
       "item.gurkmod.iridium_sword": "Iridium Sword",
@@ -2759,6 +3046,7 @@
       "item.gurkmod.hydraka_spawn_egg": "Hydraka Spawn Egg",
       "advancements.pancakes.descr": "mmm... pancakes! Now you know the recipe!",
       "item.minecraft.splash_potion.effect.long_ytterbi": "Throwable Potion of Ytterbi",
+      "item.gurkmod.blazzard_spawn_egg": "Blazzard Spawn Egg",
       "block.gurkmod.copper": "Copper Ore",
       "entity.gurkmod.magmaper": "Magmaper",
       "block.gurkmod.quartzdirt": "Quartzdirt",
@@ -2766,7 +3054,6 @@
       "block.gurkmod.potart": "Potart",
       "subtitles.hyjat_ambient": "",
       "block.gurkmod.frostwood_wood": "Frostwood Wood",
-      "item.gurkmod.potartz": "Potartz Opener",
       "item.gurkmod.kandiz_spawn_egg": "Kandiz Spawn Egg",
       "advancements.blazium_obtained.descr": "You\u0027ve gatherd your first blazium, an important component in the Potartz Key! Now gather the rest of the components, or get yourself some nice gear!",
       "item.gurkmod.silver_necklace_boots": "Silver Necklace Boots",
@@ -2812,6 +3099,7 @@
       "item.gurkmod.copperingot": "Copper Ingot",
       "item.gurkmod.refined_potartz_armor_chestplate": "Refined Potartz Chestplate",
       "item.gurkmod.refined_potartz_armor_boots": "Refined Potartz Boots",
+      "item.gurkmod.iridium_nugget": "Iridium Nugget",
       "block.gurkmod.frostwood_log": "Frostwood Log",
       "item.gurkmod.bouncy_boots_chestplate": "Bouncy Boots Body",
       "item.gurkmod.fixed_potartz": "Key to Potartz",
@@ -2831,6 +3119,7 @@
       "item.gurkmod.gurk_fruit": "Fruit of the Gurk",
       "advancements.craftable_wings.title": "Craftable Wings!?",
       "advancements.quest_of_hydraka.title": "Quest Of Hydraka",
+      "block.gurkmod.biofuel_compressor": "Gurkpeel Biofuel Compressor",
       "item.gurkmod.blazium_armor_leggings": "Blazium Leggings",
       "advancements.just_a_normal_flower.descr": "You\u0027re lucky you found this flower! It\u0027s super rare! Now use it to craft a Potartz key!",
       "block.gurkmod.frostwood_fence_gate": "Frostwood Fence Gate",
@@ -2848,7 +3137,6 @@
       "block.gurkmod.hyjat_leaves": "Hyjat Leaves",
       "block.gurkmod.ytterbium_ore": "Ytterbium Ore",
       "advancements.enter_portartz.descr": "Enter Potartz...",
-      "biome.gurkmod.potartz_biome": "Potartz Surface",
       "subtitles.crab_hurt": "crab.hurt",
       "item.minecraft.potion.effect.haste": "Super Haste",
       "item.gurkmod.silveringot": "Silver Ingot",

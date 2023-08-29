@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gurkmod:block/ore_extractor_machine"
+    }
+  }
+}

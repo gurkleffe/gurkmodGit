@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gurkmod:quarts_nugget"
+    },
+    "1": {
+      "item": "gurkmod:quarts_nugget"
+    },
+    "2": {
+      "item": "gurkmod:quarts_nugget"
+    },
+    "3": {
+      "item": "gurkmod:quarts_nugget"
+    },
+    "4": {
+      "item": "gurkmod:quarts_nugget"
+    },
+    "5": {
+      "item": "gurkmod:quarts_nugget"
+    },
+    "6": {
+      "item": "gurkmod:quarts_nugget"
+    },
+    "7": {
+      "item": "gurkmod:quarts_nugget"
+    },
+    "8": {
+      "item": "gurkmod:quarts_nugget"
+    }
+  },
+  "result": {
+    "item": "gurkmod:refined_quarts",
+    "count": 1
+  }
+}

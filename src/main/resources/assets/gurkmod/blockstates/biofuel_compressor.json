@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gurkmod:block/biofuel_compressor"
+    },
+    "facing=east": {
+      "model": "gurkmod:block/biofuel_compressor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gurkmod:block/biofuel_compressor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gurkmod:block/biofuel_compressor",
+      "y": 270
+    }
+  }
+}
