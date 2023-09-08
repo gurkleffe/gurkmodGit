@@ -18,7 +18,7 @@ public class ObsidianShardItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public ObsidianShardItem(GurkmodModElements instance) {
-		super(instance, 27);
+		super(instance, 37);
 	}
 
 	@Override

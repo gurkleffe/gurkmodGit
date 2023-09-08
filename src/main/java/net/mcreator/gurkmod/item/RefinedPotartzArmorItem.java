@@ -30,7 +30,7 @@ public class RefinedPotartzArmorItem extends GurkmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public RefinedPotartzArmorItem(GurkmodModElements instance) {
-		super(instance, 44);
+		super(instance, 56);
 	}
 
 	@Override

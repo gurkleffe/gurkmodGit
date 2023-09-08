@@ -26,7 +26,7 @@ public class BlaziumPickaxeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public BlaziumPickaxeItem(GurkmodModElements instance) {
-		super(instance, 57);
+		super(instance, 69);
 	}
 
 	@Override

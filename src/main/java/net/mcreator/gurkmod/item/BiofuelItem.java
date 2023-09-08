@@ -23,7 +23,7 @@ public class BiofuelItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public BiofuelItem(GurkmodModElements instance) {
-		super(instance, 262);
+		super(instance, 98);
 	}
 
 	@Override

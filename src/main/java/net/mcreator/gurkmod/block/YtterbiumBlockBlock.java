@@ -27,7 +27,7 @@ public class YtterbiumBlockBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public YtterbiumBlockBlock(GurkmodModElements instance) {
-		super(instance, 203);
+		super(instance, 23);
 	}
 
 	@Override

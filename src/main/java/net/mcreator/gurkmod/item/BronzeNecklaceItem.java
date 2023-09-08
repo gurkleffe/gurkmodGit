@@ -36,7 +36,7 @@ public class BronzeNecklaceItem extends GurkmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public BronzeNecklaceItem(GurkmodModElements instance) {
-		super(instance, 39);
+		super(instance, 51);
 	}
 
 	@Override

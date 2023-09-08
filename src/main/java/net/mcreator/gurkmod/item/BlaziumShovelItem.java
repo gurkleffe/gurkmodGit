@@ -26,7 +26,7 @@ public class BlaziumShovelItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public BlaziumShovelItem(GurkmodModElements instance) {
-		super(instance, 59);
+		super(instance, 71);
 	}
 
 	@Override

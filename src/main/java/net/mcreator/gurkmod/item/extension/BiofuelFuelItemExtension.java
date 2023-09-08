@@ -18,7 +18,7 @@ public class BiofuelFuelItemExtension {
 			ItemStack itemstack = event.getItemStack();
 			if (itemstack.getItem() == BiofuelItem.block)
 
-				event.setBurnTime(3000);
+				event.setBurnTime(500);
 		}
 	}
 }

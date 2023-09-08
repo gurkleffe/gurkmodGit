@@ -62,7 +62,7 @@ public class PotartBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public PotartBlock(GurkmodModElements instance) {
-		super(instance, 77);
+		super(instance, 101);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -118,8 +118,6 @@ public class PotartBlock extends GurkmodModElements.ModElement {
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("gurkmod:frostwood_forest").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("gurkmod:potartz_biome").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("gurkmod:fixed_potartz_biome").equals(event.getName()))
 			biomeCriteria = true;

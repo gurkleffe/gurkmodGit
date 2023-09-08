@@ -44,7 +44,7 @@ public class CompressorGuiGui extends GurkmodModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public CompressorGuiGui(GurkmodModElements instance) {
-		super(instance, 258);
+		super(instance, 267);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

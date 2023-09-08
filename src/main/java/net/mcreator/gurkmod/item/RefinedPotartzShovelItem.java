@@ -18,7 +18,7 @@ public class RefinedPotartzShovelItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public RefinedPotartzShovelItem(GurkmodModElements instance) {
-		super(instance, 55);
+		super(instance, 67);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class HyjatPressurePlateBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public HyjatPressurePlateBlock(GurkmodModElements instance) {
-		super(instance, 220);
+		super(instance, 106);
 	}
 
 	@Override

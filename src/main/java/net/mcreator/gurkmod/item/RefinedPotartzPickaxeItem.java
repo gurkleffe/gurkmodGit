@@ -18,7 +18,7 @@ public class RefinedPotartzPickaxeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public RefinedPotartzPickaxeItem(GurkmodModElements instance) {
-		super(instance, 53);
+		super(instance, 65);
 	}
 
 	@Override

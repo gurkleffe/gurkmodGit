@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:iron_sword"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "gurkmod:redstone_charge"
+    },
+    "4": {
+      "item": "gurkmod:tiningot"
+    },
+    "5": {
+      "item": "gurkmod:redstone_charge"
+    },
+    "7": {
+      "item": "gurkmod:redstone_battery"
+    }
+  },
+  "result": {
+    "item": "gurkmod:redstone_drill",
+    "count": 1
+  }
+}

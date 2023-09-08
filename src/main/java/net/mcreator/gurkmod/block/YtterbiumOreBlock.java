@@ -49,7 +49,7 @@ public class YtterbiumOreBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public YtterbiumOreBlock(GurkmodModElements instance) {
-		super(instance, 202);
+		super(instance, 22);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

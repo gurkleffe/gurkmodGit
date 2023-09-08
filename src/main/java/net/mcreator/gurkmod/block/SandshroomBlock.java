@@ -58,7 +58,7 @@ public class SandshroomBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public SandshroomBlock(GurkmodModElements instance) {
-		super(instance, 30);
+		super(instance, 40);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -18,7 +18,7 @@
     "enter_portartz": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "gurkmod:potartz_biome"
+        "biome": "gurkmod:fixed_potartz_biome"
       }
     }
   },

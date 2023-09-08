@@ -24,7 +24,7 @@ public class TiningotItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public TiningotItem(GurkmodModElements instance) {
-		super(instance, 22);
+		super(instance, 32);
 	}
 
 	@Override

@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tiningot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:RedstoneCharge"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "CUSTOM:RedstoneCharge"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedstoneBattery"
+    },
+    "name": "redstone_battery",
+    "namespace": "mod"
+  }
+}

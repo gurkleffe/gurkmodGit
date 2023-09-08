@@ -33,7 +33,7 @@ public class HyjatLogBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public HyjatLogBlock(GurkmodModElements instance) {
-		super(instance, 213);
+		super(instance, 25);
 	}
 
 	@Override

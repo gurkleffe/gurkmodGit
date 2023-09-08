@@ -34,7 +34,7 @@ public class TotemOfHydrakaItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public TotemOfHydrakaItem(GurkmodModElements instance) {
-		super(instance, 76);
+		super(instance, 88);
 	}
 
 	@Override

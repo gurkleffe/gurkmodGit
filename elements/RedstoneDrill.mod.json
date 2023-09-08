@@ -1,0 +1,36 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "drill",
+    "customModelName": "drill:default",
+    "name": "Redstone Drill",
+    "specialInfo": [
+      "Powered by redstone batteries"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "RedstoneDrillBlockDestroyedWithTool"
+    }
+  }
+}

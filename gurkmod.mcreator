@@ -11,7 +11,7 @@
     {
       "name": "Tiningot",
       "type": "item",
-      "sortid": 22,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiningot"
@@ -19,7 +19,7 @@
     {
       "name": "Tiningotsmelt",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiningotsmelt"
@@ -27,7 +27,7 @@
     {
       "name": "Piston",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piston"
@@ -43,7 +43,7 @@
     {
       "name": "Copperingot",
       "type": "item",
-      "sortid": 23,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copperingot"
@@ -51,7 +51,7 @@
     {
       "name": "Coppersmelt",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coppersmelt"
@@ -59,7 +59,7 @@
     {
       "name": "Bronzeingot",
       "type": "item",
-      "sortid": 24,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzeingot"
@@ -67,7 +67,7 @@
     {
       "name": "Bronzesword",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzesword"
@@ -75,7 +75,7 @@
     {
       "name": "Bronzeswordrecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzeswordrecipe"
@@ -83,7 +83,7 @@
     {
       "name": "Bronze1",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_1"
@@ -91,7 +91,7 @@
     {
       "name": "Bronze2",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_2"
@@ -99,7 +99,7 @@
     {
       "name": "Bronzepickaxe",
       "type": "tool",
-      "sortid": 45,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzepickaxe"
@@ -107,7 +107,7 @@
     {
       "name": "Bronzepickaxerecipe",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzepickaxerecipe"
@@ -115,7 +115,7 @@
     {
       "name": "Bronzeshovel",
       "type": "tool",
-      "sortid": 47,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzeshovel"
@@ -123,7 +123,7 @@
     {
       "name": "Bronzeaxe",
       "type": "tool",
-      "sortid": 46,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzeaxe"
@@ -131,7 +131,7 @@
     {
       "name": "Bronzehoe",
       "type": "tool",
-      "sortid": 48,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzehoe"
@@ -139,7 +139,7 @@
     {
       "name": "Bronzeshovelrecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzeshovelrecipe"
@@ -147,7 +147,7 @@
     {
       "name": "Bronzeaxerecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzeaxerecipe"
@@ -155,7 +155,7 @@
     {
       "name": "Bronzeaxerecipe2",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzeaxerecipe_2"
@@ -163,7 +163,7 @@
     {
       "name": "Bronzehoerecipe1",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzehoerecipe_1"
@@ -171,7 +171,7 @@
     {
       "name": "Bronzehoerecipe2",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzehoerecipe_2"
@@ -187,7 +187,7 @@
     {
       "name": "Tinblockrecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tinblockrecipe"
@@ -195,7 +195,7 @@
     {
       "name": "Copperblockrecipe",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copperblockrecipe"
@@ -219,7 +219,7 @@
     {
       "name": "Bronzeblockrecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzeblockrecipe"
@@ -227,7 +227,7 @@
     {
       "name": "Bronzeage",
       "type": "achievement",
-      "sortid": 94,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzeage"
@@ -235,7 +235,7 @@
     {
       "name": "TimeToBronze",
       "type": "achievement",
-      "sortid": 95,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_to_bronze"
@@ -243,7 +243,7 @@
     {
       "name": "Bronze3",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_3"
@@ -251,7 +251,7 @@
     {
       "name": "Copper1",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_1"
@@ -259,7 +259,7 @@
     {
       "name": "Tin1",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_1"
@@ -267,7 +267,7 @@
     {
       "name": "PancakeRecipe",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pancake_recipe"
@@ -275,7 +275,7 @@
     {
       "name": "BronzeNecklace",
       "type": "armor",
-      "sortid": 39,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronze_necklace",
@@ -289,7 +289,7 @@
     {
       "name": "AppleWorkbench",
       "type": "musicdisc",
-      "sortid": 67,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apple_workbench"
@@ -297,7 +297,7 @@
     {
       "name": "BronzenecklaceRecipe",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bronzenecklace_recipe"
@@ -305,7 +305,7 @@
     {
       "name": "Tiningotsmelt2",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiningotsmelt_2"
@@ -313,7 +313,7 @@
     {
       "name": "Copperingotsmelt2",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copperingotsmelt_2"
@@ -321,7 +321,7 @@
     {
       "name": "PANCAKES",
       "type": "achievement",
-      "sortid": 103,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pancakes"
@@ -329,7 +329,7 @@
     {
       "name": "DiamondNecklace",
       "type": "armor",
-      "sortid": 41,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_necklace",
@@ -343,7 +343,7 @@
     {
       "name": "DiamondnecklaceRecipe",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamondnecklace_recipe"
@@ -351,7 +351,7 @@
     {
       "name": "VexLoot",
       "type": "loottable",
-      "sortid": 105,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vex_loot"
@@ -359,7 +359,7 @@
     {
       "name": "VexWings",
       "type": "item",
-      "sortid": 65,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vex_wings"
@@ -367,7 +367,7 @@
     {
       "name": "DarkVexWings",
       "type": "item",
-      "sortid": 66,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_vex_wings"
@@ -375,7 +375,7 @@
     {
       "name": "ElytraRecipe",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elytra_recipe"
@@ -383,7 +383,7 @@
     {
       "name": "DarkVexBlade",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_vex_blade"
@@ -391,7 +391,7 @@
     {
       "name": "VexHeart",
       "type": "item",
-      "sortid": 71,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vex_heart"
@@ -399,7 +399,7 @@
     {
       "name": "DarkVexBladeRecipe",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_vex_blade_recipe"
@@ -407,7 +407,7 @@
     {
       "name": "PinkDyeRecipe",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_dye_recipe"
@@ -415,7 +415,7 @@
     {
       "name": "VexFace",
       "type": "item",
-      "sortid": 109,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vex_face"
@@ -423,7 +423,7 @@
     {
       "name": "KillVex",
       "type": "achievement",
-      "sortid": 110,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kill_vex"
@@ -431,7 +431,7 @@
     {
       "name": "CraftableWings",
       "type": "achievement",
-      "sortid": 111,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craftable_wings"
@@ -447,7 +447,7 @@
     {
       "name": "Silveringot",
       "type": "item",
-      "sortid": 25,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silveringot"
@@ -455,7 +455,7 @@
     {
       "name": "SilverSmel1",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_smel_1"
@@ -463,7 +463,7 @@
     {
       "name": "SilverSmelt2",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_smelt_2"
@@ -471,7 +471,7 @@
     {
       "name": "SilverSword",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_sword"
@@ -479,7 +479,7 @@
     {
       "name": "SilverSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_sword_living_entity_is_hit_with_tool",
@@ -511,7 +511,7 @@
     {
       "name": "SilverswordRecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silversword_recipe"
@@ -519,7 +519,7 @@
     {
       "name": "VexFortress",
       "type": "structure",
-      "sortid": 116,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vex_fortress"
@@ -527,7 +527,7 @@
     {
       "name": "SilverNecklace",
       "type": "armor",
-      "sortid": 40,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_necklace",
@@ -541,7 +541,7 @@
     {
       "name": "SilverNecklaceRecipe",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_necklace_recipe"
@@ -613,7 +613,7 @@
     {
       "name": "FrostwoodItemsTag",
       "type": "tag",
-      "sortid": 118,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_items_tag"
@@ -621,7 +621,7 @@
     {
       "name": "FrostwoodWoodRecipe",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_wood_recipe"
@@ -629,7 +629,7 @@
     {
       "name": "FrostwoodPlanksRecipe",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_planks_recipe"
@@ -637,7 +637,7 @@
     {
       "name": "FrostwoodStairsRecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_stairs_recipe"
@@ -645,7 +645,7 @@
     {
       "name": "FrostwoodSlabRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_slab_recipe"
@@ -653,7 +653,7 @@
     {
       "name": "FrostwoodFenceRecipe",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_fence_recipe"
@@ -661,7 +661,7 @@
     {
       "name": "FrostwoodFenceGateRecipe",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_fence_gate_recipe"
@@ -669,7 +669,7 @@
     {
       "name": "FrostwoodStickRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_stick_recipe"
@@ -677,7 +677,7 @@
     {
       "name": "FrostwoodForest",
       "type": "biome",
-      "sortid": 126,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_forest"
@@ -685,7 +685,7 @@
     {
       "name": "TheFrozenBiome",
       "type": "achievement",
-      "sortid": 127,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_frozen_biome"
@@ -693,7 +693,7 @@
     {
       "name": "ObsidianShard",
       "type": "item",
-      "sortid": 27,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_shard"
@@ -701,7 +701,7 @@
     {
       "name": "ObsidianShardRecipe",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_shard_recipe"
@@ -709,7 +709,7 @@
     {
       "name": "ObsidianRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_recipe"
@@ -717,7 +717,7 @@
     {
       "name": "IridiumIngot",
       "type": "item",
-      "sortid": 26,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_ingot"
@@ -733,7 +733,7 @@
     {
       "name": "IridiumPickaxe",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_pickaxe"
@@ -741,7 +741,7 @@
     {
       "name": "IridiumAxe",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_axe"
@@ -749,7 +749,7 @@
     {
       "name": "IridiumSword",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_sword"
@@ -757,7 +757,7 @@
     {
       "name": "IridiumShovel",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_shovel"
@@ -765,7 +765,7 @@
     {
       "name": "IridiumHoe",
       "type": "tool",
-      "sortid": 52,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_hoe"
@@ -773,7 +773,7 @@
     {
       "name": "IridiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_pickaxe_recipe"
@@ -781,7 +781,7 @@
     {
       "name": "IridiumAxeRecipe",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_axe_recipe"
@@ -789,7 +789,7 @@
     {
       "name": "IridiumSwordRecipe",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_sword_recipe"
@@ -797,7 +797,7 @@
     {
       "name": "IridiumShovelRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_shovel_recipe"
@@ -805,7 +805,7 @@
     {
       "name": "IridiumHoeRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_hoe_recipe"
@@ -813,7 +813,7 @@
     {
       "name": "IridiumSmelt",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_smelt"
@@ -821,7 +821,7 @@
     {
       "name": "SilverfishLoot",
       "type": "loottable",
-      "sortid": 136,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silverfish_loot"
@@ -829,7 +829,7 @@
     {
       "name": "SilverNugget",
       "type": "item",
-      "sortid": 28,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_nugget"
@@ -837,7 +837,7 @@
     {
       "name": "SilverNuggetRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_nugget_recipe"
@@ -845,7 +845,7 @@
     {
       "name": "SilverRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_recipe"
@@ -853,7 +853,7 @@
     {
       "name": "Frostslime",
       "type": "livingentity",
-      "sortid": 74,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostslime"
@@ -861,7 +861,7 @@
     {
       "name": "FrozenSlime",
       "type": "item",
-      "sortid": 29,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frozen_slime"
@@ -869,7 +869,7 @@
     {
       "name": "BouncyBootsBootsTickEvent",
       "type": "procedure",
-      "sortid": 139,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bouncy_boots_boots_tick_event",
@@ -889,7 +889,7 @@
     {
       "name": "BouncyBoots",
       "type": "armor",
-      "sortid": 42,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bouncy_boots",
@@ -903,7 +903,7 @@
     {
       "name": "BouncyBootsRecipe",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bouncy_boots_recipe"
@@ -911,7 +911,7 @@
     {
       "name": "HasteOnPotionActiveTick",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "haste_on_potion_active_tick",
@@ -927,7 +927,7 @@
     {
       "name": "HastePotionItem",
       "type": "potion",
-      "sortid": 142,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "haste"
@@ -935,7 +935,7 @@
     {
       "name": "ExperienceBottleRecipe",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "experience_bottle_recipe"
@@ -959,7 +959,7 @@
     {
       "name": "RefineGem",
       "type": "item",
-      "sortid": 68,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refine_gem"
@@ -967,7 +967,7 @@
     {
       "name": "PowerlessRefineGem",
       "type": "item",
-      "sortid": 69,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "powerless_refine_gem"
@@ -975,7 +975,7 @@
     {
       "name": "RefineGemRecipe",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refine_gem_recipe"
@@ -983,7 +983,7 @@
     {
       "name": "EnterPortartz",
       "type": "achievement",
-      "sortid": 146,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enter_portartz"
@@ -991,7 +991,7 @@
     {
       "name": "RefinedQuartsRecipe",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_quarts_recipe"
@@ -999,7 +999,7 @@
     {
       "name": "PotartzGemShard",
       "type": "item",
-      "sortid": 70,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potartz_gem_shard"
@@ -1007,7 +1007,7 @@
     {
       "name": "PotartzGem",
       "type": "item",
-      "sortid": 72,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potartz_gem"
@@ -1015,7 +1015,7 @@
     {
       "name": "RefinedPotartzPickaxe",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_pickaxe"
@@ -1023,7 +1023,7 @@
     {
       "name": "RefinedPotartzAxe",
       "type": "tool",
-      "sortid": 54,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_axe"
@@ -1031,7 +1031,7 @@
     {
       "name": "RefinedPotartzSword",
       "type": "tool",
-      "sortid": 37,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_sword"
@@ -1039,7 +1039,7 @@
     {
       "name": "RefinedPotartzShovel",
       "type": "tool",
-      "sortid": 55,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_shovel"
@@ -1047,7 +1047,7 @@
     {
       "name": "RefinedPotartzHoe",
       "type": "tool",
-      "sortid": 56,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_hoe"
@@ -1055,7 +1055,7 @@
     {
       "name": "RefinedPotartzPickaxeRecipe",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_pickaxe_recipe"
@@ -1063,7 +1063,7 @@
     {
       "name": "RefinedPotartzAxeRecipe",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_axe_recipe"
@@ -1071,7 +1071,7 @@
     {
       "name": "RefinedPotartzSwordRecipe",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_sword_recipe"
@@ -1079,7 +1079,7 @@
     {
       "name": "RefinedPotartzShovelRecipe",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_shovel_recipe"
@@ -1087,7 +1087,7 @@
     {
       "name": "RefinedPotartzHoeRecipe",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_hoe_recipe"
@@ -1095,7 +1095,7 @@
     {
       "name": "RefinedPotartzArmor",
       "type": "armor",
-      "sortid": 44,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_armor",
@@ -1109,7 +1109,7 @@
     {
       "name": "RefinedPotartzArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_armor_helmet_recipe"
@@ -1117,7 +1117,7 @@
     {
       "name": "RefinedPotartzArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_armor_body_recipe"
@@ -1125,7 +1125,7 @@
     {
       "name": "RefinedPotartzArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_armor_leggings_recipe"
@@ -1133,7 +1133,7 @@
     {
       "name": "RefinedPotartzArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_potartz_armor_boots_recipe"
@@ -1141,7 +1141,7 @@
     {
       "name": "RefinedQuartzLootTable",
       "type": "loottable",
-      "sortid": 158,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_quartz_loot_table"
@@ -1149,7 +1149,7 @@
     {
       "name": "PotartzGemRecipe",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potartz_gem_recipe"
@@ -1157,7 +1157,7 @@
     {
       "name": "PotartzGemLootTable",
       "type": "loottable",
-      "sortid": 160,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potartz_gem_loot_table"
@@ -1165,7 +1165,7 @@
     {
       "name": "PotartzPlayerEntersDimension2",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potartz_player_enters_dimension_2",
@@ -1197,7 +1197,7 @@
     {
       "name": "Potart",
       "type": "plant",
-      "sortid": 77,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potart"
@@ -1205,7 +1205,7 @@
     {
       "name": "Glowplant",
       "type": "plant",
-      "sortid": 78,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowplant"
@@ -1213,7 +1213,7 @@
     {
       "name": "GlowflowerFoodEaten",
       "type": "procedure",
-      "sortid": 163,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowflower_food_eaten",
@@ -1229,7 +1229,7 @@
     {
       "name": "GlowplantLoottable",
       "type": "loottable",
-      "sortid": 164,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowplant_loottable"
@@ -1237,7 +1237,7 @@
     {
       "name": "Chanterelle",
       "type": "plant",
-      "sortid": 31,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chanterelle"
@@ -1245,7 +1245,7 @@
     {
       "name": "MorelMushroom",
       "type": "plant",
-      "sortid": 32,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "morel_mushroom"
@@ -1253,7 +1253,7 @@
     {
       "name": "Sandshroom",
       "type": "plant",
-      "sortid": 30,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandshroom"
@@ -1261,7 +1261,7 @@
     {
       "name": "StewMushroom",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stew_mushroom"
@@ -1269,7 +1269,7 @@
     {
       "name": "CookChanterelle",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cook_chanterelle"
@@ -1277,7 +1277,7 @@
     {
       "name": "Blazium",
       "type": "item",
-      "sortid": 73,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium"
@@ -1301,7 +1301,7 @@
     {
       "name": "BlaziumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_ore_block_recipe"
@@ -1309,7 +1309,7 @@
     {
       "name": "BlaziumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_block_ore_recipe"
@@ -1317,7 +1317,7 @@
     {
       "name": "BlaziumOreSmelting",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_ore_smelting"
@@ -1325,7 +1325,7 @@
     {
       "name": "BlaziumPickaxe",
       "type": "tool",
-      "sortid": 57,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_pickaxe"
@@ -1333,7 +1333,7 @@
     {
       "name": "BlaziumAxe",
       "type": "tool",
-      "sortid": 58,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_axe"
@@ -1341,7 +1341,7 @@
     {
       "name": "BlaziumSword",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_sword"
@@ -1349,7 +1349,7 @@
     {
       "name": "BlaziumShovel",
       "type": "tool",
-      "sortid": 59,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_shovel"
@@ -1357,7 +1357,7 @@
     {
       "name": "BlaziumHoe",
       "type": "tool",
-      "sortid": 60,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_hoe"
@@ -1365,7 +1365,7 @@
     {
       "name": "BlaziumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_pickaxe_recipe"
@@ -1373,7 +1373,7 @@
     {
       "name": "BlaziumAxeRecipe",
       "type": "recipe",
-      "sortid": 171,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_axe_recipe"
@@ -1381,7 +1381,7 @@
     {
       "name": "BlaziumSwordRecipe",
       "type": "recipe",
-      "sortid": 172,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_sword_recipe"
@@ -1389,7 +1389,7 @@
     {
       "name": "BlaziumShovelRecipe",
       "type": "recipe",
-      "sortid": 173,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_shovel_recipe"
@@ -1397,7 +1397,7 @@
     {
       "name": "BlaziumHoeRecipe",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_hoe_recipe"
@@ -1405,7 +1405,7 @@
     {
       "name": "BlaziumArmor",
       "type": "armor",
-      "sortid": 43,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_armor",
@@ -1419,7 +1419,7 @@
     {
       "name": "BlaziumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_armor_helmet_recipe"
@@ -1427,7 +1427,7 @@
     {
       "name": "BlaziumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_armor_body_recipe"
@@ -1435,7 +1435,7 @@
     {
       "name": "BlaziumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 177,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_armor_leggings_recipe"
@@ -1443,7 +1443,7 @@
     {
       "name": "BlaziumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_armor_boots_recipe"
@@ -1451,7 +1451,7 @@
     {
       "name": "BlaziumBlockEntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 179,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_block_entity_walks_on_the_block",
@@ -1467,7 +1467,7 @@
     {
       "name": "Crabshroom",
       "type": "tag",
-      "sortid": 180,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crabshroom"
@@ -1475,7 +1475,7 @@
     {
       "name": "Crab",
       "type": "livingentity",
-      "sortid": 75,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydraka"
@@ -1483,7 +1483,7 @@
     {
       "name": "Haste",
       "type": "potioneffect",
-      "sortid": 181,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "haste"
@@ -1491,7 +1491,7 @@
     {
       "name": "BlaziumLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 182,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_living_entity_is_hit_with_tool",
@@ -1507,7 +1507,7 @@
     {
       "name": "TotemOfHydraka",
       "type": "item",
-      "sortid": 76,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "totem_of_hydraka"
@@ -1515,7 +1515,7 @@
     {
       "name": "HydrakaTotemRecipe",
       "type": "recipe",
-      "sortid": 183,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydraka_totem_recipe"
@@ -1523,7 +1523,7 @@
     {
       "name": "CrabClaw",
       "type": "item",
-      "sortid": 184,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crab_claw"
@@ -1531,7 +1531,7 @@
     {
       "name": "Crabby",
       "type": "livingentity",
-      "sortid": 185,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crabby"
@@ -1539,7 +1539,7 @@
     {
       "name": "FrostwoodCraftingTable",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "frostwood_crafting_table"
@@ -1547,7 +1547,7 @@
     {
       "name": "CrabbyLoot",
       "type": "loottable",
-      "sortid": 187,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crabby_loot"
@@ -1555,7 +1555,7 @@
     {
       "name": "TotemOfHydrakaRightClickedInAir",
       "type": "procedure",
-      "sortid": 188,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "totem_of_hydraka_right_clicked_in_air",
@@ -1587,7 +1587,7 @@
     {
       "name": "CrabbyEntityDies",
       "type": "procedure",
-      "sortid": 189,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crabby_entity_dies",
@@ -1603,7 +1603,7 @@
     {
       "name": "BeaverPainting",
       "type": "painting",
-      "sortid": 190,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beaver_painting"
@@ -1611,7 +1611,7 @@
     {
       "name": "FixedPotartz",
       "type": "dimension",
-      "sortid": 191,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fixed_potartz",
@@ -1622,7 +1622,7 @@
     {
       "name": "FixedPotartzBiome",
       "type": "biome",
-      "sortid": 192,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fixed_potartz_biome"
@@ -1630,7 +1630,7 @@
     {
       "name": "HydrakaOrb",
       "type": "item",
-      "sortid": 193,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydraka_orb"
@@ -1638,7 +1638,7 @@
     {
       "name": "PotartzKeyRecipe",
       "type": "recipe",
-      "sortid": 194,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "potartz_key_recipe"
@@ -1646,7 +1646,7 @@
     {
       "name": "HydrakaArmor",
       "type": "armor",
-      "sortid": 195,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydraka_armor",
@@ -1660,7 +1660,7 @@
     {
       "name": "HydrakaArmorHelmetTickEvent",
       "type": "procedure",
-      "sortid": 195,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydraka_armor_helmet_tick_event",
@@ -1676,7 +1676,7 @@
     {
       "name": "HydrakaArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 196,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydraka_armor_body_tick_event",
@@ -1692,7 +1692,7 @@
     {
       "name": "FixedPotartzPlayerLeavesDimension",
       "type": "procedure",
-      "sortid": 197,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fixed_potartz_player_leaves_dimension",
@@ -1708,7 +1708,7 @@
     {
       "name": "Kandiz",
       "type": "livingentity",
-      "sortid": 198,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kandiz"
@@ -1716,7 +1716,7 @@
     {
       "name": "HydrakaCrown",
       "type": "recipe",
-      "sortid": 199,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydraka_crown"
@@ -1724,7 +1724,7 @@
     {
       "name": "HydrakaNecklace",
       "type": "recipe",
-      "sortid": 200,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydraka_necklace"
@@ -1732,7 +1732,7 @@
     {
       "name": "YtterbiumIngot",
       "type": "item",
-      "sortid": 201,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbium_ingot"
@@ -1740,7 +1740,7 @@
     {
       "name": "YtterbiumOre",
       "type": "block",
-      "sortid": 202,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbium_ore"
@@ -1748,7 +1748,7 @@
     {
       "name": "YtterbiumBlock",
       "type": "block",
-      "sortid": 203,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbium_block"
@@ -1756,7 +1756,7 @@
     {
       "name": "YtterbiumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 204,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbium_ore_block_recipe"
@@ -1764,7 +1764,7 @@
     {
       "name": "YtterbiumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 205,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbium_block_ore_recipe"
@@ -1772,7 +1772,7 @@
     {
       "name": "YtterbiumOreSmelting",
       "type": "recipe",
-      "sortid": 206,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbium_ore_smelting"
@@ -1780,7 +1780,7 @@
     {
       "name": "YtterbitedOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 207,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbited_on_effect_active_tick",
@@ -1796,7 +1796,7 @@
     {
       "name": "YtterbitedEffectExpires",
       "type": "procedure",
-      "sortid": 208,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbited_effect_expires",
@@ -1812,7 +1812,7 @@
     {
       "name": "Ytterbited",
       "type": "potioneffect",
-      "sortid": 207,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbited"
@@ -1820,7 +1820,7 @@
     {
       "name": "Ytterbi",
       "type": "potion",
-      "sortid": 207,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbi"
@@ -1828,7 +1828,7 @@
     {
       "name": "YtterbiPotion",
       "type": "recipe",
-      "sortid": 209,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ytterbi_potion"
@@ -1836,7 +1836,7 @@
     {
       "name": "LongYtterbi",
       "type": "potion",
-      "sortid": 210,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "long_ytterbi"
@@ -1844,7 +1844,7 @@
     {
       "name": "LongYtterbiPotion",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "long_ytterbi_potion"
@@ -1852,7 +1852,7 @@
     {
       "name": "HyjatWood",
       "type": "block",
-      "sortid": 212,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_wood"
@@ -1860,7 +1860,7 @@
     {
       "name": "HyjatLog",
       "type": "block",
-      "sortid": 213,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_log"
@@ -1868,7 +1868,7 @@
     {
       "name": "HyjatPlanks",
       "type": "block",
-      "sortid": 214,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_planks"
@@ -1876,7 +1876,7 @@
     {
       "name": "HyjatLeaves",
       "type": "block",
-      "sortid": 215,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_leaves"
@@ -1884,7 +1884,7 @@
     {
       "name": "HyjatStairs",
       "type": "block",
-      "sortid": 216,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_stairs"
@@ -1892,7 +1892,7 @@
     {
       "name": "HyjatSlab",
       "type": "block",
-      "sortid": 217,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_slab"
@@ -1900,7 +1900,7 @@
     {
       "name": "HyjatFence",
       "type": "block",
-      "sortid": 218,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_fence"
@@ -1908,7 +1908,7 @@
     {
       "name": "HyjatFenceGate",
       "type": "block",
-      "sortid": 219,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_fence_gate"
@@ -1916,7 +1916,7 @@
     {
       "name": "HyjatPressurePlate",
       "type": "block",
-      "sortid": 220,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_pressure_plate"
@@ -1924,7 +1924,7 @@
     {
       "name": "HyjatButton",
       "type": "block",
-      "sortid": 221,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_button"
@@ -1932,7 +1932,7 @@
     {
       "name": "HyjatItemsTag",
       "type": "tag",
-      "sortid": 222,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_items_tag"
@@ -1940,7 +1940,7 @@
     {
       "name": "HyjatWoodRecipe",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_wood_recipe"
@@ -1948,7 +1948,7 @@
     {
       "name": "HyjatPlanksRecipe",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_planks_recipe"
@@ -1956,7 +1956,7 @@
     {
       "name": "HyjatStairsRecipe",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_stairs_recipe"
@@ -1964,7 +1964,7 @@
     {
       "name": "HyjatSlabRecipe",
       "type": "recipe",
-      "sortid": 226,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_slab_recipe"
@@ -1972,7 +1972,7 @@
     {
       "name": "HyjatFenceRecipe",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_fence_recipe"
@@ -1980,7 +1980,7 @@
     {
       "name": "HyjatFenceGateRecipe",
       "type": "recipe",
-      "sortid": 228,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_fence_gate_recipe"
@@ -1988,7 +1988,7 @@
     {
       "name": "HyjatPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 229,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_pressure_plate_recipe"
@@ -1996,7 +1996,7 @@
     {
       "name": "HyjatButtonRecipe",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_button_recipe"
@@ -2004,7 +2004,7 @@
     {
       "name": "HyjatStickRecipe",
       "type": "recipe",
-      "sortid": 231,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_stick_recipe"
@@ -2012,7 +2012,7 @@
     {
       "name": "HyjatForest",
       "type": "biome",
-      "sortid": 232,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_forest"
@@ -2020,7 +2020,7 @@
     {
       "name": "HyjatTree1",
       "type": "structure",
-      "sortid": 234,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_tree_1"
@@ -2028,7 +2028,7 @@
     {
       "name": "HyjatTree2",
       "type": "structure",
-      "sortid": 235,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyjat_tree_2"
@@ -2036,7 +2036,7 @@
     {
       "name": "MagmaperPlayerCollidesWithThisEntity",
       "type": "procedure",
-      "sortid": 236,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmaper_player_collides_with_this_entity",
@@ -2064,7 +2064,7 @@
     {
       "name": "MagmaperOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 237,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmaper_on_entity_tick_update",
@@ -2092,7 +2092,7 @@
     {
       "name": "Magmaper",
       "type": "livingentity",
-      "sortid": 236,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmaper"
@@ -2100,7 +2100,7 @@
     {
       "name": "Magmite",
       "type": "livingentity",
-      "sortid": 238,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmite"
@@ -2108,7 +2108,7 @@
     {
       "name": "MagmaGeode",
       "type": "item",
-      "sortid": 239,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magma_geode"
@@ -2116,7 +2116,7 @@
     {
       "name": "MagmiteOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 240,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmite_on_entity_tick_update",
@@ -2144,7 +2144,7 @@
     {
       "name": "QuestOfHydraka",
       "type": "achievement",
-      "sortid": 241,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quest_of_hydraka"
@@ -2152,7 +2152,7 @@
     {
       "name": "HydrakaSlain",
       "type": "achievement",
-      "sortid": 242,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydraka_slain"
@@ -2160,7 +2160,7 @@
     {
       "name": "BlaziumObtained",
       "type": "achievement",
-      "sortid": 243,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazium_obtained"
@@ -2168,7 +2168,7 @@
     {
       "name": "JustANormalFlower",
       "type": "achievement",
-      "sortid": 244,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "just_a_normal_flower"
@@ -2176,7 +2176,7 @@
     {
       "name": "Pancake",
       "type": "item",
-      "sortid": 245,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pancake"
@@ -2184,7 +2184,7 @@
     {
       "name": "Glowflower",
       "type": "item",
-      "sortid": 246,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowflower"
@@ -2192,7 +2192,7 @@
     {
       "name": "DriedChanterelle",
       "type": "item",
-      "sortid": 247,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dried_chanterelle"
@@ -2200,7 +2200,7 @@
     {
       "name": "Pancaketrade",
       "type": "villagertrade",
-      "sortid": 248,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pancaketrade"
@@ -2208,7 +2208,7 @@
     {
       "name": "GurkBlockAdded",
       "type": "procedure",
-      "sortid": 249,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_block_added",
@@ -2236,7 +2236,7 @@
     {
       "name": "Gurk",
       "type": "block",
-      "sortid": 249,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk"
@@ -2244,7 +2244,7 @@
     {
       "name": "Gurkmitfruit",
       "type": "block",
-      "sortid": 250,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurkmitfruit"
@@ -2252,7 +2252,7 @@
     {
       "name": "Gurkpeel",
       "type": "item",
-      "sortid": 251,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurkpeel"
@@ -2260,7 +2260,7 @@
     {
       "name": "GurkFruit",
       "type": "item",
-      "sortid": 251,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_fruit"
@@ -2268,7 +2268,7 @@
     {
       "name": "GurkOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 250,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_on_block_right_clicked",
@@ -2296,7 +2296,7 @@
     {
       "name": "GurkSeedsRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 252,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_seeds_rightclicked_on_block",
@@ -2332,7 +2332,7 @@
     {
       "name": "GurkSeeds",
       "type": "item",
-      "sortid": 252,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_seeds"
@@ -2340,7 +2340,7 @@
     {
       "name": "GurkBonemealOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 253,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_bonemeal_on_block_right_clicked",
@@ -2368,7 +2368,7 @@
     {
       "name": "GurkmitfruitOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 251,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurkmitfruit_on_block_right_clicked",
@@ -2396,7 +2396,7 @@
     {
       "name": "SandshroomTrade",
       "type": "villagertrade",
-      "sortid": 254,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandshroom_trade"
@@ -2404,7 +2404,7 @@
     {
       "name": "GurkSeedsPlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 255,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_seeds_player_finishes_using_item",
@@ -2415,7 +2415,7 @@
     {
       "name": "GurkNeighbourBlockChanges",
       "type": "procedure",
-      "sortid": 256,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_neighbour_block_changes",
@@ -2443,7 +2443,7 @@
     {
       "name": "GurkFruitEat",
       "type": "procedure",
-      "sortid": 257,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_fruit_eat",
@@ -2459,7 +2459,7 @@
     {
       "name": "CompressorGui",
       "type": "gui",
-      "sortid": 258,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressor_gui"
@@ -2467,7 +2467,7 @@
     {
       "name": "ProcessorSlotContentChanges",
       "type": "procedure",
-      "sortid": 259,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "processor_slot_content_changes",
@@ -2495,7 +2495,7 @@
     {
       "name": "BiofuelCompressor",
       "type": "block",
-      "sortid": 258,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biofuel_compressor"
@@ -2503,7 +2503,7 @@
     {
       "name": "BabyGurk",
       "type": "block",
-      "sortid": 260,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baby_gurk"
@@ -2511,7 +2511,7 @@
     {
       "name": "BabyGurkGrowEvent",
       "type": "procedure",
-      "sortid": 261,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baby_gurk_grow_event",
@@ -2539,7 +2539,7 @@
     {
       "name": "Biofuel",
       "type": "item",
-      "sortid": 262,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biofuel"
@@ -2547,7 +2547,7 @@
     {
       "name": "GurkSeedsTrade",
       "type": "villagertrade",
-      "sortid": 263,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_seeds_trade"
@@ -2555,7 +2555,7 @@
     {
       "name": "BiofuelFuel",
       "type": "itemextension",
-      "sortid": 264,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biofuel_fuel"
@@ -2563,7 +2563,7 @@
     {
       "name": "ExtractionStarted",
       "type": "procedure",
-      "sortid": 265,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "extraction_started",
@@ -2591,7 +2591,7 @@
     {
       "name": "OreExtractor",
       "type": "gui",
-      "sortid": 265,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_extractor"
@@ -2599,7 +2599,7 @@
     {
       "name": "OreExtractorMachine",
       "type": "block",
-      "sortid": 266,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_extractor_machine"
@@ -2607,7 +2607,7 @@
     {
       "name": "IridiumNugget",
       "type": "item",
-      "sortid": 267,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_nugget"
@@ -2615,7 +2615,7 @@
     {
       "name": "IridiumIngotRecip",
       "type": "recipe",
-      "sortid": 268,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iridium_ingot_recip"
@@ -2623,7 +2623,7 @@
     {
       "name": "CompressorRecipe",
       "type": "recipe",
-      "sortid": 269,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressor_recipe"
@@ -2631,7 +2631,7 @@
     {
       "name": "OreExtractorRecipe",
       "type": "recipe",
-      "sortid": 270,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_extractor_recipe"
@@ -2639,7 +2639,7 @@
     {
       "name": "GurkTemple",
       "type": "structure",
-      "sortid": 271,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gurk_temple"
@@ -2647,7 +2647,7 @@
     {
       "name": "RefineNugget",
       "type": "item",
-      "sortid": 272,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refine_nugget"
@@ -2655,7 +2655,7 @@
     {
       "name": "QuartsNugget",
       "type": "item",
-      "sortid": 273,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quarts_nugget"
@@ -2663,7 +2663,7 @@
     {
       "name": "RefinedQuartsCrafting",
       "type": "recipe",
-      "sortid": 274,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refined_quarts_crafting"
@@ -2671,7 +2671,7 @@
     {
       "name": "RefineGemCrafting",
       "type": "recipe",
-      "sortid": 275,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "refine_gem_crafting"
@@ -2679,7 +2679,7 @@
     {
       "name": "Blazzard",
       "type": "livingentity",
-      "sortid": 276,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazzard"
@@ -2687,10 +2687,278 @@
     {
       "name": "BlazzardLootTable",
       "type": "loottable",
-      "sortid": 277,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazzard_loot_table"
+    },
+    {
+      "name": "InfusedCoal",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infused_coal"
+    },
+    {
+      "name": "InfusedCoalBurn",
+      "type": "itemextension",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infused_coal_burn"
+    },
+    {
+      "name": "InfusedCoalRecipe",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infused_coal_recipe"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks"
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_blocks"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks"
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_items"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items"
+    },
+    {
+      "name": "AroniaGrow",
+      "type": "procedure",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aronia_grow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aronia",
+      "type": "plant",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aronia"
+    },
+    {
+      "name": "AroniaBerries",
+      "type": "plant",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aronia_berries"
+    },
+    {
+      "name": "AroniaBerry",
+      "type": "item",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aronia_berry"
+    },
+    {
+      "name": "AroniaBushRightclicked",
+      "type": "procedure",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aronia_bush_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedstoneDrillBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_drill_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedstoneDrill",
+      "type": "tool",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_drill"
+    },
+    {
+      "name": "RedstoneCharge",
+      "type": "item",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_charge"
+    },
+    {
+      "name": "RedstoneChargeRecipe",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_charge_recipe"
+    },
+    {
+      "name": "RedstoneBattery",
+      "type": "item",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_battery"
+    },
+    {
+      "name": "RedstoneDrillRepair",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_drill_repair"
+    },
+    {
+      "name": "RedstoneDrillRecipe",
+      "type": "recipe",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_drill_recipe"
+    },
+    {
+      "name": "RedstoneBatteryRecipe",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_battery_recipe"
     }
   ],
   "variable_elements": [],
@@ -2764,10 +3032,105 @@
     "sv_se": {
       "item.gurkmod.tiningot": "Tenntacka",
       "entity.gurkmod.kandiz": "Kandiz",
-      "item.gurkmod.biofuel": "Biofuel",
-      "item.gurkmod.apple_workbench": "Apple Workbench - Musikskiva",
-      "item.minecraft.tipped_arrow.effect.haste": "Pil av superhastighet",
       "item.gurkmod.crabby_spawn_egg": "Crab Spawn Egg",
+      "item.gurkmod.apple_workbench": "Apple Workbench - Musikskiva",
+      "block.gurkmod.baby_gurk": "Gurk Stage 0",
+      "block.gurkmod.frostwood_stairs": "Frosttr�dstrappor",
+      "entity.gurkmod.hydraka": "Hydraka",
+      "subtitles.magmaper_living_2": "The second living sound of Magmapers",
+      "subtitles.magmaper_living_1": "Magmaper living sound 1",
+      "block.gurkmod.tin": "Tennmalm",
+      "block.gurkmod.chanterelle": "Kantarell",
+      "block.gurkmod.hyjat_button": "Hyjat Button",
+      "entity.gurkmod.blazzard": "Blazzard",
+      "item.gurkmod.powerless_refine_gem": "Urladdad f�rfiningskristall",
+      "block.gurkmod.hyjat_planks": "Hyjat Planks",
+      "advancements.just_a_normal_flower.title": "Just a normal flower...",
+      "item.gurkmod.redstone_drill": "Redstone Drill",
+      "advancements.pancakes.title": "Pannkakor!",
+      "item.gurkmod.frozen_slime": "F�rfrusen slime",
+      "biome.gurkmod.hyjat_forest": "Hyjat Forest",
+      "item.gurkmod.bronze_necklace_helmet": "Bronssmyckes \"hj�lm\"",
+      "item.minecraft.lingering_potion.effect.haste": "H�llbar kastbar hastighetsbrygd",
+      "item.gurkmod.bronze_necklace_chestplate": "Bronssmycke",
+      "biome.gurkmod.fixed_potartz_biome": "Potartz world",
+      "item.gurkmod.vex_heart": "Vexhj�rta",
+      "item.gurkmod.gurkpeel": "Gurkpeel",
+      "item.gurkmod.bronzesword": "Bronssv�rd",
+      "item.gurkmod.diamond_necklace_leggings": "Error",
+      "item.gurkmod.blazium": "Blaziumsten",
+      "block.gurkmod.gurk": "Gurk Stage 0",
+      "item.gurkmod.magmite_spawn_egg": "Magmite Spawn Egg",
+      "item.gurkmod.vex_face": "Vex Face",
+      "item.gurkmod.bronzeingot": "Bronstacka",
+      "block.gurkmod.ytterbium_block": "Block of Ytterbium",
+      "item.minecraft.tipped_arrow.effect.long_ytterbi": "Arrow of Ytterbi",
+      "item.gurkmod.refined_potartz_axe": "F�rfinad portartzyxa",
+      "item.gurkmod.silver_sword": "Silversv�rd",
+      "item.minecraft.splash_potion.effect.ytterbi": "Throwable Potion of Ytterbi",
+      "item.gurkmod.bronze_necklace_leggings": "Bronssmyckes \"Strumpbyxor\"",
+      "advancements.hydraka_slain.title": "Hydraka: Slain",
+      "item.gurkmod.pancake": "Pannkaka",
+      "item.gurkmod.iridium_axe": "Iridiumyxa",
+      "entity.gurkmod.crabby": "Crab",
+      "item.gurkmod.dark_vex_wings": "Skuggvexvinge",
+      "block.gurkmod.hyjat_stairs": "Hyjat Stairs",
+      "item.gurkmod.refine_nugget": "Refine Nugget",
+      "item.gurkmod.gurk_seeds": "Gurk Seeds",
+      "item.gurkmod.glowflower": "Glowflower",
+      "item.gurkmod.bronzepickaxe": "Bronshacka",
+      "item.gurkmod.hydraka_spawn_egg": "Skapelse�gg f�r Hydraka",
+      "item.minecraft.splash_potion.effect.long_ytterbi": "Throwable Potion of Ytterbi",
+      "subtitles.hyjat_ambient": "",
+      "block.gurkmod.potart": "Potart",
+      "item.gurkmod.kandiz_spawn_egg": "Kandiz Spawn Egg",
+      "advancements.blazium_obtained.descr": "You\u0027ve gatherd your first blazium, an important component in the Potartz Key! Now gather the rest of the components, or get yourself some nice gear!",
+      "item.gurkmod.silver_necklace_boots": "error56",
+      "item.gurkmod.hydraka_armor_leggings": "leggings.error",
+      "item.gurkmod.frostslime_spawn_egg": "Skapelse�gg f�r f�rfrusen slime",
+      "item.gurkmod.totem_of_hydraka": "Totem Of Hydraka",
+      "advancements.the_frozen_biome.descr": "Kanske kan du hitta n�got anv�ndbart h�r?",
+      "block.gurkmod.tin_block": "Tennblock",
+      "subtitles.apple_workbench": "musik... kanske....",
+      "block.gurkmod.silver": "Silvermalm",
+      "item.gurkmod.iridium_shovel": "Iridiumspade",
+      "item.gurkmod.diamond_necklace_boots": "error",
+      "item.gurkmod.silver_nugget": "Silverklimp",
+      "item.gurkmod.aronia_berry": "Aronia Berry",
+      "item.gurkmod.redstone_battery": "Redstone Battery",
+      "item.gurkmod.obsidian_shard": "Obsidiansk�rva",
+      "item.gurkmod.dried_chanterelle": "Torkad kantarell",
+      "advancements.blazium_obtained.title": "Blazium: Obtained",
+      "block.gurkmod.morel_mushroom": "Murkla",
+      "block.gurkmod.quartzgrass": "Kvartsgr�s",
+      "effect.haste": "Supersnabbhet",
+      "item.gurkmod.hydraka_armor_boots": "boots.error",
+      "block.gurkmod.hyjat_slab": "Hyjat Slab",
+      "item.gurkmod.silver_necklace_leggings": "ERRRORRR STOPIT",
+      "item.gurkmod.iridium_nugget": "Iridium Nugget",
+      "item.gurkmod.bouncy_boots_chestplate": "Bouncy Boots Body",
+      "item.gurkmod.fixed_potartz": "Key to Potartz",
+      "item.gurkmod.silver_necklace_chestplate": "Silversmycke",
+      "block.gurkmod.hyjat_log": "Hyjat Log",
+      "item.minecraft.potion.effect.long_ytterbi": "Ytterbi Potion",
+      "item.gurkmod.dark_vex_blade": "Skuggvexens klinga",
+      "block.gurkmod.hyjat_wood": "Hyjat Wood",
+      "block.gurkmod.biofuel_compressor": "Biofuel Compressor",
+      "item.gurkmod.blazium_armor_leggings": "Blaziumbenskydd",
+      "advancements.quest_of_hydraka.descr": "You unlocked the Totem of Undying! Now it might finaly betime to get the totem of Hydraka...",
+      "item.minecraft.splash_potion.effect.haste": "Kastbar dryck av superhastighet",
+      "block.gurkmod.frostwood_fence": "F�rfruset staket",
+      "item.gurkmod.refine_gem": "F�rfiningskristall",
+      "block.gurkmod.glowplant": "Gl�dv�xt",
+      "advancements.bronzeage.title": "Brons�ldern!",
+      "block.gurkmod.hyjat_pressure_plate": "Hyjat Pressure Plate",
+      "subtitles.crab_hurt": "crab.hurt",
+      "item.gurkmod.silveringot": "Silvertacka",
+      "item.gurkmod.blazium_axe": "Blaziumyxa",
+      "block.gurkmod.aronia": "Aronia Bush",
+      "advancements.kill_vex.title": "Vexdr�pare",
+      "item.gurkmod.biofuel": "Biofuel",
+      "item.minecraft.tipped_arrow.effect.haste": "Pil av superhastighet",
       "item.gurkmod.hydraka_armor_helmet": "Hydraka Crown",
       "item.gurkmod.crab_claw": "Crab claw",
       "item.gurkmod.ytterbium_ingot": "Ytterbium",
@@ -2779,186 +3142,193 @@
       "item.gurkmod.refined_potartz_armor_leggings": "F�rfinade potartzmjukisbyxor",
       "item.gurkmod.quarts_nugget": "Quarts Nugget",
       "item.gurkmod.bouncy_boots_boots": "Studsst�vlar",
-      "block.gurkmod.frostwood_stairs": "Frosttr�dstrappor",
-      "block.gurkmod.baby_gurk": "Gurk Stage 0",
-      "entity.gurkmod.hydraka": "Hydraka",
-      "subtitles.magmaper_living_2": "The second living sound of Magmapers",
-      "subtitles.magmaper_living_1": "Magmaper living sound 1",
-      "block.gurkmod.tin": "Tennmalm",
       "item.gurkmod.bouncy_boots_leggings": "Studsst�velbyxor",
-      "block.gurkmod.chanterelle": "Kantarell",
       "item.gurkmod.silver_necklace_helmet": "Silversmyckes-hj�lm",
       "advancements.the_frozen_biome.title": "Iskall men h�ftig!",
-      "block.gurkmod.hyjat_button": "Hyjat Button",
       "block.gurkmod.hyjat_fence": "Hyjat Fence",
-      "item.gurkmod.powerless_refine_gem": "Urladdad f�rfiningskristall",
       "advancements.enter_portartz.title": "Tr�d in i Potartz",
-      "entity.gurkmod.blazzard": "Blazzard",
       "advancements.time_to_bronze.descr": "Kombinera tenn och koppar p� ett smedjebord f�r att skapa brons!",
-      "block.gurkmod.hyjat_planks": "Hyjat Planks",
       "item.gurkmod.diamond_necklace_helmet": "Diamantsmyckeshj�lm",
-      "advancements.just_a_normal_flower.title": "Just a normal flower...",
-      "advancements.pancakes.title": "Pannkakor!",
       "item.gurkmod.diamond_necklace_chestplate": "Diamantsmycke",
-      "item.gurkmod.frozen_slime": "F�rfrusen slime",
       "item.gurkmod.blazium_hoe": "Blaziumfl�hacka",
-      "biome.gurkmod.hyjat_forest": "Hyjat Forest",
-      "item.gurkmod.bronze_necklace_helmet": "Bronssmyckes \"hj�lm\"",
-      "item.minecraft.lingering_potion.effect.haste": "H�llbar kastbar hastighetsbrygd",
       "item.gurkmod.hydraka_armor_chestplate": "Hydraka Necklace",
       "entity.gurkmod.frostslime": "F�rfrusen slime",
-      "item.gurkmod.bronze_necklace_chestplate": "Bronssmycke",
-      "biome.gurkmod.fixed_potartz_biome": "Potartz world",
-      "item.gurkmod.vex_heart": "Vexhj�rta",
-      "item.gurkmod.gurkpeel": "Gurkpeel",
       "item.minecraft.lingering_potion.effect.long_ytterbi": "Lingering Potion of Ytterbi",
       "item.gurkmod.potartz_gem": "Portartzkristall",
       "block.gurkmod.ore_extractor_machine": "Ore Extracting Machine",
-      "item.gurkmod.bronzesword": "Bronssv�rd",
-      "item.gurkmod.diamond_necklace_leggings": "Error",
       "block.gurkmod.iridium_ore": "Iridiummalm",
       "item.gurkmod.refined_potartz_hoe": "F�rfinad portartzfl�hacka",
-      "item.gurkmod.blazium": "Blaziumsten",
-      "block.gurkmod.gurk": "Gurk Stage 0",
-      "item.gurkmod.magmite_spawn_egg": "Magmite Spawn Egg",
       "subtitles.blazzard_living": "",
-      "item.gurkmod.vex_face": "Vex Face",
-      "item.gurkmod.bronzeingot": "Bronstacka",
-      "block.gurkmod.ytterbium_block": "Block of Ytterbium",
       "item.gurkmod.bouncy_boots_helmet": "error",
       "advancements.craftable_wings.descr": "Ja, nu kan du faktiskt bygga dem!",
-      "item.gurkmod.refined_potartz_axe": "F�rfinad portartzyxa",
-      "item.minecraft.tipped_arrow.effect.long_ytterbi": "Arrow of Ytterbi",
       "item.gurkmod.blazium_shovel": "Blaziumspade",
-      "item.gurkmod.silver_sword": "Silversv�rd",
-      "item.minecraft.splash_potion.effect.ytterbi": "Throwable Potion of Ytterbi",
-      "item.gurkmod.bronze_necklace_leggings": "Bronssmyckes \"Strumpbyxor\"",
-      "item.gurkmod.pancake": "Pannkaka",
-      "advancements.hydraka_slain.title": "Hydraka: Slain",
-      "item.gurkmod.iridium_axe": "Iridiumyxa",
-      "entity.gurkmod.crabby": "Crab",
       "block.gurkmod.refined_quarts": "F�rfinad kvarts",
       "item.gurkmod.refined_potartz_pickaxe": "F�rfinad portartzhacka",
-      "item.gurkmod.dark_vex_wings": "Skuggvexvinge",
       "block.gurkmod.blazium_ore": "Blaziummalm",
-      "block.gurkmod.hyjat_stairs": "Hyjat Stairs",
-      "item.gurkmod.refine_nugget": "Refine Nugget",
+      "item.gurkmod.redstone_charge": "Redstone Charge",
       "block.gurkmod.bronze_block": "Bronsblock",
       "block.gurkmod.blazium_block": "Blaziumstenblock",
-      "item.gurkmod.iridium_sword": "Iridiumsv�rd",
       "block.gurkmod.sandshroom": "Murkla",
-      "item.gurkmod.gurk_seeds": "Gurk Seeds",
+      "item.gurkmod.iridium_sword": "Iridiumsv�rd",
       "item.gurkmod.bronzehoe": "Bronsfl�hacka",
-      "item.gurkmod.glowflower": "Glowflower",
-      "item.gurkmod.bronzepickaxe": "Bronshacka",
       "item.gurkmod.blazium_armor_helmet": "Blaziumhj�lm",
-      "item.gurkmod.hydraka_spawn_egg": "Skapelse�gg f�r Hydraka",
       "advancements.pancakes.descr": "mmm... pannkakor! Nu vet du receptet.",
-      "item.minecraft.splash_potion.effect.long_ytterbi": "Throwable Potion of Ytterbi",
       "item.gurkmod.blazzard_spawn_egg": "Blazzard Spawn Egg",
       "block.gurkmod.copper": "Kopparmalm",
       "entity.gurkmod.magmaper": "Magmaper",
       "block.gurkmod.quartzdirt": "Kvartsjord",
       "item.gurkmod.refined_potartz_sword": "F�rfinat portartzsv�rd",
-      "block.gurkmod.potart": "Potart",
-      "subtitles.hyjat_ambient": "",
       "block.gurkmod.frostwood_wood": "F�rfrusen stock",
-      "item.gurkmod.kandiz_spawn_egg": "Kandiz Spawn Egg",
-      "advancements.blazium_obtained.descr": "You\u0027ve gatherd your first blazium, an important component in the Potartz Key! Now gather the rest of the components, or get yourself some nice gear!",
-      "item.gurkmod.silver_necklace_boots": "error56",
-      "item.gurkmod.hydraka_armor_leggings": "leggings.error",
       "subtitles.crab_living": "crab.living_sound",
       "item.gurkmod.bronzeshovel": "Bronsspade",
       "entity.gurkmod.magmite": "Magmite",
       "effect.ytterbited": "Ytterbited",
       "item.minecraft.lingering_potion.effect.ytterbi": "Lingering Potion of Ytterbi",
-      "item.gurkmod.frostslime_spawn_egg": "Skapelse�gg f�r f�rfrusen slime",
       "item.gurkmod.blazium_armor_chestplate": "Blaziumbr�stharnesk",
       "item.gurkmod.bronze_necklace_boots": "Bronssmyckes st�vlar",
-      "item.gurkmod.totem_of_hydraka": "Totem Of Hydraka",
       "advancements.time_to_bronze.title": "Dags att bronsa!",
       "item.gurkmod.refined_potartz_armor_helmet": "F�rfinad Portartzhj�lm",
-      "advancements.the_frozen_biome.descr": "Kanske kan du hitta n�got anv�ndbart h�r?",
-      "block.gurkmod.tin_block": "Tennblock",
-      "subtitles.apple_workbench": "musik... kanske....",
       "item.gurkmod.refined_potartz_shovel": "F�rfinad Portartzspade",
       "block.gurkmod.copper_block": "Kopparblock",
       "item.gurkmod.bronzeaxe": "Bronsyxa",
-      "block.gurkmod.silver": "Silvermalm",
-      "item.gurkmod.iridium_shovel": "Iridiumspade",
-      "item.gurkmod.diamond_necklace_boots": "error",
       "item.gurkmod.hydraka_orb": "Hydraka Orb",
-      "item.gurkmod.silver_nugget": "Silverklimp",
       "block.gurkmod.frostwood_planks": "F�rfrusna plankor",
-      "item.gurkmod.obsidian_shard": "Obsidiansk�rva",
-      "item.gurkmod.dried_chanterelle": "Torkad kantarell",
       "item.minecraft.tipped_arrow.effect.ytterbi": "Arrow of Ytterbi",
       "block.gurkmod.hyjat_fence_gate": "Hyjat Fence Gate",
       "item.minecraft.potion.effect.ytterbi": "Ytterbi Potion",
-      "advancements.blazium_obtained.title": "Blazium: Obtained",
-      "block.gurkmod.morel_mushroom": "Murkla",
-      "block.gurkmod.quartzgrass": "Kvartsgr�s",
       "item.gurkmod.blazium_pickaxe": "Blaziumhacka",
       "item.gurkmod.magmaper_spawn_egg": "Magmaper Spawn Egg",
-      "effect.haste": "Supersnabbhet",
-      "item.gurkmod.hydraka_armor_boots": "boots.error",
-      "block.gurkmod.hyjat_slab": "Hyjat Slab",
+      "block.gurkmod.aronia_berries": "Aronia Bush",
       "advancements.bronzeage.descr": "Brons??? Hur kom det in i spelet?",
-      "item.gurkmod.silver_necklace_leggings": "ERRRORRR STOPIT",
+      "item.gurkmod.infused_coal": "Infused Coal",
       "item.gurkmod.copperingot": "Koppartacka",
       "item.gurkmod.refined_potartz_armor_chestplate": "F�rfinad portartzbr�stharnesk",
       "item.gurkmod.refined_potartz_armor_boots": "F�rfinade portartzst�vlar",
-      "item.gurkmod.iridium_nugget": "Iridium Nugget",
       "block.gurkmod.frostwood_log": "F�rfrusen stock",
-      "item.gurkmod.bouncy_boots_chestplate": "Bouncy Boots Body",
-      "item.gurkmod.fixed_potartz": "Key to Potartz",
-      "item.gurkmod.silver_necklace_chestplate": "Silversmycke",
       "biome.gurkmod.frostwood_forest": "F�rfrusen skog",
       "subtitles.frozen_forest": "En f�rfrusen skog",
       "block.gurkmod.gurkmitfruit": "Gurk Stage 0",
       "advancements.kill_vex.descr": "Dr�p en vex f�r dens v�rdefulla saker",
-      "block.gurkmod.hyjat_log": "Hyjat Log",
       "item.gurkmod.iridium_pickaxe": "Iridiumhacka",
       "item.gurkmod.blazium_sword": "Blaziumsv�rd",
-      "item.minecraft.potion.effect.long_ytterbi": "Ytterbi Potion",
       "item.gurkmod.iridium_ingot": "Iridiumtacka",
       "item.gurkmod.magma_geode": "Magma Geode",
-      "item.gurkmod.dark_vex_blade": "Skuggvexens klinga",
-      "block.gurkmod.hyjat_wood": "Hyjat Wood",
       "item.gurkmod.gurk_fruit": "Fruit of the Gurk",
       "advancements.craftable_wings.title": "Byggbara vingar?!",
       "advancements.quest_of_hydraka.title": "Quest Of Hydraka",
-      "block.gurkmod.biofuel_compressor": "Biofuel Compressor",
-      "item.gurkmod.blazium_armor_leggings": "Blaziumbenskydd",
       "advancements.just_a_normal_flower.descr": "You\u0027re lucky you found this flower! It\u0027s super rare! Now use it to craft a Potartz key!",
       "block.gurkmod.frostwood_fence_gate": "F�rfrusen grind",
-      "advancements.quest_of_hydraka.descr": "You unlocked the Totem of Undying! Now it might finaly betime to get the totem of Hydraka...",
-      "item.minecraft.splash_potion.effect.haste": "Kastbar dryck av superhastighet",
       "item.gurkmod.vex_wings": "Vexvinge",
-      "block.gurkmod.frostwood_fence": "F�rfruset staket",
-      "item.gurkmod.refine_gem": "F�rfiningskristall",
-      "block.gurkmod.glowplant": "Gl�dv�xt",
       "advancements.hydraka_slain.descr": "You\u0027ve defeated the mighty Hydraka! Now it\u0027s time for Potartz!",
-      "advancements.bronzeage.title": "Brons�ldern!",
       "block.gurkmod.frostwood_slab": "F�rfrusen platta",
       "item.gurkmod.apple_workbench.desc": "Apple Workbench",
-      "block.gurkmod.hyjat_pressure_plate": "Hyjat Pressure Plate",
       "block.gurkmod.hyjat_leaves": "Hyjat Leaves",
       "block.gurkmod.ytterbium_ore": "Ytterbium Ore",
       "advancements.enter_portartz.descr": "Tr�d in i Portartz",
-      "subtitles.crab_hurt": "crab.hurt",
-      "item.minecraft.potion.effect.haste": "Superhastighet",
-      "item.gurkmod.silveringot": "Silvertacka",
-      "item.gurkmod.blazium_axe": "Blaziumyxa",
-      "advancements.kill_vex.title": "Vexdr�pare"
+      "item.minecraft.potion.effect.haste": "Superhastighet"
     },
     "en_us": {
       "item.gurkmod.tiningot": "Tin Ingot",
       "entity.gurkmod.kandiz": "Kandiz",
-      "item.gurkmod.biofuel": "Biofuel",
-      "item.gurkmod.apple_workbench": "Apple Workbench - Music Disc",
-      "item.minecraft.tipped_arrow.effect.haste": "Arrow of Super Haste",
       "item.gurkmod.crabby_spawn_egg": "Crab Spawn Egg",
+      "item.gurkmod.apple_workbench": "Apple Workbench - Music Disc",
+      "block.gurkmod.baby_gurk": "Actuall Gurk Stage 0",
+      "block.gurkmod.frostwood_stairs": "Frostwood Stairs",
+      "entity.gurkmod.hydraka": "Hydraka",
+      "subtitles.magmaper_living_2": "The second living sound of Magmapers",
+      "subtitles.magmaper_living_1": "Magmaper living sound 1",
+      "block.gurkmod.tin": "Tin Ore",
+      "block.gurkmod.chanterelle": "Chanterelle",
+      "block.gurkmod.hyjat_button": "Hyjat Button",
+      "entity.gurkmod.blazzard": "Blazzard",
+      "item.gurkmod.powerless_refine_gem": "Powerless Refine Gem",
+      "block.gurkmod.hyjat_planks": "Hyjat Planks",
+      "advancements.just_a_normal_flower.title": "Just a normal flower...",
+      "item.gurkmod.redstone_drill": "Redstone Drill",
+      "advancements.pancakes.title": "Pankaces!",
+      "item.gurkmod.frozen_slime": "Frozen Slime",
+      "biome.gurkmod.hyjat_forest": "Hyjat Forest",
+      "item.gurkmod.bronze_necklace_helmet": "Bronze Necklace",
+      "item.minecraft.lingering_potion.effect.haste": "Lingering Super Haste",
+      "item.gurkmod.bronze_necklace_chestplate": "Bronze Necklace",
+      "biome.gurkmod.fixed_potartz_biome": "Potartz world",
+      "item.gurkmod.vex_heart": "Vex Heart",
+      "item.gurkmod.gurkpeel": "Gurkpeel",
+      "item.gurkmod.bronzesword": "Bronze Sword",
+      "item.gurkmod.diamond_necklace_leggings": "Diamond Necklace Leggings",
+      "item.gurkmod.blazium": "Blazium",
+      "block.gurkmod.gurk": "Gurk Stage 0",
+      "item.gurkmod.magmite_spawn_egg": "Magmite Spawn Egg",
+      "item.gurkmod.vex_face": "Vex Face",
+      "item.gurkmod.bronzeingot": "Bronze Ingot",
+      "block.gurkmod.ytterbium_block": "Block of Ytterbium",
+      "item.minecraft.tipped_arrow.effect.long_ytterbi": "Arrow of Ytterbi",
+      "item.gurkmod.refined_potartz_axe": "Refined Potartz Axe",
+      "item.gurkmod.silver_sword": "Silver Sword",
+      "item.minecraft.splash_potion.effect.ytterbi": "Throwable Potion of Ytterbi",
+      "item.gurkmod.bronze_necklace_leggings": "Bronze Necklace Leggings",
+      "advancements.hydraka_slain.title": "Hydraka: Slain",
+      "item.gurkmod.pancake": "Pancake",
+      "item.gurkmod.iridium_axe": "Iridium Axe",
+      "entity.gurkmod.crabby": "Crab",
+      "item.gurkmod.dark_vex_wings": "Dark Vex Wings",
+      "block.gurkmod.hyjat_stairs": "Hyjat Stairs",
+      "item.gurkmod.refine_nugget": "Refine Nugget",
+      "item.gurkmod.gurk_seeds": "Gurk Seeds",
+      "item.gurkmod.glowflower": "Glowflower",
+      "item.gurkmod.bronzepickaxe": "Bronze Pickaxe",
+      "item.gurkmod.hydraka_spawn_egg": "Hydraka Spawn Egg",
+      "item.minecraft.splash_potion.effect.long_ytterbi": "Throwable Potion of Ytterbi",
+      "subtitles.hyjat_ambient": "",
+      "block.gurkmod.potart": "Potart",
+      "item.gurkmod.kandiz_spawn_egg": "Kandiz Spawn Egg",
+      "advancements.blazium_obtained.descr": "You\u0027ve gatherd your first blazium, an important component in the Potartz Key! Now gather the rest of the components, or get yourself some nice gear!",
+      "item.gurkmod.silver_necklace_boots": "Silver Necklace Boots",
+      "item.gurkmod.hydraka_armor_leggings": "leggings.error",
+      "item.gurkmod.frostslime_spawn_egg": "Blue Slime Spawn Egg",
+      "item.gurkmod.totem_of_hydraka": "Totem Of Hydraka",
+      "advancements.the_frozen_biome.descr": "Perhaps you may find some rare materials here?",
+      "block.gurkmod.tin_block": "Tin Block",
+      "subtitles.apple_workbench": "music.",
+      "block.gurkmod.silver": "Silver Ore",
+      "item.gurkmod.iridium_shovel": "Iridium Shovel",
+      "item.gurkmod.diamond_necklace_boots": "Diamond Necklace Boots",
+      "item.gurkmod.silver_nugget": "Silver Nugget",
+      "item.gurkmod.aronia_berry": "Aronia Berry",
+      "item.gurkmod.redstone_battery": "Redstone Battery",
+      "item.gurkmod.obsidian_shard": "Obsidian Shard",
+      "item.gurkmod.dried_chanterelle": "Dried Chanterelle",
+      "advancements.blazium_obtained.title": "Blazium: Obtained",
+      "block.gurkmod.morel_mushroom": "Morel Mushroom",
+      "block.gurkmod.quartzgrass": "Quartzgrass",
+      "effect.haste": "Super Haste",
+      "item.gurkmod.hydraka_armor_boots": "boots.error",
+      "block.gurkmod.hyjat_slab": "Hyjat Slab",
+      "item.gurkmod.silver_necklace_leggings": "Silver Necklace Leggings",
+      "item.gurkmod.iridium_nugget": "Iridium Nugget",
+      "item.gurkmod.bouncy_boots_chestplate": "Bouncy Boots Body",
+      "item.gurkmod.fixed_potartz": "Key to Potartz",
+      "item.gurkmod.silver_necklace_chestplate": "Silver Necklace",
+      "block.gurkmod.hyjat_log": "Hyjat Log",
+      "item.minecraft.potion.effect.long_ytterbi": "Ytterbi Potion",
+      "item.gurkmod.dark_vex_blade": "Dark Vex Blade",
+      "block.gurkmod.hyjat_wood": "Hyjat Wood",
+      "block.gurkmod.biofuel_compressor": "Gurkpeel Biofuel Compressor",
+      "item.gurkmod.blazium_armor_leggings": "Blazium Leggings",
+      "advancements.quest_of_hydraka.descr": "You unlocked the Totem of Undying! Now it might finaly betime to get the totem of Hydraka...",
+      "item.minecraft.splash_potion.effect.haste": "Splash Super Haste",
+      "block.gurkmod.frostwood_fence": "Frostwood Fence",
+      "item.gurkmod.refine_gem": "Refine Gem",
+      "block.gurkmod.glowplant": "Glowplant",
+      "advancements.bronzeage.title": "Bronze Age!",
+      "block.gurkmod.hyjat_pressure_plate": "Hyjat Pressure Plate",
+      "subtitles.crab_hurt": "crab.hurt",
+      "item.gurkmod.silveringot": "Silver Ingot",
+      "item.gurkmod.blazium_axe": "Blazium Axe",
+      "block.gurkmod.aronia": "Aronia Bush",
+      "advancements.kill_vex.title": "Vex: Dead",
+      "item.gurkmod.biofuel": "Biofuel",
+      "item.minecraft.tipped_arrow.effect.haste": "Arrow of Super Haste",
       "item.gurkmod.hydraka_armor_helmet": "Hydraka Crown",
       "item.gurkmod.crab_claw": "Crab claw",
       "item.gurkmod.ytterbium_ingot": "Ytterbium",
@@ -2970,178 +3340,90 @@
       "block.gurkmod.refine_ore": "Refine Ore",
       "item.gurkmod.quarts_nugget": "Quarts Nugget",
       "item.gurkmod.bouncy_boots_boots": "Bouncy Boots",
-      "block.gurkmod.frostwood_stairs": "Frostwood Stairs",
-      "block.gurkmod.baby_gurk": "Actuall Gurk Stage 0",
-      "entity.gurkmod.hydraka": "Hydraka",
-      "subtitles.magmaper_living_2": "The second living sound of Magmapers",
-      "subtitles.magmaper_living_1": "Magmaper living sound 1",
       "item.gurkmod.bouncy_boots_leggings": "Bouncy Boots Leggings",
-      "block.gurkmod.tin": "Tin Ore",
       "item.gurkmod.silver_necklace_helmet": "Silver Necklace Helmet",
-      "block.gurkmod.chanterelle": "Chanterelle",
       "advancements.the_frozen_biome.title": "What a cool biome!",
-      "block.gurkmod.hyjat_button": "Hyjat Button",
       "block.gurkmod.hyjat_fence": "Hyjat Fence",
-      "item.gurkmod.powerless_refine_gem": "Powerless Refine Gem",
       "advancements.enter_portartz.title": "Enter Potartz",
-      "entity.gurkmod.blazzard": "Blazzard",
       "advancements.time_to_bronze.descr": "Use tin and copper in a smithing table to create bronze!",
-      "block.gurkmod.hyjat_planks": "Hyjat Planks",
       "item.gurkmod.diamond_necklace_helmet": "Diamond Necklace Helmet",
-      "advancements.just_a_normal_flower.title": "Just a normal flower...",
-      "advancements.pancakes.title": "Pankaces!",
       "item.gurkmod.diamond_necklace_chestplate": "Diamond Necklace",
-      "item.gurkmod.frozen_slime": "Frozen Slime",
       "item.gurkmod.blazium_hoe": "Blazium Hoe",
-      "biome.gurkmod.hyjat_forest": "Hyjat Forest",
-      "item.gurkmod.bronze_necklace_helmet": "Bronze Necklace",
-      "item.minecraft.lingering_potion.effect.haste": "Lingering Super Haste",
       "item.gurkmod.hydraka_armor_chestplate": "Hydraka Necklace",
       "entity.gurkmod.frostslime": "Blue Slime",
-      "item.gurkmod.bronze_necklace_chestplate": "Bronze Necklace",
-      "biome.gurkmod.fixed_potartz_biome": "Potartz world",
-      "item.gurkmod.vex_heart": "Vex Heart",
-      "item.gurkmod.gurkpeel": "Gurkpeel",
       "item.minecraft.lingering_potion.effect.long_ytterbi": "Lingering Potion of Ytterbi",
       "item.gurkmod.potartz_gem": "Potartz Gem",
       "block.gurkmod.ore_extractor_machine": "Ore Extracting Machine",
-      "item.gurkmod.bronzesword": "Bronze Sword",
-      "item.gurkmod.diamond_necklace_leggings": "Diamond Necklace Leggings",
       "block.gurkmod.iridium_ore": "Iridium Ore",
       "item.gurkmod.refined_potartz_hoe": "Refined Potartz Hoe",
-      "item.gurkmod.blazium": "Blazium",
-      "block.gurkmod.gurk": "Gurk Stage 0",
-      "item.gurkmod.magmite_spawn_egg": "Magmite Spawn Egg",
       "subtitles.blazzard_living": "",
-      "item.gurkmod.vex_face": "Vex Face",
-      "item.gurkmod.bronzeingot": "Bronze Ingot",
-      "block.gurkmod.ytterbium_block": "Block of Ytterbium",
       "item.gurkmod.bouncy_boots_helmet": "Bouncy Boots Helmet",
       "advancements.craftable_wings.descr": "Yes, now you can craft them",
-      "item.gurkmod.refined_potartz_axe": "Refined Potartz Axe",
-      "item.minecraft.tipped_arrow.effect.long_ytterbi": "Arrow of Ytterbi",
       "item.gurkmod.blazium_shovel": "Blazium Shovel",
-      "item.gurkmod.silver_sword": "Silver Sword",
-      "item.minecraft.splash_potion.effect.ytterbi": "Throwable Potion of Ytterbi",
-      "item.gurkmod.bronze_necklace_leggings": "Bronze Necklace Leggings",
-      "item.gurkmod.pancake": "Pancake",
-      "advancements.hydraka_slain.title": "Hydraka: Slain",
-      "item.gurkmod.iridium_axe": "Iridium Axe",
-      "entity.gurkmod.crabby": "Crab",
       "block.gurkmod.refined_quarts": "Refined Quartz",
       "item.gurkmod.refined_potartz_pickaxe": "Refined Potartz Pickaxe",
-      "item.gurkmod.dark_vex_wings": "Dark Vex Wings",
       "block.gurkmod.blazium_ore": "Blazium Ore",
-      "block.gurkmod.hyjat_stairs": "Hyjat Stairs",
-      "item.gurkmod.refine_nugget": "Refine Nugget",
+      "item.gurkmod.redstone_charge": "Redstone Charge",
       "block.gurkmod.bronze_block": "Bronze Block",
       "block.gurkmod.blazium_block": "Block of Blazium",
-      "item.gurkmod.iridium_sword": "Iridium Sword",
       "block.gurkmod.sandshroom": "Sandshroom",
-      "item.gurkmod.gurk_seeds": "Gurk Seeds",
+      "item.gurkmod.iridium_sword": "Iridium Sword",
       "item.gurkmod.bronzehoe": "Bronze Hoe",
-      "item.gurkmod.glowflower": "Glowflower",
-      "item.gurkmod.bronzepickaxe": "Bronze Pickaxe",
       "item.gurkmod.blazium_armor_helmet": "Blazium Helmet",
-      "item.gurkmod.hydraka_spawn_egg": "Hydraka Spawn Egg",
       "advancements.pancakes.descr": "mmm... pancakes! Now you know the recipe!",
-      "item.minecraft.splash_potion.effect.long_ytterbi": "Throwable Potion of Ytterbi",
       "item.gurkmod.blazzard_spawn_egg": "Blazzard Spawn Egg",
       "block.gurkmod.copper": "Copper Ore",
       "entity.gurkmod.magmaper": "Magmaper",
       "block.gurkmod.quartzdirt": "Quartzdirt",
       "item.gurkmod.refined_potartz_sword": "Refined Potartz Sword",
-      "block.gurkmod.potart": "Potart",
-      "subtitles.hyjat_ambient": "",
       "block.gurkmod.frostwood_wood": "Frostwood Wood",
-      "item.gurkmod.kandiz_spawn_egg": "Kandiz Spawn Egg",
-      "advancements.blazium_obtained.descr": "You\u0027ve gatherd your first blazium, an important component in the Potartz Key! Now gather the rest of the components, or get yourself some nice gear!",
-      "item.gurkmod.silver_necklace_boots": "Silver Necklace Boots",
-      "item.gurkmod.hydraka_armor_leggings": "leggings.error",
       "subtitles.crab_living": "crab.living_sound",
       "item.gurkmod.bronzeshovel": "Bronze Shovel",
       "entity.gurkmod.magmite": "Magmite",
       "effect.ytterbited": "Ytterbited",
       "item.minecraft.lingering_potion.effect.ytterbi": "Lingering Potion of Ytterbi",
-      "item.gurkmod.frostslime_spawn_egg": "Blue Slime Spawn Egg",
       "item.gurkmod.blazium_armor_chestplate": "Blazium Chestplate",
       "item.gurkmod.bronze_necklace_boots": "Bronze Necklace Boots",
-      "item.gurkmod.totem_of_hydraka": "Totem Of Hydraka",
       "advancements.time_to_bronze.title": "Time to bronze!",
       "item.gurkmod.refined_potartz_armor_helmet": "Refined Potartz Helmet",
-      "advancements.the_frozen_biome.descr": "Perhaps you may find some rare materials here?",
-      "block.gurkmod.tin_block": "Tin Block",
-      "subtitles.apple_workbench": "music.",
       "item.gurkmod.refined_potartz_shovel": "Refined Potartz Shovel",
       "block.gurkmod.copper_block": "Copper Block",
       "item.gurkmod.bronzeaxe": "Bronze Axe",
-      "block.gurkmod.silver": "Silver Ore",
-      "item.gurkmod.iridium_shovel": "Iridium Shovel",
-      "item.gurkmod.diamond_necklace_boots": "Diamond Necklace Boots",
       "item.gurkmod.hydraka_orb": "Hydraka Orb",
-      "item.gurkmod.silver_nugget": "Silver Nugget",
       "block.gurkmod.frostwood_planks": "Frostwood Planks",
-      "item.gurkmod.obsidian_shard": "Obsidian Shard",
-      "item.gurkmod.dried_chanterelle": "Dried Chanterelle",
       "item.minecraft.tipped_arrow.effect.ytterbi": "Arrow of Ytterbi",
       "block.gurkmod.hyjat_fence_gate": "Hyjat Fence Gate",
       "item.minecraft.potion.effect.ytterbi": "Ytterbi Potion",
-      "advancements.blazium_obtained.title": "Blazium: Obtained",
-      "block.gurkmod.morel_mushroom": "Morel Mushroom",
-      "block.gurkmod.quartzgrass": "Quartzgrass",
       "item.gurkmod.blazium_pickaxe": "Blazium Pickaxe",
       "item.gurkmod.magmaper_spawn_egg": "Magmaper Spawn Egg",
-      "effect.haste": "Super Haste",
-      "item.gurkmod.hydraka_armor_boots": "boots.error",
-      "block.gurkmod.hyjat_slab": "Hyjat Slab",
+      "block.gurkmod.aronia_berries": "Aronia Bush with Berries",
       "advancements.bronzeage.descr": "Get your first bronze!",
-      "item.gurkmod.silver_necklace_leggings": "Silver Necklace Leggings",
+      "item.gurkmod.infused_coal": "Infused Coal",
       "item.gurkmod.copperingot": "Copper Ingot",
       "item.gurkmod.refined_potartz_armor_chestplate": "Refined Potartz Chestplate",
       "item.gurkmod.refined_potartz_armor_boots": "Refined Potartz Boots",
-      "item.gurkmod.iridium_nugget": "Iridium Nugget",
       "block.gurkmod.frostwood_log": "Frostwood Log",
-      "item.gurkmod.bouncy_boots_chestplate": "Bouncy Boots Body",
-      "item.gurkmod.fixed_potartz": "Key to Potartz",
-      "item.gurkmod.silver_necklace_chestplate": "Silver Necklace",
       "biome.gurkmod.frostwood_forest": "Frostwood Forest",
       "subtitles.frozen_forest": "",
       "block.gurkmod.gurkmitfruit": "Gurk Stage 1",
       "advancements.kill_vex.descr": "Kill a vex and collect it\u0027s wings! They are used in the Potartz Keys...",
-      "block.gurkmod.hyjat_log": "Hyjat Log",
       "item.gurkmod.iridium_pickaxe": "Iridium Pickaxe",
       "item.gurkmod.blazium_sword": "Blazium Sword",
-      "item.minecraft.potion.effect.long_ytterbi": "Ytterbi Potion",
       "item.gurkmod.iridium_ingot": "Iridium Ingot",
       "item.gurkmod.magma_geode": "Magma Geode",
-      "item.gurkmod.dark_vex_blade": "Dark Vex Blade",
-      "block.gurkmod.hyjat_wood": "Hyjat Wood",
       "item.gurkmod.gurk_fruit": "Fruit of the Gurk",
       "advancements.craftable_wings.title": "Craftable Wings!?",
       "advancements.quest_of_hydraka.title": "Quest Of Hydraka",
-      "block.gurkmod.biofuel_compressor": "Gurkpeel Biofuel Compressor",
-      "item.gurkmod.blazium_armor_leggings": "Blazium Leggings",
       "advancements.just_a_normal_flower.descr": "You\u0027re lucky you found this flower! It\u0027s super rare! Now use it to craft a Potartz key!",
       "block.gurkmod.frostwood_fence_gate": "Frostwood Fence Gate",
-      "advancements.quest_of_hydraka.descr": "You unlocked the Totem of Undying! Now it might finaly betime to get the totem of Hydraka...",
-      "item.minecraft.splash_potion.effect.haste": "Splash Super Haste",
       "item.gurkmod.vex_wings": "Vex Wing",
-      "block.gurkmod.frostwood_fence": "Frostwood Fence",
-      "item.gurkmod.refine_gem": "Refine Gem",
-      "block.gurkmod.glowplant": "Glowplant",
       "advancements.hydraka_slain.descr": "You\u0027ve defeated the mighty Hydraka! Now it\u0027s time for Potartz!",
-      "advancements.bronzeage.title": "Bronze Age!",
       "block.gurkmod.frostwood_slab": "Frostwood Slab",
       "item.gurkmod.apple_workbench.desc": "Apple Workbench",
-      "block.gurkmod.hyjat_pressure_plate": "Hyjat Pressure Plate",
       "block.gurkmod.hyjat_leaves": "Hyjat Leaves",
       "block.gurkmod.ytterbium_ore": "Ytterbium Ore",
-      "advancements.enter_portartz.descr": "Enter Potartz...",
-      "subtitles.crab_hurt": "crab.hurt",
-      "item.minecraft.potion.effect.haste": "Super Haste",
-      "item.gurkmod.silveringot": "Silver Ingot",
-      "item.gurkmod.blazium_axe": "Blazium Axe",
-      "advancements.kill_vex.title": "Vex: Dead"
+      "advancements.enter_portartz.descr": "What is this place?",
+      "item.minecraft.potion.effect.haste": "Super Haste"
     }
   },
   "foldersRoot": {
@@ -3151,7 +3433,7 @@
   "workspaceSettings": {
     "modid": "gurkmod",
     "modName": "gurkmod",
-    "version": "1.3.1 Adventure Update p.2",
+    "version": "1.4.2",
     "description": "Expanding survival Minecraft with stuff I want to be in Minecraft.",
     "author": "gurkleffe, using MCreator",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/gurkmod",

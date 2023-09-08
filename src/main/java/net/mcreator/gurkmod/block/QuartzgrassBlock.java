@@ -125,7 +125,7 @@ public class QuartzgrassBlock extends GurkmodModElements.ModElement {
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("gurkmod:potartz")))
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("gurkmod:fixed_potartz")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

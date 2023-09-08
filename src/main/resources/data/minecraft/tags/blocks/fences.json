@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gurkmod:hyjat_fence_gate",
+    "gurkmod:frostwood_fence_gate",
+    "gurkmod:frostwood_fence",
+    "gurkmod:hyjat_fence"
+  ]
+}

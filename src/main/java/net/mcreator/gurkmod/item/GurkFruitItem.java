@@ -27,7 +27,7 @@ public class GurkFruitItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public GurkFruitItem(GurkmodModElements instance) {
-		super(instance, 251);
+		super(instance, 258);
 	}
 
 	@Override

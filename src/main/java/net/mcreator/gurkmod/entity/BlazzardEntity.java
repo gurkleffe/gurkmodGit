@@ -59,7 +59,7 @@ public class BlazzardEntity extends GurkmodModElements.ModElement {
 			.size(0.4f, 0.3f)).build("blazzard").setRegistryName("blazzard");
 
 	public BlazzardEntity(GurkmodModElements instance) {
-		super(instance, 276);
+		super(instance, 96);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlazzardRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

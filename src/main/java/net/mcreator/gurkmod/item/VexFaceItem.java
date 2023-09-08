@@ -17,7 +17,7 @@ public class VexFaceItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public VexFaceItem(GurkmodModElements instance) {
-		super(instance, 109);
+		super(instance, 140);
 	}
 
 	@Override

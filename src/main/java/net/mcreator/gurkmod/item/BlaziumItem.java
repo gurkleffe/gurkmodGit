@@ -18,7 +18,7 @@ public class BlaziumItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public BlaziumItem(GurkmodModElements instance) {
-		super(instance, 73);
+		super(instance, 85);
 	}
 
 	@Override

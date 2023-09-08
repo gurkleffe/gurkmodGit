@@ -18,7 +18,7 @@ public class PotartzGemItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PotartzGemItem(GurkmodModElements instance) {
-		super(instance, 72);
+		super(instance, 84);
 	}
 
 	@Override

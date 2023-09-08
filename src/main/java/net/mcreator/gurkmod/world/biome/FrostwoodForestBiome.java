@@ -52,7 +52,7 @@ public class FrostwoodForestBiome extends GurkmodModElements.ModElement {
 	public static Biome biome;
 
 	public FrostwoodForestBiome(GurkmodModElements instance) {
-		super(instance, 126);
+		super(instance, 157);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

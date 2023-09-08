@@ -26,7 +26,7 @@ public class GlowflowerItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public GlowflowerItem(GurkmodModElements instance) {
-		super(instance, 246);
+		super(instance, 108);
 	}
 
 	@Override

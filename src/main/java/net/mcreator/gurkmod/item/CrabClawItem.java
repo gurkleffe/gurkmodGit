@@ -24,7 +24,7 @@ public class CrabClawItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public CrabClawItem(GurkmodModElements instance) {
-		super(instance, 184);
+		super(instance, 89);
 	}
 
 	@Override

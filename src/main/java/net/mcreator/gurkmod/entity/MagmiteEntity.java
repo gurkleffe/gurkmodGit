@@ -59,7 +59,7 @@ public class MagmiteEntity extends GurkmodModElements.ModElement {
 			.size(0.4f, 0.7f)).build("magmite").setRegistryName("magmite");
 
 	public MagmiteEntity(GurkmodModElements instance) {
-		super(instance, 238);
+		super(instance, 95);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MagmiteRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
@@ -194,6 +194,8 @@ public class MagmiteEntity extends GurkmodModElements.ModElement {
 			if (stack == null)
 				return false;
 			if (Items.HONEYCOMB == stack.getItem())
+				return true;
+			if (Items.BLAZE_POWDER == stack.getItem())
 				return true;
 			return false;
 		}

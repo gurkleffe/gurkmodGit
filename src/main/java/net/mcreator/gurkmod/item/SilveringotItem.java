@@ -18,7 +18,7 @@ public class SilveringotItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SilveringotItem(GurkmodModElements instance) {
-		super(instance, 25);
+		super(instance, 35);
 	}
 
 	@Override

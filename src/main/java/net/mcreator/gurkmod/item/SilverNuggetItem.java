@@ -18,7 +18,7 @@ public class SilverNuggetItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SilverNuggetItem(GurkmodModElements instance) {
-		super(instance, 28);
+		super(instance, 38);
 	}
 
 	@Override

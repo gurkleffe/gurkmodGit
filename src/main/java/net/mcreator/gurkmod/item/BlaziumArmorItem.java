@@ -30,7 +30,7 @@ public class BlaziumArmorItem extends GurkmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public BlaziumArmorItem(GurkmodModElements instance) {
-		super(instance, 43);
+		super(instance, 55);
 	}
 
 	@Override

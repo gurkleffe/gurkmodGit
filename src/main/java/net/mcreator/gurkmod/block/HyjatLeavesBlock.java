@@ -31,7 +31,7 @@ public class HyjatLeavesBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public HyjatLeavesBlock(GurkmodModElements instance) {
-		super(instance, 215);
+		super(instance, 103);
 	}
 
 	@Override

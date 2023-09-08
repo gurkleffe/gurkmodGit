@@ -18,7 +18,7 @@ public class PotartzGemShardItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PotartzGemShardItem(GurkmodModElements instance) {
-		super(instance, 70);
+		super(instance, 79);
 	}
 
 	@Override

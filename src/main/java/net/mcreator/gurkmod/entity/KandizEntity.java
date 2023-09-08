@@ -63,7 +63,7 @@ public class KandizEntity extends GurkmodModElements.ModElement {
 			.size(0.5f, 0.5f)).build("projectile_kandiz").setRegistryName("projectile_kandiz");
 
 	public KandizEntity(GurkmodModElements instance) {
-		super(instance, 198);
+		super(instance, 92);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new KandizRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

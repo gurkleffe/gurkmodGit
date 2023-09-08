@@ -18,7 +18,7 @@ public class MagmaGeodeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public MagmaGeodeItem(GurkmodModElements instance) {
-		super(instance, 239);
+		super(instance, 97);
 	}
 
 	@Override

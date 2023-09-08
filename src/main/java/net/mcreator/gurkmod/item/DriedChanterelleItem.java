@@ -18,7 +18,7 @@ public class DriedChanterelleItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public DriedChanterelleItem(GurkmodModElements instance) {
-		super(instance, 247);
+		super(instance, 109);
 	}
 
 	@Override

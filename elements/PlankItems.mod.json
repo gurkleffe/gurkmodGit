@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:FrostwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:HyjatPlanks"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "planks",
+    "namespace": "minecraft"
+  }
+}

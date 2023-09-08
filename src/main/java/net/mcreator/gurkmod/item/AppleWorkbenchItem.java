@@ -24,7 +24,7 @@ public class AppleWorkbenchItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public AppleWorkbenchItem(GurkmodModElements instance) {
-		super(instance, 67);
+		super(instance, 76);
 	}
 
 	@Override

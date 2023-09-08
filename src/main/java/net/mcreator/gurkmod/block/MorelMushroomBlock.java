@@ -58,7 +58,7 @@ public class MorelMushroomBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public MorelMushroomBlock(GurkmodModElements instance) {
-		super(instance, 32);
+		super(instance, 42);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

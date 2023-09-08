@@ -34,7 +34,9 @@
       }
     ],
     "name": "Gurkpeel Biofuel Compressor",
-    "specialInfo": [],
+    "specialInfo": [
+      "Used to make biofuel and bonemeal."
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

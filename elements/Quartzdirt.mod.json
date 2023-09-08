@@ -60,6 +60,9 @@
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -77,6 +80,21 @@
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "GROUND"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
@@ -106,9 +124,13 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "CUSTOM:Potartz"
+      "CUSTOM:FixedPotartz"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:FixedPotartzBiome"
+      }
+    ],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,

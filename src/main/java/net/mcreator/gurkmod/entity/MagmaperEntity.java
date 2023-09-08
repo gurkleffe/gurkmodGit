@@ -55,7 +55,7 @@ public class MagmaperEntity extends GurkmodModElements.ModElement {
 			.size(0.6f, 1.7f)).build("magmaper").setRegistryName("magmaper");
 
 	public MagmaperEntity(GurkmodModElements instance) {
-		super(instance, 236);
+		super(instance, 93);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MagmaperRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

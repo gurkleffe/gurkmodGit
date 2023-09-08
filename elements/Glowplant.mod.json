@@ -92,7 +92,7 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:PotartzBiome"
+        "value": "CUSTOM:FixedPotartzBiome"
       }
     ],
     "patchSize": 64,

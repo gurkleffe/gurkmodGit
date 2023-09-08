@@ -58,7 +58,7 @@ public class ChanterelleBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public ChanterelleBlock(GurkmodModElements instance) {
-		super(instance, 31);
+		super(instance, 41);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

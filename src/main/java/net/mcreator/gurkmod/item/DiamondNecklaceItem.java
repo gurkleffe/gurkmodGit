@@ -31,7 +31,7 @@ public class DiamondNecklaceItem extends GurkmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public DiamondNecklaceItem(GurkmodModElements instance) {
-		super(instance, 41);
+		super(instance, 53);
 	}
 
 	@Override

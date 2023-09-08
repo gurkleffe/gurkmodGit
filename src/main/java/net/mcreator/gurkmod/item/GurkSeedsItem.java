@@ -4,6 +4,8 @@ package net.mcreator.gurkmod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
@@ -13,6 +15,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.gurkmod.procedures.GurkSeedsRightclickedOnBlockProcedure;
@@ -20,6 +23,7 @@ import net.mcreator.gurkmod.GurkmodModElements;
 
 import java.util.stream.Stream;
 import java.util.Map;
+import java.util.List;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
@@ -29,7 +33,7 @@ public class GurkSeedsItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public GurkSeedsItem(GurkmodModElements instance) {
-		super(instance, 252);
+		super(instance, 100);
 	}
 
 	@Override
@@ -51,6 +55,12 @@ public class GurkSeedsItem extends GurkmodModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("Fragile seeds of the rare Gurk plant."));
 		}
 
 		@Override

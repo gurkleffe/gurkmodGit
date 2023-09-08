@@ -23,7 +23,7 @@ public class GurkpeelItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public GurkpeelItem(GurkmodModElements instance) {
-		super(instance, 251);
+		super(instance, 44);
 	}
 
 	@Override

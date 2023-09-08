@@ -1,0 +1,9 @@
+{
+  "parent": "gurkmod:custom/drill",
+  "textures": {
+    "1": "gurkmod:blocks/texture",
+    "2": "gurkmod:blocks/texture2",
+    "3": "gurkmod:blocks/texture3",
+    "particle": "gurkmod:items/drill"
+  }
+}

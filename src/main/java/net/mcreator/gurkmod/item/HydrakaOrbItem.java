@@ -26,7 +26,7 @@ public class HydrakaOrbItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public HydrakaOrbItem(GurkmodModElements instance) {
-		super(instance, 193);
+		super(instance, 43);
 	}
 
 	@Override

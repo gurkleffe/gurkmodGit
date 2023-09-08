@@ -18,7 +18,7 @@ public class PancakeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PancakeItem(GurkmodModElements instance) {
-		super(instance, 245);
+		super(instance, 107);
 	}
 
 	@Override

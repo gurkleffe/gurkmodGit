@@ -85,7 +85,7 @@ public class FixedPotartzDimension extends GurkmodModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public FixedPotartzDimension(GurkmodModElements instance) {
-		super(instance, 191);
+		super(instance, 73);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}

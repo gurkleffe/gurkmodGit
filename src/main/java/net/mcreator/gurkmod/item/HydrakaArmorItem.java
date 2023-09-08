@@ -39,7 +39,7 @@ public class HydrakaArmorItem extends GurkmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public HydrakaArmorItem(GurkmodModElements instance) {
-		super(instance, 195);
+		super(instance, 90);
 	}
 
 	@Override

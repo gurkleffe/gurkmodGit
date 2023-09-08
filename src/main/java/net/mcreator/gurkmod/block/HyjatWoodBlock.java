@@ -33,7 +33,7 @@ public class HyjatWoodBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public HyjatWoodBlock(GurkmodModElements instance) {
-		super(instance, 212);
+		super(instance, 24);
 	}
 
 	@Override

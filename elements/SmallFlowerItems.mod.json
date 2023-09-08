@@ -1,0 +1,29 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Potart"
+      },
+      {
+        "value": "CUSTOM:Glowplant"
+      },
+      {
+        "value": "CUSTOM:Chanterelle"
+      },
+      {
+        "value": "CUSTOM:MorelMushroom"
+      },
+      {
+        "value": "CUSTOM:Sandshroom"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Gurk"
+      },
+      {
+        "value": "CUSTOM:Gurkmitfruit"
+      },
+      {
+        "value": "CUSTOM:BabyGurk"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "tall_flowers",
+    "namespace": "minecraft"
+  }
+}

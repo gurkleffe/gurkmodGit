@@ -62,7 +62,7 @@ public class CrabbyEntity extends GurkmodModElements.ModElement {
 			.size(0.8f, 0.2f)).build("crabby").setRegistryName("crabby");
 
 	public CrabbyEntity(GurkmodModElements instance) {
-		super(instance, 185);
+		super(instance, 94);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CrabbyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

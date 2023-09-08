@@ -30,7 +30,7 @@ public class SilverSwordItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public SilverSwordItem(GurkmodModElements instance) {
-		super(instance, 34);
+		super(instance, 46);
 	}
 
 	@Override

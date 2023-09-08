@@ -18,7 +18,7 @@ public class RefinedPotartzHoeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public RefinedPotartzHoeItem(GurkmodModElements instance) {
-		super(instance, 56);
+		super(instance, 68);
 	}
 
 	@Override

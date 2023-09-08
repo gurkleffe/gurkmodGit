@@ -17,7 +17,7 @@ public class IridiumNuggetItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public IridiumNuggetItem(GurkmodModElements instance) {
-		super(instance, 267);
+		super(instance, 82);
 	}
 
 	@Override

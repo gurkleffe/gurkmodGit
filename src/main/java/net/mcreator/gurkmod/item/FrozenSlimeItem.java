@@ -18,7 +18,7 @@ public class FrozenSlimeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public FrozenSlimeItem(GurkmodModElements instance) {
-		super(instance, 29);
+		super(instance, 39);
 	}
 
 	@Override

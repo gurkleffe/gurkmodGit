@@ -39,7 +39,7 @@ public class BouncyBootsItem extends GurkmodModElements.ModElement {
 	public static final Item boots = null;
 
 	public BouncyBootsItem(GurkmodModElements instance) {
-		super(instance, 42);
+		super(instance, 54);
 	}
 
 	@Override

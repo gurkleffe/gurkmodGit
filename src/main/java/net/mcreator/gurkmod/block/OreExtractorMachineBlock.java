@@ -73,7 +73,7 @@ public class OreExtractorMachineBlock extends GurkmodModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public OreExtractorMachineBlock(GurkmodModElements instance) {
-		super(instance, 266);
+		super(instance, 31);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

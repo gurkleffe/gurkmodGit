@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "gurkmod:blocks/aronia_bush",
+    "particle": "gurkmod:blocks/aronia_bush"
+  }
+}

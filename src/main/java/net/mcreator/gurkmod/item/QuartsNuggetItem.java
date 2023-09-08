@@ -17,7 +17,7 @@ public class QuartsNuggetItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public QuartsNuggetItem(GurkmodModElements instance) {
-		super(instance, 273);
+		super(instance, 81);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class VexHeartItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public VexHeartItem(GurkmodModElements instance) {
-		super(instance, 71);
+		super(instance, 80);
 	}
 
 	@Override

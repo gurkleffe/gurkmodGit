@@ -18,7 +18,7 @@ public class CopperingotItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public CopperingotItem(GurkmodModElements instance) {
-		super(instance, 23);
+		super(instance, 33);
 	}
 
 	@Override

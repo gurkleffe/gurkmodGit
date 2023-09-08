@@ -18,7 +18,7 @@ public class IridiumHoeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public IridiumHoeItem(GurkmodModElements instance) {
-		super(instance, 52);
+		super(instance, 64);
 	}
 
 	@Override

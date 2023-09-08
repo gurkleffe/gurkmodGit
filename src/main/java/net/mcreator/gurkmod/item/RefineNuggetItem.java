@@ -17,7 +17,7 @@ public class RefineNuggetItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public RefineNuggetItem(GurkmodModElements instance) {
-		super(instance, 272);
+		super(instance, 83);
 	}
 
 	@Override

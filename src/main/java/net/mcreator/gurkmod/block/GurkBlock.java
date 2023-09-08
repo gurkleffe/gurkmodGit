@@ -76,7 +76,7 @@ public class GurkBlock extends GurkmodModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public GurkBlock(GurkmodModElements instance) {
-		super(instance, 249);
+		super(instance, 256);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

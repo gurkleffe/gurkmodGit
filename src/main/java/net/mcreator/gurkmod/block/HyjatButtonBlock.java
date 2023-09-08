@@ -28,7 +28,7 @@ public class HyjatButtonBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public HyjatButtonBlock(GurkmodModElements instance) {
-		super(instance, 221);
+		super(instance, 29);
 	}
 
 	@Override

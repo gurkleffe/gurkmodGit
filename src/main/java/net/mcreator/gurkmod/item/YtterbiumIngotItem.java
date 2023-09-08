@@ -24,7 +24,7 @@ public class YtterbiumIngotItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public YtterbiumIngotItem(GurkmodModElements instance) {
-		super(instance, 201);
+		super(instance, 91);
 	}
 
 	@Override

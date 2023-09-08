@@ -53,7 +53,7 @@ public class CrabEntity extends GurkmodModElements.ModElement {
 			.build("hydraka").setRegistryName("hydraka");
 
 	public CrabEntity(GurkmodModElements instance) {
-		super(instance, 75);
+		super(instance, 87);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CrabRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -18,7 +18,7 @@ public class IridiumShovelItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public IridiumShovelItem(GurkmodModElements instance) {
-		super(instance, 51);
+		super(instance, 63);
 	}
 
 	@Override

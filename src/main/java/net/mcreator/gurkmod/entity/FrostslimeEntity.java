@@ -58,7 +58,7 @@ public class FrostslimeEntity extends GurkmodModElements.ModElement {
 			.size(1.5f, 1.5f)).build("frostslime").setRegistryName("frostslime");
 
 	public FrostslimeEntity(GurkmodModElements instance) {
-		super(instance, 74);
+		super(instance, 86);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FrostslimeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

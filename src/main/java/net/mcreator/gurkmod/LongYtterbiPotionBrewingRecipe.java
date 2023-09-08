@@ -17,7 +17,7 @@ import net.mcreator.gurkmod.item.YtterbiumIngotItem;
 @GurkmodModElements.ModElement.Tag
 public class LongYtterbiPotionBrewingRecipe extends GurkmodModElements.ModElement {
 	public LongYtterbiPotionBrewingRecipe(GurkmodModElements instance) {
-		super(instance, 211);
+		super(instance, 233);
 	}
 
 	@Override

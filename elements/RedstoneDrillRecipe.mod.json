@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:RedstoneCharge"
+      },
+      {
+        "value": "CUSTOM:Tiningot"
+      },
+      {
+        "value": "CUSTOM:RedstoneCharge"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedstoneBattery"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedstoneDrill"
+    },
+    "name": "redstone_drill",
+    "namespace": "mod"
+  }
+}

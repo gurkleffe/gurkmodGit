@@ -18,7 +18,7 @@ public class IridiumAxeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public IridiumAxeItem(GurkmodModElements instance) {
-		super(instance, 50);
+		super(instance, 62);
 	}
 
 	@Override

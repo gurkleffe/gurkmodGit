@@ -64,7 +64,7 @@ public class HyjatForestBiome extends GurkmodModElements.ModElement {
 	public static Biome biome;
 
 	public HyjatForestBiome(GurkmodModElements instance) {
-		super(instance, 232);
+		super(instance, 244);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

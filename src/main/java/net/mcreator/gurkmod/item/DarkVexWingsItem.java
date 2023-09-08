@@ -18,7 +18,7 @@ public class DarkVexWingsItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public DarkVexWingsItem(GurkmodModElements instance) {
-		super(instance, 66);
+		super(instance, 75);
 	}
 
 	@Override

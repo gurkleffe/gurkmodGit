@@ -20,7 +20,7 @@ public class RefineGemItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public RefineGemItem(GurkmodModElements instance) {
-		super(instance, 68);
+		super(instance, 77);
 	}
 
 	@Override

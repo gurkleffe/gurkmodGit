@@ -18,7 +18,7 @@ public class IridiumPickaxeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public IridiumPickaxeItem(GurkmodModElements instance) {
-		super(instance, 49);
+		super(instance, 61);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class HyjatPlanksBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public HyjatPlanksBlock(GurkmodModElements instance) {
-		super(instance, 214);
+		super(instance, 26);
 	}
 
 	@Override
@@ -41,7 +41,7 @@ public class HyjatPlanksBlock extends GurkmodModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).setRequiresTool());
+					.harvestTool(ToolType.AXE));
 			setRegistryName("hyjat_planks");
 		}
 

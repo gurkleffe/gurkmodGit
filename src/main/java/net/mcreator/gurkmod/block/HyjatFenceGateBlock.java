@@ -28,7 +28,7 @@ public class HyjatFenceGateBlock extends GurkmodModElements.ModElement {
 	public static final Block block = null;
 
 	public HyjatFenceGateBlock(GurkmodModElements instance) {
-		super(instance, 219);
+		super(instance, 105);
 	}
 
 	@Override

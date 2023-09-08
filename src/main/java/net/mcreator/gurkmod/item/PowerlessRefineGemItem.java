@@ -18,7 +18,7 @@ public class PowerlessRefineGemItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public PowerlessRefineGemItem(GurkmodModElements instance) {
-		super(instance, 69);
+		super(instance, 78);
 	}
 
 	@Override

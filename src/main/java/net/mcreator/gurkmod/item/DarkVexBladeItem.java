@@ -19,7 +19,7 @@ public class DarkVexBladeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public DarkVexBladeItem(GurkmodModElements instance) {
-		super(instance, 38);
+		super(instance, 50);
 	}
 
 	@Override

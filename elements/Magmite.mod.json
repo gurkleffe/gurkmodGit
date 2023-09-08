@@ -110,6 +110,9 @@
     "breedTriggerItems": [
       {
         "value": "Items.HONEYCOMB"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
       }
     ],
     "ranged": false,

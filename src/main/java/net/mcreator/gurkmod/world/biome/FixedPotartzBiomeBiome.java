@@ -69,7 +69,7 @@ public class FixedPotartzBiomeBiome extends GurkmodModElements.ModElement {
 	public static Biome biome;
 
 	public FixedPotartzBiomeBiome(GurkmodModElements instance) {
-		super(instance, 192);
+		super(instance, 217);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

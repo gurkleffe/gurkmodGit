@@ -18,7 +18,7 @@ public class BronzehoeItem extends GurkmodModElements.ModElement {
 	public static final Item block = null;
 
 	public BronzehoeItem(GurkmodModElements instance) {
-		super(instance, 48);
+		super(instance, 60);
 	}
 
 	@Override
